@@ -1,0 +1,269 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Program Bindings Libs</key>
+	<array>
+		<dict>
+			<key>LibBookmark</key>
+			<data>
+			Ym9va0AEAAAAAAQQMAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+			AAAAAAAAAAAAPAMAAAUAAAABAQAAVXNlcnMAAAAIAAAAAQEAAGpl
+			YW4tbHVjBwAAAAEBAABMaWJyYXJ5ABMAAAABAQAAQXBwbGljYXRp
+			b24gU3VwcG9ydAAUAAAAAQEAAGNvbS5jZWxlZGV2LkNvZGVGbG93
+			CAAAAAEBAABpcGhvbmVvcxcAAAABAQAAaU9TLTguMi1TREsubHVh
+			YmluZGluZ3MAHAAAAAEGAAAEAAAAFAAAACQAAAA0AAAAUAAAAGwA
+			AAB8AAAACAAAAAQDAAB8ZAIAAAAAAAgAAAAEAwAAw3tOAAAAAAAI
+			AAAABAMAADh8TgAAAAAACAAAAAQDAAA+fE4AAAAAAAgAAAAEAwAA
+			WmJUAAAAAAAIAAAABAMAAFxiVAAAAAAACAAAAAQDAACBK8gAAAAA
+			ABwAAAABBgAAwAAAANAAAADgAAAA8AAAAAABAAAQAQAAIAEAAAgA
+			AAAABAAAQbbz2n0AAAAYAAAAAQIAAAIAAAAAAAAADwAAAAAAAAAA
+			AAAAAAAAAAgAAAAEAwAABQAAAAAAAAAEAAAAAwMAAPcBAAAMAAAA
+			AQEAAE1hY2ludG9zaCBIRAgAAAAEAwAAAAAGzgMBAAAIAAAAAAQA
+			AEG4Iv/AAAAAJAAAAAEBAAAxQkIzNEI4QS03RjU5LTNDMjktOUJB
+			OS0yMTNBRTg0OTM4NkUYAAAAAQIAAIEAAAABAAgA7xcAAAEACAAA
+			AAAAAAAAAAEAAAABAQAALwAAAAAAAAABBQAABAAAAAMDAAAAAwAA
+			8gAAAAECAAAyNmU0NzU3NWJlN2RhZDJkYmExM2ZjODM3MjRjMGZh
+			YjZmMWRlYmE4OzAwMDAwMDAwOzAwMDAwMDAwOzAwMDAwMDAwMDAw
+			MDAwMjA7Y29tLmFwcGxlLmFwcC1zYW5kYm94LnJlYWQtd3JpdGU7
+			MDAwMDAwMDE7MDEwMDAwMDg7MDAwMDAwMDAwMGM4MmI4MTsvdXNl
+			cnMvamVhbi1sdWMvbGlicmFyeS9hcHBsaWNhdGlvbiBzdXBwb3J0
+			L2NvbS5jZWxlZGV2LmNvZGVmbG93L2lwaG9uZW9zL2lvcy04LjIt
+			c2RrLmx1YWJpbmRpbmdzAAAAzAAAAP7///8BAAAAAAAAABAAAAAE
+			EAAAnAAAAAAAAAAFEAAAMAEAAAAAAAAQEAAAZAEAAAAAAABAEAAA
+			VAEAAAAAAAACIAAAIAIAAAAAAAAQIAAAoAEAAAAAAAARIAAA1AEA
+			AAAAAAASIAAAtAEAAAAAAAATIAAAxAEAAAAAAAAgIAAAAAIAAAAA
+			AAAwIAAALAIAAAAAAAABwAAAhAEAAAAAAAARwAAAFAAAAAAAAAAS
+			wAAAlAEAAAAAAAAQ0AAANAIAAAAAAACA8AAAQAIAAAAAAAA=
+			</data>
+			<key>LibDirPath</key>
+			<string>iphoneos</string>
+			<key>LibId</key>
+			<string>apple_sdk_iphoneos8.2</string>
+			<key>LibName</key>
+			<string>iOS</string>
+			<key>LibUrl</key>
+			<string>file:///Users/jean-luc/Library/Application%20Support/com.celedev.CodeFlow/iphoneos/iOS-8.2-SDK.luabindings/</string>
+		</dict>
+	</array>
+	<key>Program Display Info</key>
+	<dict>
+		<key>LuaAppDocument remote Lua service</key>
+		<string>WatchApp1 WatchKit Extension - Watch Extension (iPhone Simulato</string>
+		<key>LuaAppDocument-associatedXodeProject</key>
+		<dict>
+			<key>platform</key>
+			<string>iphoneos</string>
+			<key>project</key>
+			<string>WatchApp1.xcodeproj</string>
+			<key>target</key>
+			<string>WatchApp1 WatchKit Extension</string>
+		</dict>
+		<key>LuaAppWindow edited source path</key>
+		<string>images/pear</string>
+		<key>LuaAppWindow frame</key>
+		<string>1325 507 1233 874 0 0 2560 1418 </string>
+	</dict>
+	<key>Program Format Version</key>
+	<string>0.9</string>
+	<key>Program Groups Order</key>
+	<dict>
+		<key></key>
+		<array>
+			<string>InterfaceControllers</string>
+			<string>InterfaceController</string>
+			<string>NotificationController</string>
+			<string>GlanceController</string>
+			<string>images</string>
+		</array>
+		<key>images</key>
+		<array>
+			<string>apricot</string>
+			<string>banana</string>
+			<string>pear</string>
+			<string>cerise</string>
+		</array>
+	</dict>
+	<key>Program Source Files Info</key>
+	<dict>
+		<key></key>
+		<dict>
+			<key>RootGroupId</key>
+			<string>WatchApp</string>
+			<key>SourceItemDisplayInfo</key>
+			<dict>
+				<key>ListController Group IsExpanded</key>
+				<true/>
+			</dict>
+		</dict>
+		<key>GlanceController</key>
+		<dict>
+			<key>Source File Auto Reload</key>
+			<false/>
+			<key>Source File Is Start Item</key>
+			<false/>
+			<key>Source File Name</key>
+			<string>GlanceController</string>
+			<key>SourceItemChangeTime</key>
+			<real>438189281.73121101</real>
+			<key>SourceItemDisplayInfo</key>
+			<dict>
+				<key>SrcEditor Selected Length</key>
+				<integer>0</integer>
+				<key>SrcEditor Selected Location</key>
+				<integer>129</integer>
+				<key>SrcEditor Visible Length</key>
+				<integer>129</integer>
+				<key>SrcEditor Visible Location</key>
+				<integer>0</integer>
+			</dict>
+		</dict>
+		<key>InterfaceController</key>
+		<dict>
+			<key>Source File Auto Reload</key>
+			<true/>
+			<key>Source File Is Start Item</key>
+			<false/>
+			<key>Source File Name</key>
+			<string>InterfaceController</string>
+			<key>SourceItemChangeTime</key>
+			<real>438202724.24434102</real>
+			<key>SourceItemDisplayInfo</key>
+			<dict>
+				<key>SrcEditor Selected Length</key>
+				<integer>0</integer>
+				<key>SrcEditor Selected Location</key>
+				<integer>411</integer>
+				<key>SrcEditor Visible Length</key>
+				<integer>1847</integer>
+				<key>SrcEditor Visible Location</key>
+				<integer>0</integer>
+			</dict>
+		</dict>
+		<key>InterfaceControllers</key>
+		<dict>
+			<key>Source File Auto Reload</key>
+			<true/>
+			<key>Source File Is Start Item</key>
+			<false/>
+			<key>Source File Name</key>
+			<string>InterfaceControllers</string>
+			<key>SourceItemChangeTime</key>
+			<real>438189077.16707999</real>
+			<key>SourceItemDisplayInfo</key>
+			<dict>
+				<key>SrcEditor Selected Length</key>
+				<integer>0</integer>
+				<key>SrcEditor Selected Location</key>
+				<integer>0</integer>
+				<key>SrcEditor Visible Length</key>
+				<integer>135</integer>
+				<key>SrcEditor Visible Location</key>
+				<integer>0</integer>
+			</dict>
+		</dict>
+		<key>NotificationController</key>
+		<dict>
+			<key>Source File Auto Reload</key>
+			<false/>
+			<key>Source File Is Start Item</key>
+			<false/>
+			<key>Source File Name</key>
+			<string>NotificationController</string>
+			<key>SourceItemChangeTime</key>
+			<real>438189295.68343598</real>
+			<key>SourceItemDisplayInfo</key>
+			<dict>
+				<key>SrcEditor Selected Length</key>
+				<integer>0</integer>
+				<key>SrcEditor Selected Location</key>
+				<integer>163</integer>
+				<key>SrcEditor Visible Length</key>
+				<integer>163</integer>
+				<key>SrcEditor Visible Location</key>
+				<integer>0</integer>
+			</dict>
+		</dict>
+		<key>images</key>
+		<dict>
+			<key>SourceItemDisplayInfo</key>
+			<dict>
+				<key>ListController Group IsExpanded</key>
+				<true/>
+			</dict>
+		</dict>
+		<key>images.apricot</key>
+		<dict>
+			<key>SourceItemChangeTime</key>
+			<real>438173551</real>
+			<key>SourceItemDisplayInfo</key>
+			<dict>
+				<key>ImageViewerMagnification</key>
+				<real>1</real>
+				<key>ImageViewerVisibleHeight</key>
+				<real>160</real>
+				<key>ImageViewerVisibleOriginX</key>
+				<real>0.0</real>
+				<key>ImageViewerVisibleOriginY</key>
+				<real>0.0</real>
+				<key>ImageViewerVisibleWidth</key>
+				<real>220</real>
+			</dict>
+		</dict>
+		<key>images.banana</key>
+		<dict>
+			<key>SourceItemChangeTime</key>
+			<real>438199155.95289701</real>
+			<key>SourceItemDisplayInfo</key>
+			<dict>
+				<key>ImageViewerMagnification</key>
+				<real>1</real>
+				<key>ImageViewerVisibleHeight</key>
+				<real>151</real>
+				<key>ImageViewerVisibleOriginX</key>
+				<real>0.0</real>
+				<key>ImageViewerVisibleOriginY</key>
+				<real>0.0</real>
+				<key>ImageViewerVisibleWidth</key>
+				<real>202</real>
+			</dict>
+		</dict>
+		<key>images.cerise</key>
+		<dict>
+			<key>SourceItemChangeTime</key>
+			<real>438203006.827676</real>
+			<key>SourceItemDisplayInfo</key>
+			<dict>
+				<key>ImageViewerMagnification</key>
+				<real>1</real>
+				<key>ImageViewerVisibleHeight</key>
+				<real>219</real>
+				<key>ImageViewerVisibleOriginX</key>
+				<real>0.0</real>
+				<key>ImageViewerVisibleOriginY</key>
+				<real>0.0</real>
+				<key>ImageViewerVisibleWidth</key>
+				<real>300</real>
+			</dict>
+		</dict>
+		<key>images.pear</key>
+		<dict>
+			<key>SourceItemChangeTime</key>
+			<real>438203042.11341798</real>
+			<key>SourceItemDisplayInfo</key>
+			<dict>
+				<key>ImageViewerMagnification</key>
+				<real>1</real>
+				<key>ImageViewerVisibleHeight</key>
+				<real>175</real>
+				<key>ImageViewerVisibleOriginX</key>
+				<real>0.0</real>
+				<key>ImageViewerVisibleOriginY</key>
+				<real>0.0</real>
+				<key>ImageViewerVisibleWidth</key>
+				<real>240</real>
+			</dict>
+		</dict>
+	</dict>
+</dict>
+</plist>
