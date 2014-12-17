@@ -11,10 +11,10 @@
 
 @interface InterfaceController : WKInterfaceController
 
-@property (weak, nonatomic) IBOutlet WKInterfaceImage *image;
 @property (weak, nonatomic) IBOutlet WKInterfaceLabel *label;
 @property (weak, nonatomic) IBOutlet WKInterfaceButton *nextButton;
 @property (weak, nonatomic) IBOutlet WKInterfaceButton *previousButton;
+@property (weak, nonatomic) IBOutlet WKInterfaceGroup *imageGroup;
 
 - (IBAction)showNext;
 - (IBAction)showPrevious;

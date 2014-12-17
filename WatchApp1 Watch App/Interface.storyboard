@@ -1,45 +1,75 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder.WatchKit.Storyboard" version="3.0" toolsVersion="6221" systemVersion="13F34" targetRuntime="watchKit" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="AgC-eL-Hgc">
+<document type="com.apple.InterfaceBuilder.WatchKit.Storyboard" version="3.0" toolsVersion="6724" systemVersion="14B25" targetRuntime="watchKit" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="AgC-eL-Hgc">
     <dependencies>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="6213"/>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBWatchKitPlugin" version="3734"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="6711"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBWatchKitPlugin" version="3735"/>
     </dependencies>
     <scenes>
-        <!--Interface Controller-->
+        <!--Portraits-->
         <scene sceneID="aou-V4-d1y">
             <objects>
-                <controller id="AgC-eL-Hgc" customClass="InterfaceController">
+                <controller title="Portraits" id="AgC-eL-Hgc" customClass="InterfaceController">
                     <items>
-                        <group width="1" alignment="left" layout="vertical" spacing="0.0" hasDetent="YES" id="MaU-Mb-bEf">
+                        <group width="1" height="1" alignment="left" layout="vertical" spacing="0.0" hasDetent="YES" id="MaU-Mb-bEf">
                             <items>
-                                <imageView alignment="center" verticalAlignment="center" id="Err-kC-Q5f"/>
-                                <label alignment="center" verticalAlignment="center" text="Label" id="LZK-25-gQD">
-                                    <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <label alignment="left" text="Label" id="LZK-25-gQD">
+                                    <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                     <fontDescription key="font" style="UICTFontTextStyleHeadline"/>
                                 </label>
+                                <button width="0.69999999999999996" height="0.5" alignment="center" verticalAlignment="center" id="FZB-2K-WG5">
+                                    <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                                    <connections>
+                                        <action selector="pushDetailController" destination="AgC-eL-Hgc" id="acu-NJ-ekW"/>
+                                    </connections>
+                                </button>
+                                <group width="1" alignment="left" verticalAlignment="bottom" hasDetent="YES" id="qck-ou-dwV">
+                                    <items>
+                                        <button width="0.25" alignment="left" verticalAlignment="center" title="◀︎" id="KZR-7g-LKs">
+                                            <color key="titleColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                            <color key="backgroundColor" red="1" green="1" blue="1" alpha="0.5" colorSpace="calibratedRGB"/>
+                                            <fontDescription key="font" name="ZapfDingbatsITC" family="Zapf Dingbats" pointSize="18"/>
+                                            <connections>
+                                                <action selector="showPrevious" destination="AgC-eL-Hgc" id="5s7-Ae-Kfj"/>
+                                            </connections>
+                                        </button>
+                                        <button width="0.5" alignment="left" alpha="0.0" title="Button" enabled="NO" id="Xze-fa-ekP"/>
+                                        <button width="0.25" alignment="left" verticalAlignment="center" title="▶︎" id="pYb-w3-vih">
+                                            <color key="titleColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                            <color key="backgroundColor" red="1" green="1" blue="1" alpha="0.5" colorSpace="calibratedRGB"/>
+                                            <fontDescription key="font" name="ZapfDingbatsITC" family="Zapf Dingbats" pointSize="18"/>
+                                            <connections>
+                                                <action selector="showNext" destination="AgC-eL-Hgc" id="2HD-KN-265"/>
+                                            </connections>
+                                        </button>
+                                    </items>
+                                </group>
                             </items>
                             <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                             <edgeInsets key="margins" left="5" right="5" top="5" bottom="0.0"/>
                         </group>
-                        <group width="1" alignment="left" hasDetent="YES" id="qck-ou-dwV">
-                            <items>
-                                <button width="0.5" alignment="left" verticalAlignment="center" title="◀︎" id="KZR-7g-LKs">
-                                    <fontDescription key="font" name="ZapfDingbatsITC" family="Zapf Dingbats" pointSize="36"/>
-                                    <connections>
-                                        <action selector="showPrevious" destination="AgC-eL-Hgc" id="5s7-Ae-Kfj"/>
-                                    </connections>
-                                </button>
-                                <button width="0.5" alignment="left" verticalAlignment="center" title="▶︎" id="pYb-w3-vih">
-                                    <fontDescription key="font" name="ZapfDingbatsITC" family="Zapf Dingbats" pointSize="36"/>
-                                    <connections>
-                                        <action selector="showNext" destination="AgC-eL-Hgc" id="2HD-KN-265"/>
-                                    </connections>
-                                </button>
-                            </items>
-                        </group>
+                        <button width="1" alignment="left" title="Modal" id="BQF-rw-1ue">
+                            <connections>
+                                <segue destination="ACS-pG-XDt" kind="modal" id="36t-8r-6M8"/>
+                            </connections>
+                        </button>
                     </items>
+                    <menu key="menu" id="lbA-r3-iD3">
+                        <items>
+                            <menuItem title="Share" icon="share" id="slN-xQ-PFD"/>
+                            <menuItem title="Delete" icon="trash" id="MRM-PD-vVU">
+                                <connections>
+                                    <action selector="deleteCharacter" destination="AgC-eL-Hgc" id="Le3-zn-9z2"/>
+                                </connections>
+                            </menuItem>
+                            <menuItem title="Other…" icon="more" id="ZYq-0o-VQw">
+                                <connections>
+                                    <action selector="showModalControllers" destination="AgC-eL-Hgc" id="oMO-z7-0Uu"/>
+                                </connections>
+                            </menuItem>
+                        </items>
+                    </menu>
                     <connections>
-                        <outlet property="image" destination="Err-kC-Q5f" id="1fF-De-bb5"/>
+                        <outlet property="imageGroup" destination="MaU-Mb-bEf" id="IGZ-K6-hoE"/>
                         <outlet property="label" destination="LZK-25-gQD" id="FuF-FG-qnX"/>
                         <outlet property="nextButton" destination="pYb-w3-vih" id="VzH-gt-aX1"/>
                         <outlet property="previousButton" destination="KZR-7g-LKs" id="6Cx-nt-cE9"/>
@@ -48,41 +78,162 @@
             </objects>
             <point key="canvasLocation" x="235" y="347"/>
         </scene>
-        <!--Glance Interface Controller-->
-        <scene sceneID="BOz-TT-tkC">
+        <!--Détails-->
+        <scene sceneID="i25-ps-egp">
             <objects>
-                <glanceController spacing="0.0" id="0uZ-2p-rRc" customClass="GlanceController">
+                <controller identifier="details" title="Détails" id="DEp-81-OCE" customClass="DetailController">
                     <items>
-                        <group alignment="left" id="t8f-Gd-c4y"/>
-                        <group alignment="left" id="uCw-4Q-Ouw"/>
+                        <group width="1" alignment="left" hasDetent="YES" id="MX3-kf-5oq">
+                            <items>
+                                <imageView width="40" height="40" alignment="left" id="fEj-KM-pM4"/>
+                                <label alignment="left" verticalAlignment="center" text="Label" id="RB6-nx-iXS">
+                                    <fontDescription key="font" style="UICTFontTextStyleHeadline"/>
+                                </label>
+                            </items>
+                        </group>
+                        <label alignment="left" text="Label" numberOfLines="0" id="z0m-os-NUf"/>
                     </items>
-                    <edgeInsets key="margins" left="0.0" right="0.0" top="0.0" bottom="14"/>
-                </glanceController>
+                    <connections>
+                        <outlet property="descriptionLabel" destination="z0m-os-NUf" id="uV1-Ka-mGV"/>
+                        <outlet property="image" destination="fEj-KM-pM4" id="qfs-U4-ZjC"/>
+                        <outlet property="nameLabel" destination="RB6-nx-iXS" id="2gB-mK-Weq"/>
+                    </connections>
+                </controller>
             </objects>
-            <point key="canvasLocation" x="235" y="672"/>
+            <point key="canvasLocation" x="526" y="110"/>
+        </scene>
+        <!--maps-->
+        <scene sceneID="1Pg-PX-Cql">
+            <objects>
+                <controller identifier="maps" id="ACS-pG-XDt" customClass="MapController">
+                    <items>
+                        <group width="1" alignment="left" hasDetent="YES" id="6bE-Ip-FVV">
+                            <items>
+                                <button width="0.5" alignment="left" title="Apple" id="coO-RC-ZRA">
+                                    <connections>
+                                        <action selector="showApple" destination="ACS-pG-XDt" id="ZD7-Jx-XjR"/>
+                                    </connections>
+                                </button>
+                                <button width="0.5" alignment="left" title="Ici" id="hJT-LP-h5H">
+                                    <connections>
+                                        <action selector="showRennes" destination="ACS-pG-XDt" id="0ez-Ir-Q9d"/>
+                                    </connections>
+                                </button>
+                            </items>
+                        </group>
+                        <map height="0.5" alignment="left" id="pEz-1y-fB6"/>
+                        <group width="1" alignment="left" hasDetent="YES" id="UxE-Pz-uGx">
+                            <items>
+                                <button width="0.5" alignment="left" title="-" id="doW-3c-s8p">
+                                    <fontDescription key="font" style="UICTFontTextStyleHeadline"/>
+                                    <connections>
+                                        <action selector="zoomOut" destination="ACS-pG-XDt" id="rIK-gC-UCS"/>
+                                    </connections>
+                                </button>
+                                <button width="0.5" alignment="left" title="+" id="TJb-DC-LEd">
+                                    <fontDescription key="font" style="UICTFontTextStyleHeadline"/>
+                                    <connections>
+                                        <action selector="zoomIn" destination="ACS-pG-XDt" id="DwA-8V-DHr"/>
+                                    </connections>
+                                </button>
+                            </items>
+                        </group>
+                    </items>
+                    <connections>
+                        <outlet property="hereButton" destination="hJT-LP-h5H" id="IGv-mk-M5J"/>
+                        <outlet property="map" destination="pEz-1y-fB6" id="r20-bk-mjN"/>
+                        <segue destination="YGq-mt-Onp" kind="relationship" relationship="nextPage" id="QFI-E2-mGe"/>
+                    </connections>
+                </controller>
+            </objects>
+            <point key="canvasLocation" x="530" y="355"/>
+        </scene>
+        <!--spearman-->
+        <scene sceneID="6Ls-Ph-Bof">
+            <objects>
+                <controller identifier="spearman" id="YGq-mt-Onp" customClass="SpearmanController">
+                    <items>
+                        <separator alignment="left" id="HVA-RZ-eUz">
+                            <color key="color" red="1" green="0.90026623059999999" blue="0.2551703246" alpha="1" colorSpace="calibratedRGB"/>
+                        </separator>
+                        <imageView alignment="center" image="bSpearman_Walk_Left" animationDuration="1" id="4tI-Ms-1Gd"/>
+                        <label alignment="center" text="Spearman" id="1e7-A9-86d"/>
+                        <group width="1" alignment="left" hasDetent="YES" id="oNE-zj-vhk">
+                            <items>
+                                <button width="0.5" alignment="left" title="Walk" id="3cj-gC-aD8">
+                                    <connections>
+                                        <action selector="walk" destination="YGq-mt-Onp" id="jLh-3e-YNV"/>
+                                    </connections>
+                                </button>
+                                <button width="0.5" alignment="left" title="Pause" id="OJW-vD-ThU">
+                                    <connections>
+                                        <action selector="pause" destination="YGq-mt-Onp" id="bF3-tn-cVf"/>
+                                    </connections>
+                                </button>
+                            </items>
+                        </group>
+                    </items>
+                    <menu key="menu" id="des-Cq-51x">
+                        <items>
+                            <menuItem title="Faster" image="rabbit.png" id="3Ha-7O-QPf">
+                                <connections>
+                                    <action selector="increaseSpeed" destination="YGq-mt-Onp" id="GYI-St-Qel"/>
+                                </connections>
+                            </menuItem>
+                            <menuItem title="Slower" image="snail.png" id="UoY-fQ-zzR">
+                                <connections>
+                                    <action selector="decreaseSpeed" destination="YGq-mt-Onp" id="xsl-R2-ECG"/>
+                                </connections>
+                            </menuItem>
+                        </items>
+                    </menu>
+                    <connections>
+                        <outlet property="walkerImage" destination="4tI-Ms-1Gd" id="tuq-Eg-BRg"/>
+                    </connections>
+                </controller>
+            </objects>
+            <point key="canvasLocation" x="762" y="350"/>
         </scene>
         <!--Static Notification Interface Controller-->
         <scene sceneID="AEw-b0-oYE">
             <objects>
-                <notificationController id="YCC-NB-fut">
+                <notificationController contentMode="scaleAspectFit" id="YCC-NB-fut">
                     <items>
-                        <label alignment="left" text="Alert Label" id="XkS-y5-khE"/>
+                        <label alignment="left" text="Alert Label" numberOfLines="3" id="XkS-y5-khE"/>
                     </items>
-                    <notificationCategory key="notificationCategory" id="JfB-70-Muf"/>
+                    <notificationCategory key="notificationCategory" identifier="Whale" id="JfB-70-Muf"/>
                     <connections>
                         <outlet property="notificationAlertLabel" destination="XkS-y5-khE" id="49B-RR-99y"/>
-                        <segue destination="gdX-wl-uQE" kind="relationship" relationship="dynamicNotificationInterface" id="fKh-qV-3T2"/>
+                        <segue destination="0dm-Ft-5v0" kind="relationship" relationship="dynamicNotificationInterface" id="NXK-Cr-fl7"/>
                     </connections>
                 </notificationController>
             </objects>
-            <point key="canvasLocation" x="235" y="1001"/>
+            <point key="canvasLocation" x="226" y="655"/>
+        </scene>
+        <!--Message Static Notification Interface Controller-->
+        <scene sceneID="tUu-TT-zdH">
+            <objects>
+                <notificationController id="XcU-Dh-7M9" userLabel="Message Static Notification Interface Controller">
+                    <items>
+                        <label alignment="left" text="Alert Label" id="a3x-Ws-0qg">
+                            <color key="textColor" red="1" green="0.90026623059999999" blue="0.2551703246" alpha="1" colorSpace="calibratedRGB"/>
+                        </label>
+                    </items>
+                    <notificationCategory key="notificationCategory" identifier="myCategory" offsetNotificationContent="NO" id="CR7-ho-ANh"/>
+                    <connections>
+                        <outlet property="notificationAlertLabel" destination="a3x-Ws-0qg" id="wQ5-i8-wDI"/>
+                    </connections>
+                </notificationController>
+            </objects>
+            <point key="canvasLocation" x="226" y="931"/>
         </scene>
         <!--Notification Controller-->
-        <scene sceneID="KIl-fV-djm">
+        <scene sceneID="txn-Pk-1u4">
             <objects>
-                <controller id="gdX-wl-uQE" customClass="NotificationController"/>
+                <controller id="0dm-Ft-5v0" customClass="NotificationController"/>
             </objects>
-            <point key="canvasLocation" x="553" y="1001"/>
+            <point key="canvasLocation" x="526" y="656"/>
         </scene>
     </scenes>
+    <color key="tintColor" red="1" green="0.90026623059999999" blue="0.2551703246" alpha="1" colorSpace="calibratedRGB"/>
 </document>

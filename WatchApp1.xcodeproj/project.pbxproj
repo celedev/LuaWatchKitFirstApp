@@ -1,1565 +1,753 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
-<plist version="1.0">
-<dict>
-	<key>archiveVersion</key>
-	<string>1</string>
-	<key>classes</key>
-	<dict/>
-	<key>objectVersion</key>
-	<string>46</string>
-	<key>objects</key>
-	<dict>
-		<key>03F560ACB0EE411C92632933</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>archive.ar</string>
-			<key>name</key>
-			<string>libCIMLua.a</string>
-			<key>path</key>
-			<string>/Users/jean-luc/Library/Application Support/com.celedev.CodeFlow/iphoneos/libCIMLua.a</string>
-			<key>sourceTree</key>
-			<string>&lt;absolute&gt;</string>
-		</dict>
-		<key>49B47A99972C4D01B6D7D947</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>archive.ar</string>
-			<key>name</key>
-			<string>libCIMLuaBindingWatchKit.a</string>
-			<key>path</key>
-			<string>/Users/jean-luc/Library/Application Support/com.celedev.CodeFlow/iphoneos/iOS-8.2-SDK.luabindings/BindingLibs/libCIMLuaBindingWatchKit.a</string>
-			<key>sourceTree</key>
-			<string>&lt;absolute&gt;</string>
-		</dict>
-		<key>6F1B7489D9C34277968248EB</key>
-		<dict>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>wrapper.framework</string>
-			<key>name</key>
-			<string>MobileCoreServices.framework</string>
-			<key>path</key>
-			<string>System/Library/Frameworks/MobileCoreServices.framework</string>
-			<key>sourceTree</key>
-			<string>SDKROOT</string>
-		</dict>
-		<key>7A3CC52FEAC14F7AB1DA97DB</key>
-		<dict>
-			<key>fileRef</key>
-			<string>6F1B7489D9C34277968248EB</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>83119F32ABB54192B461DEFD</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>archive.ar</string>
-			<key>name</key>
-			<string>libCIMLuaDebugServerIOS.a</string>
-			<key>path</key>
-			<string>/Users/jean-luc/Library/Application Support/com.celedev.CodeFlow/iphoneos/libCIMLuaDebugServerIOS.a</string>
-			<key>sourceTree</key>
-			<string>&lt;absolute&gt;</string>
-		</dict>
-		<key>A794DDE5E1BD41C4BAC702DF</key>
-		<dict>
-			<key>fileRef</key>
-			<string>6F1B7489D9C34277968248EB</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>AE8F104A2BDD4D8CBAA3F9F9</key>
-		<dict>
-			<key>fileRef</key>
-			<string>03F560ACB0EE411C92632933</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>C4AB9F6F42B443AFB1958674</key>
-		<dict>
-			<key>fileRef</key>
-			<string>03F560ACB0EE411C92632933</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>D527004C22794CB3A0EFDD6C</key>
-		<dict>
-			<key>fileRef</key>
-			<string>83119F32ABB54192B461DEFD</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>F681F2258F70477094ED3CDD</key>
-		<dict>
-			<key>fileRef</key>
-			<string>49B47A99972C4D01B6D7D947</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>F6A7E7F437EE437A87CF95B3</key>
-		<dict>
-			<key>fileRef</key>
-			<string>83119F32ABB54192B461DEFD</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>FD6CEAA11A1DF52800DE01B0</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>FD6CEAAC1A1DF52800DE01B0</string>
-				<string>FD6CEAD51A1DF57500DE01B0</string>
-				<string>FD6CEAEA1A1DF57500DE01B0</string>
-				<string>FD6CEAC01A1DF52800DE01B0</string>
-				<string>FD6CEAD21A1DF57500DE01B0</string>
-				<string>FD6CEAAB1A1DF52800DE01B0</string>
-			</array>
-			<key>isa</key>
-			<string>PBXGroup</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>FD6CEAA21A1DF52800DE01B0</key>
-		<dict>
-			<key>attributes</key>
-			<dict>
-				<key>LastUpgradeCheck</key>
-				<string>0620</string>
-				<key>ORGANIZATIONNAME</key>
-				<string>Celedev</string>
-				<key>TargetAttributes</key>
-				<dict>
-					<key>FD6CEAA91A1DF52800DE01B0</key>
-					<dict>
-						<key>CreatedOnToolsVersion</key>
-						<string>6.2</string>
-						<key>DevelopmentTeam</key>
-						<string>7V6VCE4Z4V</string>
-					</dict>
-					<key>FD6CEABC1A1DF52800DE01B0</key>
-					<dict>
-						<key>CreatedOnToolsVersion</key>
-						<string>6.2</string>
-						<key>TestTargetID</key>
-						<string>FD6CEAA91A1DF52800DE01B0</string>
-					</dict>
-					<key>FD6CEAD01A1DF57500DE01B0</key>
-					<dict>
-						<key>CreatedOnToolsVersion</key>
-						<string>6.2</string>
-						<key>DevelopmentTeam</key>
-						<string>7V6VCE4Z4V</string>
-					</dict>
-					<key>FD6CEAE51A1DF57500DE01B0</key>
-					<dict>
-						<key>CreatedOnToolsVersion</key>
-						<string>6.2</string>
-					</dict>
-				</dict>
-			</dict>
-			<key>buildConfigurationList</key>
-			<string>FD6CEAA51A1DF52800DE01B0</string>
-			<key>compatibilityVersion</key>
-			<string>Xcode 3.2</string>
-			<key>developmentRegion</key>
-			<string>English</string>
-			<key>hasScannedForEncodings</key>
-			<string>0</string>
-			<key>isa</key>
-			<string>PBXProject</string>
-			<key>knownRegions</key>
-			<array>
-				<string>en</string>
-				<string>Base</string>
-			</array>
-			<key>mainGroup</key>
-			<string>FD6CEAA11A1DF52800DE01B0</string>
-			<key>productRefGroup</key>
-			<string>FD6CEAAB1A1DF52800DE01B0</string>
-			<key>projectDirPath</key>
-			<string></string>
-			<key>projectReferences</key>
-			<array/>
-			<key>projectRoot</key>
-			<string></string>
-			<key>targets</key>
-			<array>
-				<string>FD6CEAA91A1DF52800DE01B0</string>
-				<string>FD6CEAD01A1DF57500DE01B0</string>
-				<string>FD6CEAE51A1DF57500DE01B0</string>
-				<string>FD6CEABC1A1DF52800DE01B0</string>
-			</array>
-		</dict>
-		<key>FD6CEAA51A1DF52800DE01B0</key>
-		<dict>
-			<key>buildConfigurations</key>
-			<array>
-				<string>FD6CEAC51A1DF52800DE01B0</string>
-				<string>FD6CEAC61A1DF52800DE01B0</string>
-			</array>
-			<key>defaultConfigurationIsVisible</key>
-			<string>0</string>
-			<key>defaultConfigurationName</key>
-			<string>Release</string>
-			<key>isa</key>
-			<string>XCConfigurationList</string>
-		</dict>
-		<key>FD6CEAA61A1DF52800DE01B0</key>
-		<dict>
-			<key>buildActionMask</key>
-			<string>2147483647</string>
-			<key>files</key>
-			<array>
-				<string>FD6CEAB31A1DF52800DE01B0</string>
-				<string>FD6CEAB01A1DF52800DE01B0</string>
-			</array>
-			<key>isa</key>
-			<string>PBXSourcesBuildPhase</string>
-			<key>runOnlyForDeploymentPostprocessing</key>
-			<string>0</string>
-		</dict>
-		<key>FD6CEAA71A1DF52800DE01B0</key>
-		<dict>
-			<key>buildActionMask</key>
-			<string>2147483647</string>
-			<key>files</key>
-			<array>
-				<string>AE8F104A2BDD4D8CBAA3F9F9</string>
-				<string>F6A7E7F437EE437A87CF95B3</string>
-				<string>A794DDE5E1BD41C4BAC702DF</string>
-			</array>
-			<key>isa</key>
-			<string>PBXFrameworksBuildPhase</string>
-			<key>runOnlyForDeploymentPostprocessing</key>
-			<string>0</string>
-		</dict>
-		<key>FD6CEAA81A1DF52800DE01B0</key>
-		<dict>
-			<key>buildActionMask</key>
-			<string>2147483647</string>
-			<key>files</key>
-			<array>
-				<string>FD6CEAB81A1DF52800DE01B0</string>
-				<string>FD6CEAB51A1DF52800DE01B0</string>
-			</array>
-			<key>isa</key>
-			<string>PBXResourcesBuildPhase</string>
-			<key>runOnlyForDeploymentPostprocessing</key>
-			<string>0</string>
-		</dict>
-		<key>FD6CEAA91A1DF52800DE01B0</key>
-		<dict>
-			<key>buildConfigurationList</key>
-			<string>FD6CEAC71A1DF52800DE01B0</string>
-			<key>buildPhases</key>
-			<array>
-				<string>FD6CEAA61A1DF52800DE01B0</string>
-				<string>FD6CEAA71A1DF52800DE01B0</string>
-				<string>FD6CEAA81A1DF52800DE01B0</string>
-				<string>FD6CEAFA1A1DF57500DE01B0</string>
-			</array>
-			<key>buildRules</key>
-			<array/>
-			<key>dependencies</key>
-			<array>
-				<string>FD6CEAF21A1DF57500DE01B0</string>
-			</array>
-			<key>isa</key>
-			<string>PBXNativeTarget</string>
-			<key>name</key>
-			<string>WatchApp1</string>
-			<key>productName</key>
-			<string>WatchApp1</string>
-			<key>productReference</key>
-			<string>FD6CEAAA1A1DF52800DE01B0</string>
-			<key>productType</key>
-			<string>com.apple.product-type.application</string>
-		</dict>
-		<key>FD6CEAAA1A1DF52800DE01B0</key>
-		<dict>
-			<key>explicitFileType</key>
-			<string>wrapper.application</string>
-			<key>includeInIndex</key>
-			<string>0</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>path</key>
-			<string>WatchApp1.app</string>
-			<key>sourceTree</key>
-			<string>BUILT_PRODUCTS_DIR</string>
-		</dict>
-		<key>FD6CEAAB1A1DF52800DE01B0</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>FD6CEAAA1A1DF52800DE01B0</string>
-				<string>FD6CEABD1A1DF52800DE01B0</string>
-				<string>FD6CEAD11A1DF57500DE01B0</string>
-				<string>FD6CEAE61A1DF57500DE01B0</string>
-			</array>
-			<key>isa</key>
-			<string>PBXGroup</string>
-			<key>name</key>
-			<string>Products</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>FD6CEAAC1A1DF52800DE01B0</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>FD6CEAB11A1DF52800DE01B0</string>
-				<string>FD6CEAB21A1DF52800DE01B0</string>
-				<string>FD6CEAB41A1DF52800DE01B0</string>
-				<string>FD6CEAB61A1DF52800DE01B0</string>
-				<string>FD6CEAAD1A1DF52800DE01B0</string>
-			</array>
-			<key>isa</key>
-			<string>PBXGroup</string>
-			<key>path</key>
-			<string>WatchApp1</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>FD6CEAAD1A1DF52800DE01B0</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>FD6CEAAE1A1DF52800DE01B0</string>
-				<string>FD6CEAAF1A1DF52800DE01B0</string>
-			</array>
-			<key>isa</key>
-			<string>PBXGroup</string>
-			<key>name</key>
-			<string>Supporting Files</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>FD6CEAAE1A1DF52800DE01B0</key>
-		<dict>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>text.plist.xml</string>
-			<key>path</key>
-			<string>Info.plist</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>FD6CEAAF1A1DF52800DE01B0</key>
-		<dict>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.objc</string>
-			<key>path</key>
-			<string>main.m</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>FD6CEAB01A1DF52800DE01B0</key>
-		<dict>
-			<key>fileRef</key>
-			<string>FD6CEAAF1A1DF52800DE01B0</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>FD6CEAB11A1DF52800DE01B0</key>
-		<dict>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
-			<key>path</key>
-			<string>AppDelegate.h</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>FD6CEAB21A1DF52800DE01B0</key>
-		<dict>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.objc</string>
-			<key>path</key>
-			<string>AppDelegate.m</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>FD6CEAB31A1DF52800DE01B0</key>
-		<dict>
-			<key>fileRef</key>
-			<string>FD6CEAB21A1DF52800DE01B0</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>FD6CEAB41A1DF52800DE01B0</key>
-		<dict>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>folder.assetcatalog</string>
-			<key>path</key>
-			<string>Images.xcassets</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>FD6CEAB51A1DF52800DE01B0</key>
-		<dict>
-			<key>fileRef</key>
-			<string>FD6CEAB41A1DF52800DE01B0</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>FD6CEAB61A1DF52800DE01B0</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>FD6CEAB71A1DF52800DE01B0</string>
-			</array>
-			<key>isa</key>
-			<string>PBXVariantGroup</string>
-			<key>name</key>
-			<string>LaunchScreen.xib</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>FD6CEAB71A1DF52800DE01B0</key>
-		<dict>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>file.xib</string>
-			<key>name</key>
-			<string>Base</string>
-			<key>path</key>
-			<string>Base.lproj/LaunchScreen.xib</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>FD6CEAB81A1DF52800DE01B0</key>
-		<dict>
-			<key>fileRef</key>
-			<string>FD6CEAB61A1DF52800DE01B0</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>FD6CEAB91A1DF52800DE01B0</key>
-		<dict>
-			<key>buildActionMask</key>
-			<string>2147483647</string>
-			<key>files</key>
-			<array>
-				<string>FD6CEAC41A1DF52800DE01B0</string>
-			</array>
-			<key>isa</key>
-			<string>PBXSourcesBuildPhase</string>
-			<key>runOnlyForDeploymentPostprocessing</key>
-			<string>0</string>
-		</dict>
-		<key>FD6CEABA1A1DF52800DE01B0</key>
-		<dict>
-			<key>buildActionMask</key>
-			<string>2147483647</string>
-			<key>files</key>
-			<array/>
-			<key>isa</key>
-			<string>PBXFrameworksBuildPhase</string>
-			<key>runOnlyForDeploymentPostprocessing</key>
-			<string>0</string>
-		</dict>
-		<key>FD6CEABB1A1DF52800DE01B0</key>
-		<dict>
-			<key>buildActionMask</key>
-			<string>2147483647</string>
-			<key>files</key>
-			<array/>
-			<key>isa</key>
-			<string>PBXResourcesBuildPhase</string>
-			<key>runOnlyForDeploymentPostprocessing</key>
-			<string>0</string>
-		</dict>
-		<key>FD6CEABC1A1DF52800DE01B0</key>
-		<dict>
-			<key>buildConfigurationList</key>
-			<string>FD6CEACA1A1DF52800DE01B0</string>
-			<key>buildPhases</key>
-			<array>
-				<string>FD6CEAB91A1DF52800DE01B0</string>
-				<string>FD6CEABA1A1DF52800DE01B0</string>
-				<string>FD6CEABB1A1DF52800DE01B0</string>
-			</array>
-			<key>buildRules</key>
-			<array/>
-			<key>dependencies</key>
-			<array>
-				<string>FD6CEABF1A1DF52800DE01B0</string>
-			</array>
-			<key>isa</key>
-			<string>PBXNativeTarget</string>
-			<key>name</key>
-			<string>WatchApp1Tests</string>
-			<key>productName</key>
-			<string>WatchApp1Tests</string>
-			<key>productReference</key>
-			<string>FD6CEABD1A1DF52800DE01B0</string>
-			<key>productType</key>
-			<string>com.apple.product-type.bundle.unit-test</string>
-		</dict>
-		<key>FD6CEABD1A1DF52800DE01B0</key>
-		<dict>
-			<key>explicitFileType</key>
-			<string>wrapper.cfbundle</string>
-			<key>includeInIndex</key>
-			<string>0</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>path</key>
-			<string>WatchApp1Tests.xctest</string>
-			<key>sourceTree</key>
-			<string>BUILT_PRODUCTS_DIR</string>
-		</dict>
-		<key>FD6CEABE1A1DF52800DE01B0</key>
-		<dict>
-			<key>containerPortal</key>
-			<string>FD6CEAA21A1DF52800DE01B0</string>
-			<key>isa</key>
-			<string>PBXContainerItemProxy</string>
-			<key>proxyType</key>
-			<string>1</string>
-			<key>remoteGlobalIDString</key>
-			<string>FD6CEAA91A1DF52800DE01B0</string>
-			<key>remoteInfo</key>
-			<string>WatchApp1</string>
-		</dict>
-		<key>FD6CEABF1A1DF52800DE01B0</key>
-		<dict>
-			<key>isa</key>
-			<string>PBXTargetDependency</string>
-			<key>target</key>
-			<string>FD6CEAA91A1DF52800DE01B0</string>
-			<key>targetProxy</key>
-			<string>FD6CEABE1A1DF52800DE01B0</string>
-		</dict>
-		<key>FD6CEAC01A1DF52800DE01B0</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>FD6CEAC31A1DF52800DE01B0</string>
-				<string>FD6CEAC11A1DF52800DE01B0</string>
-			</array>
-			<key>isa</key>
-			<string>PBXGroup</string>
-			<key>path</key>
-			<string>WatchApp1Tests</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>FD6CEAC11A1DF52800DE01B0</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>FD6CEAC21A1DF52800DE01B0</string>
-			</array>
-			<key>isa</key>
-			<string>PBXGroup</string>
-			<key>name</key>
-			<string>Supporting Files</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>FD6CEAC21A1DF52800DE01B0</key>
-		<dict>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>text.plist.xml</string>
-			<key>path</key>
-			<string>Info.plist</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>FD6CEAC31A1DF52800DE01B0</key>
-		<dict>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.objc</string>
-			<key>path</key>
-			<string>WatchApp1Tests.m</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>FD6CEAC41A1DF52800DE01B0</key>
-		<dict>
-			<key>fileRef</key>
-			<string>FD6CEAC31A1DF52800DE01B0</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>FD6CEAC51A1DF52800DE01B0</key>
-		<dict>
-			<key>buildSettings</key>
-			<dict>
-				<key>ALWAYS_SEARCH_USER_PATHS</key>
-				<string>NO</string>
-				<key>CLANG_CXX_LANGUAGE_STANDARD</key>
-				<string>gnu++0x</string>
-				<key>CLANG_CXX_LIBRARY</key>
-				<string>libc++</string>
-				<key>CLANG_ENABLE_MODULES</key>
-				<string>YES</string>
-				<key>CLANG_ENABLE_OBJC_ARC</key>
-				<string>YES</string>
-				<key>CLANG_WARN_BOOL_CONVERSION</key>
-				<string>YES</string>
-				<key>CLANG_WARN_CONSTANT_CONVERSION</key>
-				<string>YES</string>
-				<key>CLANG_WARN_DIRECT_OBJC_ISA_USAGE</key>
-				<string>YES_ERROR</string>
-				<key>CLANG_WARN_EMPTY_BODY</key>
-				<string>YES</string>
-				<key>CLANG_WARN_ENUM_CONVERSION</key>
-				<string>YES</string>
-				<key>CLANG_WARN_INT_CONVERSION</key>
-				<string>YES</string>
-				<key>CLANG_WARN_OBJC_ROOT_CLASS</key>
-				<string>YES_ERROR</string>
-				<key>CLANG_WARN_UNREACHABLE_CODE</key>
-				<string>YES</string>
-				<key>CLANG_WARN__DUPLICATE_METHOD_MATCH</key>
-				<string>YES</string>
-				<key>CODE_SIGN_IDENTITY[sdk=iphoneos*]</key>
-				<string>iPhone Developer</string>
-				<key>COPY_PHASE_STRIP</key>
-				<string>NO</string>
-				<key>ENABLE_STRICT_OBJC_MSGSEND</key>
-				<string>YES</string>
-				<key>GCC_C_LANGUAGE_STANDARD</key>
-				<string>gnu99</string>
-				<key>GCC_DYNAMIC_NO_PIC</key>
-				<string>NO</string>
-				<key>GCC_OPTIMIZATION_LEVEL</key>
-				<string>0</string>
-				<key>GCC_PREPROCESSOR_DEFINITIONS</key>
-				<array>
-					<string>DEBUG=1</string>
-					<string>$(inherited)</string>
-				</array>
-				<key>GCC_SYMBOLS_PRIVATE_EXTERN</key>
-				<string>NO</string>
-				<key>GCC_WARN_64_TO_32_BIT_CONVERSION</key>
-				<string>YES</string>
-				<key>GCC_WARN_ABOUT_RETURN_TYPE</key>
-				<string>YES_ERROR</string>
-				<key>GCC_WARN_UNDECLARED_SELECTOR</key>
-				<string>YES</string>
-				<key>GCC_WARN_UNINITIALIZED_AUTOS</key>
-				<string>YES_AGGRESSIVE</string>
-				<key>GCC_WARN_UNUSED_FUNCTION</key>
-				<string>YES</string>
-				<key>GCC_WARN_UNUSED_VARIABLE</key>
-				<string>YES</string>
-				<key>IPHONEOS_DEPLOYMENT_TARGET</key>
-				<string>8.2</string>
-				<key>MTL_ENABLE_DEBUG_INFO</key>
-				<string>YES</string>
-				<key>ONLY_ACTIVE_ARCH</key>
-				<string>YES</string>
-				<key>SDKROOT</key>
-				<string>iphoneos</string>
-				<key>TARGETED_DEVICE_FAMILY</key>
-				<string>1,2</string>
-			</dict>
-			<key>isa</key>
-			<string>XCBuildConfiguration</string>
-			<key>name</key>
-			<string>Debug</string>
-		</dict>
-		<key>FD6CEAC61A1DF52800DE01B0</key>
-		<dict>
-			<key>buildSettings</key>
-			<dict>
-				<key>ALWAYS_SEARCH_USER_PATHS</key>
-				<string>NO</string>
-				<key>CLANG_CXX_LANGUAGE_STANDARD</key>
-				<string>gnu++0x</string>
-				<key>CLANG_CXX_LIBRARY</key>
-				<string>libc++</string>
-				<key>CLANG_ENABLE_MODULES</key>
-				<string>YES</string>
-				<key>CLANG_ENABLE_OBJC_ARC</key>
-				<string>YES</string>
-				<key>CLANG_WARN_BOOL_CONVERSION</key>
-				<string>YES</string>
-				<key>CLANG_WARN_CONSTANT_CONVERSION</key>
-				<string>YES</string>
-				<key>CLANG_WARN_DIRECT_OBJC_ISA_USAGE</key>
-				<string>YES_ERROR</string>
-				<key>CLANG_WARN_EMPTY_BODY</key>
-				<string>YES</string>
-				<key>CLANG_WARN_ENUM_CONVERSION</key>
-				<string>YES</string>
-				<key>CLANG_WARN_INT_CONVERSION</key>
-				<string>YES</string>
-				<key>CLANG_WARN_OBJC_ROOT_CLASS</key>
-				<string>YES_ERROR</string>
-				<key>CLANG_WARN_UNREACHABLE_CODE</key>
-				<string>YES</string>
-				<key>CLANG_WARN__DUPLICATE_METHOD_MATCH</key>
-				<string>YES</string>
-				<key>CODE_SIGN_IDENTITY[sdk=iphoneos*]</key>
-				<string>iPhone Developer</string>
-				<key>COPY_PHASE_STRIP</key>
-				<string>YES</string>
-				<key>ENABLE_NS_ASSERTIONS</key>
-				<string>NO</string>
-				<key>ENABLE_STRICT_OBJC_MSGSEND</key>
-				<string>YES</string>
-				<key>GCC_C_LANGUAGE_STANDARD</key>
-				<string>gnu99</string>
-				<key>GCC_WARN_64_TO_32_BIT_CONVERSION</key>
-				<string>YES</string>
-				<key>GCC_WARN_ABOUT_RETURN_TYPE</key>
-				<string>YES_ERROR</string>
-				<key>GCC_WARN_UNDECLARED_SELECTOR</key>
-				<string>YES</string>
-				<key>GCC_WARN_UNINITIALIZED_AUTOS</key>
-				<string>YES_AGGRESSIVE</string>
-				<key>GCC_WARN_UNUSED_FUNCTION</key>
-				<string>YES</string>
-				<key>GCC_WARN_UNUSED_VARIABLE</key>
-				<string>YES</string>
-				<key>IPHONEOS_DEPLOYMENT_TARGET</key>
-				<string>8.2</string>
-				<key>MTL_ENABLE_DEBUG_INFO</key>
-				<string>NO</string>
-				<key>SDKROOT</key>
-				<string>iphoneos</string>
-				<key>TARGETED_DEVICE_FAMILY</key>
-				<string>1,2</string>
-				<key>VALIDATE_PRODUCT</key>
-				<string>YES</string>
-			</dict>
-			<key>isa</key>
-			<string>XCBuildConfiguration</string>
-			<key>name</key>
-			<string>Release</string>
-		</dict>
-		<key>FD6CEAC71A1DF52800DE01B0</key>
-		<dict>
-			<key>buildConfigurations</key>
-			<array>
-				<string>FD6CEAC81A1DF52800DE01B0</string>
-				<string>FD6CEAC91A1DF52800DE01B0</string>
-			</array>
-			<key>defaultConfigurationIsVisible</key>
-			<string>0</string>
-			<key>defaultConfigurationName</key>
-			<string>Release</string>
-			<key>isa</key>
-			<string>XCConfigurationList</string>
-		</dict>
-		<key>FD6CEAC81A1DF52800DE01B0</key>
-		<dict>
-			<key>buildSettings</key>
-			<dict>
-				<key>ASSETCATALOG_COMPILER_APPICON_NAME</key>
-				<string>AppIcon</string>
-				<key>CODE_SIGN_IDENTITY</key>
-				<string>iPhone Developer</string>
-				<key>HEADER_SEARCH_PATHS</key>
-				<string>"$(USER_LIBRARY_DIR)/Application Support/com.celedev.CodeFlow/iphoneos/include"</string>
-				<key>INFOPLIST_FILE</key>
-				<string>WatchApp1/Info.plist</string>
-				<key>LD_RUNPATH_SEARCH_PATHS</key>
-				<string>$(inherited) @executable_path/Frameworks</string>
-				<key>LIBRARY_SEARCH_PATHS</key>
-				<string>"$(USER_LIBRARY_DIR)/Application Support/com.celedev.CodeFlow/iphoneos"</string>
-				<key>OTHER_LDFLAGS</key>
-				<string>-ObjC</string>
-				<key>PRODUCT_NAME</key>
-				<string>$(TARGET_NAME)</string>
-			</dict>
-			<key>isa</key>
-			<string>XCBuildConfiguration</string>
-			<key>name</key>
-			<string>Debug</string>
-		</dict>
-		<key>FD6CEAC91A1DF52800DE01B0</key>
-		<dict>
-			<key>buildSettings</key>
-			<dict>
-				<key>ASSETCATALOG_COMPILER_APPICON_NAME</key>
-				<string>AppIcon</string>
-				<key>CODE_SIGN_IDENTITY</key>
-				<string>iPhone Developer</string>
-				<key>HEADER_SEARCH_PATHS</key>
-				<string>"$(USER_LIBRARY_DIR)/Application Support/com.celedev.CodeFlow/iphoneos/include"</string>
-				<key>INFOPLIST_FILE</key>
-				<string>WatchApp1/Info.plist</string>
-				<key>LD_RUNPATH_SEARCH_PATHS</key>
-				<string>$(inherited) @executable_path/Frameworks</string>
-				<key>LIBRARY_SEARCH_PATHS</key>
-				<string>"$(USER_LIBRARY_DIR)/Application Support/com.celedev.CodeFlow/iphoneos"</string>
-				<key>OTHER_LDFLAGS</key>
-				<string>-ObjC</string>
-				<key>PRODUCT_NAME</key>
-				<string>$(TARGET_NAME)</string>
-			</dict>
-			<key>isa</key>
-			<string>XCBuildConfiguration</string>
-			<key>name</key>
-			<string>Release</string>
-		</dict>
-		<key>FD6CEACA1A1DF52800DE01B0</key>
-		<dict>
-			<key>buildConfigurations</key>
-			<array>
-				<string>FD6CEACB1A1DF52800DE01B0</string>
-				<string>FD6CEACC1A1DF52800DE01B0</string>
-			</array>
-			<key>defaultConfigurationIsVisible</key>
-			<string>0</string>
-			<key>defaultConfigurationName</key>
-			<string>Release</string>
-			<key>isa</key>
-			<string>XCConfigurationList</string>
-		</dict>
-		<key>FD6CEACB1A1DF52800DE01B0</key>
-		<dict>
-			<key>buildSettings</key>
-			<dict>
-				<key>BUNDLE_LOADER</key>
-				<string>$(TEST_HOST)</string>
-				<key>FRAMEWORK_SEARCH_PATHS</key>
-				<array>
-					<string>$(SDKROOT)/Developer/Library/Frameworks</string>
-					<string>$(inherited)</string>
-				</array>
-				<key>GCC_PREPROCESSOR_DEFINITIONS</key>
-				<array>
-					<string>DEBUG=1</string>
-					<string>$(inherited)</string>
-				</array>
-				<key>INFOPLIST_FILE</key>
-				<string>WatchApp1Tests/Info.plist</string>
-				<key>LD_RUNPATH_SEARCH_PATHS</key>
-				<string>$(inherited) @executable_path/Frameworks @loader_path/Frameworks</string>
-				<key>PRODUCT_NAME</key>
-				<string>$(TARGET_NAME)</string>
-				<key>TEST_HOST</key>
-				<string>$(BUILT_PRODUCTS_DIR)/WatchApp1.app/WatchApp1</string>
-			</dict>
-			<key>isa</key>
-			<string>XCBuildConfiguration</string>
-			<key>name</key>
-			<string>Debug</string>
-		</dict>
-		<key>FD6CEACC1A1DF52800DE01B0</key>
-		<dict>
-			<key>buildSettings</key>
-			<dict>
-				<key>BUNDLE_LOADER</key>
-				<string>$(TEST_HOST)</string>
-				<key>FRAMEWORK_SEARCH_PATHS</key>
-				<array>
-					<string>$(SDKROOT)/Developer/Library/Frameworks</string>
-					<string>$(inherited)</string>
-				</array>
-				<key>INFOPLIST_FILE</key>
-				<string>WatchApp1Tests/Info.plist</string>
-				<key>LD_RUNPATH_SEARCH_PATHS</key>
-				<string>$(inherited) @executable_path/Frameworks @loader_path/Frameworks</string>
-				<key>PRODUCT_NAME</key>
-				<string>$(TARGET_NAME)</string>
-				<key>TEST_HOST</key>
-				<string>$(BUILT_PRODUCTS_DIR)/WatchApp1.app/WatchApp1</string>
-			</dict>
-			<key>isa</key>
-			<string>XCBuildConfiguration</string>
-			<key>name</key>
-			<string>Release</string>
-		</dict>
-		<key>FD6CEACD1A1DF57500DE01B0</key>
-		<dict>
-			<key>buildActionMask</key>
-			<string>2147483647</string>
-			<key>files</key>
-			<array>
-				<string>FD6CEADE1A1DF57500DE01B0</string>
-				<string>FD6CEADB1A1DF57500DE01B0</string>
-				<string>FD7E8C141A1E37B500DE8818</string>
-				<string>FD6CEAE11A1DF57500DE01B0</string>
-			</array>
-			<key>isa</key>
-			<string>PBXSourcesBuildPhase</string>
-			<key>runOnlyForDeploymentPostprocessing</key>
-			<string>0</string>
-		</dict>
-		<key>FD6CEACE1A1DF57500DE01B0</key>
-		<dict>
-			<key>buildActionMask</key>
-			<string>2147483647</string>
-			<key>files</key>
-			<array>
-				<string>FD6CEAD41A1DF57500DE01B0</string>
-				<string>C4AB9F6F42B443AFB1958674</string>
-				<string>D527004C22794CB3A0EFDD6C</string>
-				<string>7A3CC52FEAC14F7AB1DA97DB</string>
-				<string>F681F2258F70477094ED3CDD</string>
-			</array>
-			<key>isa</key>
-			<string>PBXFrameworksBuildPhase</string>
-			<key>runOnlyForDeploymentPostprocessing</key>
-			<string>0</string>
-		</dict>
-		<key>FD6CEACF1A1DF57500DE01B0</key>
-		<dict>
-			<key>buildActionMask</key>
-			<string>2147483647</string>
-			<key>files</key>
-			<array>
-				<string>FD6CEAE31A1DF57500DE01B0</string>
-				<string>FD6CEAE71A1DF57500DE01B0</string>
-			</array>
-			<key>isa</key>
-			<string>PBXResourcesBuildPhase</string>
-			<key>runOnlyForDeploymentPostprocessing</key>
-			<string>0</string>
-		</dict>
-		<key>FD6CEAD01A1DF57500DE01B0</key>
-		<dict>
-			<key>buildConfigurationList</key>
-			<string>FD6CEAF71A1DF57500DE01B0</string>
-			<key>buildPhases</key>
-			<array>
-				<string>FD6CEACD1A1DF57500DE01B0</string>
-				<string>FD6CEACE1A1DF57500DE01B0</string>
-				<string>FD6CEACF1A1DF57500DE01B0</string>
-			</array>
-			<key>buildRules</key>
-			<array/>
-			<key>dependencies</key>
-			<array>
-				<string>FD6CEAE91A1DF57500DE01B0</string>
-			</array>
-			<key>isa</key>
-			<string>PBXNativeTarget</string>
-			<key>name</key>
-			<string>WatchApp1 WatchKit Extension</string>
-			<key>productName</key>
-			<string>WatchApp1 WatchKit Extension</string>
-			<key>productReference</key>
-			<string>FD6CEAD11A1DF57500DE01B0</string>
-			<key>productType</key>
-			<string>com.apple.product-type.watchkit-extension</string>
-		</dict>
-		<key>FD6CEAD11A1DF57500DE01B0</key>
-		<dict>
-			<key>explicitFileType</key>
-			<string>wrapper.app-extension</string>
-			<key>includeInIndex</key>
-			<string>0</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>path</key>
-			<string>WatchApp1 WatchKit Extension.appex</string>
-			<key>sourceTree</key>
-			<string>BUILT_PRODUCTS_DIR</string>
-		</dict>
-		<key>FD6CEAD21A1DF57500DE01B0</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>FD6CEAD31A1DF57500DE01B0</string>
-				<string>03F560ACB0EE411C92632933</string>
-				<string>83119F32ABB54192B461DEFD</string>
-				<string>6F1B7489D9C34277968248EB</string>
-				<string>49B47A99972C4D01B6D7D947</string>
-			</array>
-			<key>isa</key>
-			<string>PBXGroup</string>
-			<key>name</key>
-			<string>Frameworks</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>FD6CEAD31A1DF57500DE01B0</key>
-		<dict>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>wrapper.framework</string>
-			<key>name</key>
-			<string>WatchKit.framework</string>
-			<key>path</key>
-			<string>System/Library/Frameworks/WatchKit.framework</string>
-			<key>sourceTree</key>
-			<string>SDKROOT</string>
-		</dict>
-		<key>FD6CEAD41A1DF57500DE01B0</key>
-		<dict>
-			<key>fileRef</key>
-			<string>FD6CEAD31A1DF57500DE01B0</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>FD6CEAD51A1DF57500DE01B0</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>FD6CEAD91A1DF57500DE01B0</string>
-				<string>FD6CEADA1A1DF57500DE01B0</string>
-				<string>FD6CEADC1A1DF57500DE01B0</string>
-				<string>FD6CEADD1A1DF57500DE01B0</string>
-				<string>FD6CEADF1A1DF57500DE01B0</string>
-				<string>FD6CEAE01A1DF57500DE01B0</string>
-				<string>FD7E8C131A1E37B500DE8818</string>
-				<string>FD6CEAE21A1DF57500DE01B0</string>
-				<string>FD6CEAD61A1DF57500DE01B0</string>
-			</array>
-			<key>isa</key>
-			<string>PBXGroup</string>
-			<key>path</key>
-			<string>WatchApp1 WatchKit Extension</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>FD6CEAD61A1DF57500DE01B0</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>FD6CEAD71A1DF57500DE01B0</string>
-				<string>FD6CEAD81A1DF57500DE01B0</string>
-			</array>
-			<key>isa</key>
-			<string>PBXGroup</string>
-			<key>name</key>
-			<string>Supporting Files</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>FD6CEAD71A1DF57500DE01B0</key>
-		<dict>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>text.plist.xml</string>
-			<key>path</key>
-			<string>Info.plist</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>FD6CEAD81A1DF57500DE01B0</key>
-		<dict>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>text.json</string>
-			<key>path</key>
-			<string>PushNotificationPayload.json</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>FD6CEAD91A1DF57500DE01B0</key>
-		<dict>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
-			<key>path</key>
-			<string>InterfaceController.h</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>FD6CEADA1A1DF57500DE01B0</key>
-		<dict>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.objc</string>
-			<key>path</key>
-			<string>InterfaceController.m</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>FD6CEADB1A1DF57500DE01B0</key>
-		<dict>
-			<key>fileRef</key>
-			<string>FD6CEADA1A1DF57500DE01B0</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>FD6CEADC1A1DF57500DE01B0</key>
-		<dict>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
-			<key>path</key>
-			<string>NotificationController.h</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>FD6CEADD1A1DF57500DE01B0</key>
-		<dict>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.objc</string>
-			<key>path</key>
-			<string>NotificationController.m</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>FD6CEADE1A1DF57500DE01B0</key>
-		<dict>
-			<key>fileRef</key>
-			<string>FD6CEADD1A1DF57500DE01B0</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>FD6CEADF1A1DF57500DE01B0</key>
-		<dict>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
-			<key>path</key>
-			<string>GlanceController.h</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>FD6CEAE01A1DF57500DE01B0</key>
-		<dict>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.objc</string>
-			<key>path</key>
-			<string>GlanceController.m</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>FD6CEAE11A1DF57500DE01B0</key>
-		<dict>
-			<key>fileRef</key>
-			<string>FD6CEAE01A1DF57500DE01B0</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>FD6CEAE21A1DF57500DE01B0</key>
-		<dict>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>folder.assetcatalog</string>
-			<key>path</key>
-			<string>Images.xcassets</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>FD6CEAE31A1DF57500DE01B0</key>
-		<dict>
-			<key>fileRef</key>
-			<string>FD6CEAE21A1DF57500DE01B0</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>FD6CEAE41A1DF57500DE01B0</key>
-		<dict>
-			<key>buildActionMask</key>
-			<string>2147483647</string>
-			<key>files</key>
-			<array>
-				<string>FD6CEAEE1A1DF57500DE01B0</string>
-				<string>FD6CEAF01A1DF57500DE01B0</string>
-			</array>
-			<key>isa</key>
-			<string>PBXResourcesBuildPhase</string>
-			<key>runOnlyForDeploymentPostprocessing</key>
-			<string>0</string>
-		</dict>
-		<key>FD6CEAE51A1DF57500DE01B0</key>
-		<dict>
-			<key>buildConfigurationList</key>
-			<string>FD6CEAF41A1DF57500DE01B0</string>
-			<key>buildPhases</key>
-			<array>
-				<string>FD6CEAE41A1DF57500DE01B0</string>
-			</array>
-			<key>buildRules</key>
-			<array/>
-			<key>dependencies</key>
-			<array/>
-			<key>isa</key>
-			<string>PBXNativeTarget</string>
-			<key>name</key>
-			<string>WatchApp1 Watch App</string>
-			<key>productName</key>
-			<string>WatchApp1 Watch App</string>
-			<key>productReference</key>
-			<string>FD6CEAE61A1DF57500DE01B0</string>
-			<key>productType</key>
-			<string>com.apple.product-type.application.watchapp</string>
-		</dict>
-		<key>FD6CEAE61A1DF57500DE01B0</key>
-		<dict>
-			<key>explicitFileType</key>
-			<string>wrapper.application</string>
-			<key>includeInIndex</key>
-			<string>0</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>path</key>
-			<string>WatchApp1 Watch App.app</string>
-			<key>sourceTree</key>
-			<string>BUILT_PRODUCTS_DIR</string>
-		</dict>
-		<key>FD6CEAE71A1DF57500DE01B0</key>
-		<dict>
-			<key>fileRef</key>
-			<string>FD6CEAE61A1DF57500DE01B0</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>FD6CEAE81A1DF57500DE01B0</key>
-		<dict>
-			<key>containerPortal</key>
-			<string>FD6CEAA21A1DF52800DE01B0</string>
-			<key>isa</key>
-			<string>PBXContainerItemProxy</string>
-			<key>proxyType</key>
-			<string>1</string>
-			<key>remoteGlobalIDString</key>
-			<string>FD6CEAE51A1DF57500DE01B0</string>
-			<key>remoteInfo</key>
-			<string>WatchApp1 Watch App</string>
-		</dict>
-		<key>FD6CEAE91A1DF57500DE01B0</key>
-		<dict>
-			<key>isa</key>
-			<string>PBXTargetDependency</string>
-			<key>target</key>
-			<string>FD6CEAE51A1DF57500DE01B0</string>
-			<key>targetProxy</key>
-			<string>FD6CEAE81A1DF57500DE01B0</string>
-		</dict>
-		<key>FD6CEAEA1A1DF57500DE01B0</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>FD6CEAED1A1DF57500DE01B0</string>
-				<string>FD6CEAEF1A1DF57500DE01B0</string>
-				<string>FD6CEAEB1A1DF57500DE01B0</string>
-			</array>
-			<key>isa</key>
-			<string>PBXGroup</string>
-			<key>path</key>
-			<string>WatchApp1 Watch App</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>FD6CEAEB1A1DF57500DE01B0</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>FD6CEAEC1A1DF57500DE01B0</string>
-			</array>
-			<key>isa</key>
-			<string>PBXGroup</string>
-			<key>name</key>
-			<string>Supporting Files</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>FD6CEAEC1A1DF57500DE01B0</key>
-		<dict>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>text.plist.xml</string>
-			<key>path</key>
-			<string>Info.plist</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>FD6CEAED1A1DF57500DE01B0</key>
-		<dict>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>file.storyboard</string>
-			<key>path</key>
-			<string>Interface.storyboard</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>FD6CEAEE1A1DF57500DE01B0</key>
-		<dict>
-			<key>fileRef</key>
-			<string>FD6CEAED1A1DF57500DE01B0</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>FD6CEAEF1A1DF57500DE01B0</key>
-		<dict>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>folder.assetcatalog</string>
-			<key>path</key>
-			<string>Images.xcassets</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>FD6CEAF01A1DF57500DE01B0</key>
-		<dict>
-			<key>fileRef</key>
-			<string>FD6CEAEF1A1DF57500DE01B0</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>FD6CEAF11A1DF57500DE01B0</key>
-		<dict>
-			<key>containerPortal</key>
-			<string>FD6CEAA21A1DF52800DE01B0</string>
-			<key>isa</key>
-			<string>PBXContainerItemProxy</string>
-			<key>proxyType</key>
-			<string>1</string>
-			<key>remoteGlobalIDString</key>
-			<string>FD6CEAD01A1DF57500DE01B0</string>
-			<key>remoteInfo</key>
-			<string>WatchApp1 WatchKit Extension</string>
-		</dict>
-		<key>FD6CEAF21A1DF57500DE01B0</key>
-		<dict>
-			<key>isa</key>
-			<string>PBXTargetDependency</string>
-			<key>target</key>
-			<string>FD6CEAD01A1DF57500DE01B0</string>
-			<key>targetProxy</key>
-			<string>FD6CEAF11A1DF57500DE01B0</string>
-		</dict>
-		<key>FD6CEAF31A1DF57500DE01B0</key>
-		<dict>
-			<key>fileRef</key>
-			<string>FD6CEAD11A1DF57500DE01B0</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-			<key>settings</key>
-			<dict>
-				<key>ATTRIBUTES</key>
-				<array>
-					<string>RemoveHeadersOnCopy</string>
-				</array>
-			</dict>
-		</dict>
-		<key>FD6CEAF41A1DF57500DE01B0</key>
-		<dict>
-			<key>buildConfigurations</key>
-			<array>
-				<string>FD6CEAF51A1DF57500DE01B0</string>
-				<string>FD6CEAF61A1DF57500DE01B0</string>
-			</array>
-			<key>defaultConfigurationIsVisible</key>
-			<string>0</string>
-			<key>defaultConfigurationName</key>
-			<string>Release</string>
-			<key>isa</key>
-			<string>XCConfigurationList</string>
-		</dict>
-		<key>FD6CEAF51A1DF57500DE01B0</key>
-		<dict>
-			<key>buildSettings</key>
-			<dict>
-				<key>ASSETCATALOG_COMPILER_APPICON_NAME</key>
-				<string>AppIcon</string>
-				<key>ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME</key>
-				<string>LaunchImage</string>
-				<key>GCC_PREPROCESSOR_DEFINITIONS</key>
-				<array>
-					<string>DEBUG=1</string>
-					<string>$(inherited)</string>
-				</array>
-				<key>IBSC_MODULE</key>
-				<string>WatchApp1_WatchKit_Extension</string>
-				<key>INFOPLIST_FILE</key>
-				<string>WatchApp1 Watch App/Info.plist</string>
-				<key>PRODUCT_NAME</key>
-				<string>$(TARGET_NAME)</string>
-				<key>SKIP_INSTALL</key>
-				<string>YES</string>
-				<key>TARGETED_DEVICE_FAMILY</key>
-				<string>4</string>
-				<key>TARGETED_DEVICE_FAMILY[sdk=iphonesimulator*]</key>
-				<string>1,4</string>
-			</dict>
-			<key>isa</key>
-			<string>XCBuildConfiguration</string>
-			<key>name</key>
-			<string>Debug</string>
-		</dict>
-		<key>FD6CEAF61A1DF57500DE01B0</key>
-		<dict>
-			<key>buildSettings</key>
-			<dict>
-				<key>ASSETCATALOG_COMPILER_APPICON_NAME</key>
-				<string>AppIcon</string>
-				<key>ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME</key>
-				<string>LaunchImage</string>
-				<key>IBSC_MODULE</key>
-				<string>WatchApp1_WatchKit_Extension</string>
-				<key>INFOPLIST_FILE</key>
-				<string>WatchApp1 Watch App/Info.plist</string>
-				<key>PRODUCT_NAME</key>
-				<string>$(TARGET_NAME)</string>
-				<key>SKIP_INSTALL</key>
-				<string>YES</string>
-				<key>TARGETED_DEVICE_FAMILY</key>
-				<string>4</string>
-				<key>TARGETED_DEVICE_FAMILY[sdk=iphonesimulator*]</key>
-				<string>1,4</string>
-			</dict>
-			<key>isa</key>
-			<string>XCBuildConfiguration</string>
-			<key>name</key>
-			<string>Release</string>
-		</dict>
-		<key>FD6CEAF71A1DF57500DE01B0</key>
-		<dict>
-			<key>buildConfigurations</key>
-			<array>
-				<string>FD6CEAF81A1DF57500DE01B0</string>
-				<string>FD6CEAF91A1DF57500DE01B0</string>
-			</array>
-			<key>defaultConfigurationIsVisible</key>
-			<string>0</string>
-			<key>defaultConfigurationName</key>
-			<string>Release</string>
-			<key>isa</key>
-			<string>XCConfigurationList</string>
-		</dict>
-		<key>FD6CEAF81A1DF57500DE01B0</key>
-		<dict>
-			<key>buildSettings</key>
-			<dict>
-				<key>CODE_SIGN_IDENTITY</key>
-				<string>iPhone Developer</string>
-				<key>GCC_PREPROCESSOR_DEFINITIONS</key>
-				<array>
-					<string>DEBUG=1</string>
-					<string>$(inherited)</string>
-				</array>
-				<key>HEADER_SEARCH_PATHS</key>
-				<string>"$(USER_LIBRARY_DIR)/Application Support/com.celedev.CodeFlow/iphoneos/include"</string>
-				<key>INFOPLIST_FILE</key>
-				<string>WatchApp1 WatchKit Extension/Info.plist</string>
-				<key>LD_RUNPATH_SEARCH_PATHS</key>
-				<string>$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks</string>
-				<key>LIBRARY_SEARCH_PATHS</key>
-				<array>
-					<string>"$(USER_LIBRARY_DIR)/Application Support/com.celedev.CodeFlow/iphoneos"</string>
-					<string>"$(USER_LIBRARY_DIR)/Application Support/com.celedev.CodeFlow/iphoneos/iOS-8.2-SDK.luabindings/BindingLibs"</string>
-				</array>
-				<key>OTHER_LDFLAGS</key>
-				<string>-ObjC</string>
-				<key>PRODUCT_NAME</key>
-				<string>${TARGET_NAME}</string>
-				<key>SKIP_INSTALL</key>
-				<string>YES</string>
-			</dict>
-			<key>isa</key>
-			<string>XCBuildConfiguration</string>
-			<key>name</key>
-			<string>Debug</string>
-		</dict>
-		<key>FD6CEAF91A1DF57500DE01B0</key>
-		<dict>
-			<key>buildSettings</key>
-			<dict>
-				<key>CODE_SIGN_IDENTITY</key>
-				<string>iPhone Developer</string>
-				<key>HEADER_SEARCH_PATHS</key>
-				<string>"$(USER_LIBRARY_DIR)/Application Support/com.celedev.CodeFlow/iphoneos/include"</string>
-				<key>INFOPLIST_FILE</key>
-				<string>WatchApp1 WatchKit Extension/Info.plist</string>
-				<key>LD_RUNPATH_SEARCH_PATHS</key>
-				<string>$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks</string>
-				<key>LIBRARY_SEARCH_PATHS</key>
-				<array>
-					<string>"$(USER_LIBRARY_DIR)/Application Support/com.celedev.CodeFlow/iphoneos"</string>
-					<string>"$(USER_LIBRARY_DIR)/Application Support/com.celedev.CodeFlow/iphoneos/iOS-8.2-SDK.luabindings/BindingLibs"</string>
-				</array>
-				<key>OTHER_LDFLAGS</key>
-				<string>-ObjC</string>
-				<key>PRODUCT_NAME</key>
-				<string>${TARGET_NAME}</string>
-				<key>SKIP_INSTALL</key>
-				<string>YES</string>
-			</dict>
-			<key>isa</key>
-			<string>XCBuildConfiguration</string>
-			<key>name</key>
-			<string>Release</string>
-		</dict>
-		<key>FD6CEAFA1A1DF57500DE01B0</key>
-		<dict>
-			<key>buildActionMask</key>
-			<string>2147483647</string>
-			<key>dstPath</key>
-			<string></string>
-			<key>dstSubfolderSpec</key>
-			<string>13</string>
-			<key>files</key>
-			<array>
-				<string>FD6CEAF31A1DF57500DE01B0</string>
-			</array>
-			<key>isa</key>
-			<string>PBXCopyFilesBuildPhase</string>
-			<key>name</key>
-			<string>Embed App Extensions</string>
-			<key>runOnlyForDeploymentPostprocessing</key>
-			<string>0</string>
-		</dict>
-		<key>FD7E8C131A1E37B500DE8818</key>
-		<dict>
-			<key>fileEncoding</key>
-			<string>4</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.objc</string>
-			<key>path</key>
-			<string>LuaContext.m</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>FD7E8C141A1E37B500DE8818</key>
-		<dict>
-			<key>fileRef</key>
-			<string>FD7E8C131A1E37B500DE8818</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-	</dict>
-	<key>rootObject</key>
-	<string>FD6CEAA21A1DF52800DE01B0</string>
-</dict>
-</plist>
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		020604965D7940BC9F4D4684 /* libCIMLuaBindingMapKit.a in Frameworks */ = {isa = PBXBuildFile; fileRef = D5271842CA8649EC94E7F2C6 /* libCIMLuaBindingMapKit.a */; };
+		14CF7E6F91CE45CC94A79EE8 /* libCIMLuaBindingCoreLocation.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 863A2930032349FD8C69BEE0 /* libCIMLuaBindingCoreLocation.a */; };
+		2C235B606BEB43D88B5AE6A6 /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E5C0652815C24ECEAD662820 /* MapKit.framework */; };
+		3EE7A00D4E0844C5A35E726B /* libCIMLuaDebugServerIOS.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 468AF7E77CF4418885DBA30C /* libCIMLuaDebugServerIOS.a */; };
+		5D7941D6291C4C84BC641069 /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 771C1874EB104B29834D006B /* CoreLocation.framework */; };
+		65A5EF60F6EE4FC5A2E4B402 /* WatchKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FD6CEAD31A1DF57500DE01B0 /* WatchKit.framework */; };
+		6ED9F9655DDE4B5E89616971 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2B2D73FBBB39473D9C1A79AB /* Foundation.framework */; };
+		717E819595E54420A521CB17 /* libCIMLuaBindingMapKit.a in Frameworks */ = {isa = PBXBuildFile; fileRef = D5271842CA8649EC94E7F2C6 /* libCIMLuaBindingMapKit.a */; };
+		7386C5681C914C549230E8F4 /* libCIMLuaBindingCoreLocation.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 863A2930032349FD8C69BEE0 /* libCIMLuaBindingCoreLocation.a */; };
+		7A3CC52FEAC14F7AB1DA97DB /* MobileCoreServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6F1B7489D9C34277968248EB /* MobileCoreServices.framework */; };
+		844337A6EAA74DECB3EF1917 /* libCIMLuaBindingWatchKit.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 49B47A99972C4D01B6D7D947 /* libCIMLuaBindingWatchKit.a */; };
+		881021C361444FA19C0CF81C /* libCIMLua.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 674CFC238253476E8326FBE7 /* libCIMLua.a */; };
+		8FD7509568154AAFB90645C1 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2B2D73FBBB39473D9C1A79AB /* Foundation.framework */; };
+		9AD946BB723C45539E0CD0CA /* libCIMLuaBindingFoundation.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 69CDB6A7225A4974AE16B5C9 /* libCIMLuaBindingFoundation.a */; };
+		A794DDE5E1BD41C4BAC702DF /* MobileCoreServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6F1B7489D9C34277968248EB /* MobileCoreServices.framework */; };
+		A87DD988FEE7463E8D1E86C9 /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E5C0652815C24ECEAD662820 /* MapKit.framework */; };
+		DB74D6D6A1A34CD1881228B9 /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 771C1874EB104B29834D006B /* CoreLocation.framework */; };
+		F681F2258F70477094ED3CDD /* libCIMLuaBindingWatchKit.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 49B47A99972C4D01B6D7D947 /* libCIMLuaBindingWatchKit.a */; };
+		FD05F8111A20D94C00ABD79E /* PushNotificationPayload 2.json in Resources */ = {isa = PBXBuildFile; fileRef = FD05F8101A20D94C00ABD79E /* PushNotificationPayload 2.json */; };
+		FD0B2DC21A222FB900461532 /* LuaContext.m in Sources */ = {isa = PBXBuildFile; fileRef = FD7E8C131A1E37B500DE8818 /* LuaContext.m */; };
+		FD1B818D1A237A0900BCB35D /* bSpearman_Walk_Left1@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = FD1B81831A237A0900BCB35D /* bSpearman_Walk_Left1@2x.png */; };
+		FD1B818E1A237A0900BCB35D /* bSpearman_Walk_Left2@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = FD1B81841A237A0900BCB35D /* bSpearman_Walk_Left2@2x.png */; };
+		FD1B818F1A237A0900BCB35D /* bSpearman_Walk_Left3@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = FD1B81851A237A0900BCB35D /* bSpearman_Walk_Left3@2x.png */; };
+		FD1B81901A237A0900BCB35D /* bSpearman_Walk_Left4@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = FD1B81861A237A0900BCB35D /* bSpearman_Walk_Left4@2x.png */; };
+		FD1B81911A237A0900BCB35D /* bSpearman_Walk_Left5@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = FD1B81871A237A0900BCB35D /* bSpearman_Walk_Left5@2x.png */; };
+		FD1B81921A237A0900BCB35D /* bSpearman_Walk_Left6@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = FD1B81881A237A0900BCB35D /* bSpearman_Walk_Left6@2x.png */; };
+		FD1B81931A237A0900BCB35D /* bSpearman_Walk_Left7@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = FD1B81891A237A0900BCB35D /* bSpearman_Walk_Left7@2x.png */; };
+		FD1B81941A237A0900BCB35D /* bSpearman_Walk_Left8@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = FD1B818A1A237A0900BCB35D /* bSpearman_Walk_Left8@2x.png */; };
+		FD1B81951A237A0900BCB35D /* bSpearman_Walk_Left9@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = FD1B818B1A237A0900BCB35D /* bSpearman_Walk_Left9@2x.png */; };
+		FD1B81961A237A0900BCB35D /* bSpearman_Walk_Left10@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = FD1B818C1A237A0900BCB35D /* bSpearman_Walk_Left10@2x.png */; };
+		FD1B81981A237AC900BCB35D /* GreenCheckedIcon@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = FD1B81971A237AC900BCB35D /* GreenCheckedIcon@2x.png */; };
+		FD1B819B1A237C7A00BCB35D /* SpearmanController.m in Sources */ = {isa = PBXBuildFile; fileRef = FD1B819A1A237C7A00BCB35D /* SpearmanController.m */; };
+		FD1B819E1A2388EB00BCB35D /* snail@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = FD1B819C1A2388EB00BCB35D /* snail@2x.png */; };
+		FD1B819F1A2388EB00BCB35D /* rabbit@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = FD1B819D1A2388EB00BCB35D /* rabbit@2x.png */; };
+		FD22727C1A416828000C77C3 /* DetailController.m in Sources */ = {isa = PBXBuildFile; fileRef = FD22727B1A416828000C77C3 /* DetailController.m */; };
+		FD426EC833D64BDD8EC2E911 /* libCIMLuaBindingFoundation.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 69CDB6A7225A4974AE16B5C9 /* libCIMLuaBindingFoundation.a */; };
+		FD6CEAB01A1DF52800DE01B0 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = FD6CEAAF1A1DF52800DE01B0 /* main.m */; };
+		FD6CEAB31A1DF52800DE01B0 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = FD6CEAB21A1DF52800DE01B0 /* AppDelegate.m */; };
+		FD6CEAB51A1DF52800DE01B0 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FD6CEAB41A1DF52800DE01B0 /* Images.xcassets */; };
+		FD6CEAB81A1DF52800DE01B0 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = FD6CEAB61A1DF52800DE01B0 /* LaunchScreen.xib */; };
+		FD6CEAD41A1DF57500DE01B0 /* WatchKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FD6CEAD31A1DF57500DE01B0 /* WatchKit.framework */; };
+		FD6CEADB1A1DF57500DE01B0 /* InterfaceController.m in Sources */ = {isa = PBXBuildFile; fileRef = FD6CEADA1A1DF57500DE01B0 /* InterfaceController.m */; };
+		FD6CEADE1A1DF57500DE01B0 /* NotificationController.m in Sources */ = {isa = PBXBuildFile; fileRef = FD6CEADD1A1DF57500DE01B0 /* NotificationController.m */; };
+		FD6CEAE31A1DF57500DE01B0 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FD6CEAE21A1DF57500DE01B0 /* Images.xcassets */; };
+		FD6CEAE71A1DF57500DE01B0 /* WatchApp1 Watch App.app in Resources */ = {isa = PBXBuildFile; fileRef = FD6CEAE61A1DF57500DE01B0 /* WatchApp1 Watch App.app */; };
+		FD6CEAEE1A1DF57500DE01B0 /* Interface.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FD6CEAED1A1DF57500DE01B0 /* Interface.storyboard */; };
+		FD6CEAF01A1DF57500DE01B0 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FD6CEAEF1A1DF57500DE01B0 /* Images.xcassets */; };
+		FD6CEAF31A1DF57500DE01B0 /* WatchApp1 WatchKit Extension.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = FD6CEAD11A1DF57500DE01B0 /* WatchApp1 WatchKit Extension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		FD90F8171A2486E900251ED4 /* MapController.m in Sources */ = {isa = PBXBuildFile; fileRef = FD90F8161A2486E900251ED4 /* MapController.m */; };
+		FD90F81E1A24919700251ED4 /* libCIMLua.a in Frameworks */ = {isa = PBXBuildFile; fileRef = FD90F81C1A24919700251ED4 /* libCIMLua.a */; };
+		FD90F81F1A24919700251ED4 /* libCIMLuaDebugServerIOS.a in Frameworks */ = {isa = PBXBuildFile; fileRef = FD90F81D1A24919700251ED4 /* libCIMLuaDebugServerIOS.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		FD6CEAE81A1DF57500DE01B0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FD6CEAA21A1DF52800DE01B0 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FD6CEAE51A1DF57500DE01B0;
+			remoteInfo = "WatchApp1 Watch App";
+		};
+		FD6CEAF11A1DF57500DE01B0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FD6CEAA21A1DF52800DE01B0 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FD6CEAD01A1DF57500DE01B0;
+			remoteInfo = "WatchApp1 WatchKit Extension";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		FD6CEAFA1A1DF57500DE01B0 /* Embed App Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				FD6CEAF31A1DF57500DE01B0 /* WatchApp1 WatchKit Extension.appex in Embed App Extensions */,
+			);
+			name = "Embed App Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		2B2D73FBBB39473D9C1A79AB /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		468AF7E77CF4418885DBA30C /* libCIMLuaDebugServerIOS.a */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = archive.ar; name = libCIMLuaDebugServerIOS.a; path = "/Users/jean-luc/Library/Application Support/com.celedev.CodeFlow/iphoneos/libCIMLuaDebugServerIOS.a"; sourceTree = "<absolute>"; };
+		49B47A99972C4D01B6D7D947 /* libCIMLuaBindingWatchKit.a */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = archive.ar; name = libCIMLuaBindingWatchKit.a; path = "/Users/jean-luc/Library/Application Support/com.celedev.CodeFlow/iphoneos/iOS-8.2-SDK.luabindings/BindingLibs/libCIMLuaBindingWatchKit.a"; sourceTree = "<absolute>"; };
+		674CFC238253476E8326FBE7 /* libCIMLua.a */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = archive.ar; name = libCIMLua.a; path = "/Users/jean-luc/Library/Application Support/com.celedev.CodeFlow/iphoneos/libCIMLua.a"; sourceTree = "<absolute>"; };
+		69CDB6A7225A4974AE16B5C9 /* libCIMLuaBindingFoundation.a */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = archive.ar; name = libCIMLuaBindingFoundation.a; path = "/Users/jean-luc/Library/Application Support/com.celedev.CodeFlow/iphoneos/iOS-8.2-SDK.luabindings/BindingLibs/libCIMLuaBindingFoundation.a"; sourceTree = "<absolute>"; };
+		6F1B7489D9C34277968248EB /* MobileCoreServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MobileCoreServices.framework; path = System/Library/Frameworks/MobileCoreServices.framework; sourceTree = SDKROOT; };
+		771C1874EB104B29834D006B /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+		863A2930032349FD8C69BEE0 /* libCIMLuaBindingCoreLocation.a */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = archive.ar; name = libCIMLuaBindingCoreLocation.a; path = "/Users/jean-luc/Library/Application Support/com.celedev.CodeFlow/iphoneos/iOS-8.2-SDK.luabindings/BindingLibs/libCIMLuaBindingCoreLocation.a"; sourceTree = "<absolute>"; };
+		D5271842CA8649EC94E7F2C6 /* libCIMLuaBindingMapKit.a */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = archive.ar; name = libCIMLuaBindingMapKit.a; path = "/Users/jean-luc/Library/Application Support/com.celedev.CodeFlow/iphoneos/iOS-8.2-SDK.luabindings/BindingLibs/libCIMLuaBindingMapKit.a"; sourceTree = "<absolute>"; };
+		E5C0652815C24ECEAD662820 /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
+		FD05F8101A20D94C00ABD79E /* PushNotificationPayload 2.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "PushNotificationPayload 2.json"; sourceTree = "<group>"; };
+		FD1B81831A237A0900BCB35D /* bSpearman_Walk_Left1@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "bSpearman_Walk_Left1@2x.png"; sourceTree = "<group>"; };
+		FD1B81841A237A0900BCB35D /* bSpearman_Walk_Left2@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "bSpearman_Walk_Left2@2x.png"; sourceTree = "<group>"; };
+		FD1B81851A237A0900BCB35D /* bSpearman_Walk_Left3@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "bSpearman_Walk_Left3@2x.png"; sourceTree = "<group>"; };
+		FD1B81861A237A0900BCB35D /* bSpearman_Walk_Left4@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "bSpearman_Walk_Left4@2x.png"; sourceTree = "<group>"; };
+		FD1B81871A237A0900BCB35D /* bSpearman_Walk_Left5@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "bSpearman_Walk_Left5@2x.png"; sourceTree = "<group>"; };
+		FD1B81881A237A0900BCB35D /* bSpearman_Walk_Left6@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "bSpearman_Walk_Left6@2x.png"; sourceTree = "<group>"; };
+		FD1B81891A237A0900BCB35D /* bSpearman_Walk_Left7@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "bSpearman_Walk_Left7@2x.png"; sourceTree = "<group>"; };
+		FD1B818A1A237A0900BCB35D /* bSpearman_Walk_Left8@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "bSpearman_Walk_Left8@2x.png"; sourceTree = "<group>"; };
+		FD1B818B1A237A0900BCB35D /* bSpearman_Walk_Left9@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "bSpearman_Walk_Left9@2x.png"; sourceTree = "<group>"; };
+		FD1B818C1A237A0900BCB35D /* bSpearman_Walk_Left10@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "bSpearman_Walk_Left10@2x.png"; sourceTree = "<group>"; };
+		FD1B81971A237AC900BCB35D /* GreenCheckedIcon@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "GreenCheckedIcon@2x.png"; sourceTree = "<group>"; };
+		FD1B81991A237C7A00BCB35D /* SpearmanController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SpearmanController.h; sourceTree = "<group>"; };
+		FD1B819A1A237C7A00BCB35D /* SpearmanController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SpearmanController.m; sourceTree = "<group>"; };
+		FD1B819C1A2388EB00BCB35D /* snail@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "snail@2x.png"; sourceTree = "<group>"; };
+		FD1B819D1A2388EB00BCB35D /* rabbit@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "rabbit@2x.png"; sourceTree = "<group>"; };
+		FD22727A1A416828000C77C3 /* DetailController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DetailController.h; sourceTree = "<group>"; };
+		FD22727B1A416828000C77C3 /* DetailController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DetailController.m; sourceTree = "<group>"; };
+		FD6CEAAA1A1DF52800DE01B0 /* WatchApp1.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WatchApp1.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		FD6CEAAE1A1DF52800DE01B0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FD6CEAAF1A1DF52800DE01B0 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		FD6CEAB11A1DF52800DE01B0 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		FD6CEAB21A1DF52800DE01B0 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		FD6CEAB41A1DF52800DE01B0 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		FD6CEAB71A1DF52800DE01B0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		FD6CEAD11A1DF57500DE01B0 /* WatchApp1 WatchKit Extension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "WatchApp1 WatchKit Extension.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
+		FD6CEAD31A1DF57500DE01B0 /* WatchKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = WatchKit.framework; path = System/Library/Frameworks/WatchKit.framework; sourceTree = SDKROOT; };
+		FD6CEAD71A1DF57500DE01B0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FD6CEAD81A1DF57500DE01B0 /* PushNotificationPayload.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = PushNotificationPayload.json; sourceTree = "<group>"; };
+		FD6CEAD91A1DF57500DE01B0 /* InterfaceController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = InterfaceController.h; sourceTree = "<group>"; };
+		FD6CEADA1A1DF57500DE01B0 /* InterfaceController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = InterfaceController.m; sourceTree = "<group>"; };
+		FD6CEADC1A1DF57500DE01B0 /* NotificationController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NotificationController.h; sourceTree = "<group>"; };
+		FD6CEADD1A1DF57500DE01B0 /* NotificationController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NotificationController.m; sourceTree = "<group>"; };
+		FD6CEAE21A1DF57500DE01B0 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		FD6CEAE61A1DF57500DE01B0 /* WatchApp1 Watch App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "WatchApp1 Watch App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		FD6CEAEC1A1DF57500DE01B0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FD6CEAED1A1DF57500DE01B0 /* Interface.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Interface.storyboard; sourceTree = "<group>"; };
+		FD6CEAEF1A1DF57500DE01B0 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		FD7E8C131A1E37B500DE8818 /* LuaContext.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LuaContext.m; sourceTree = "<group>"; };
+		FD90F8151A2486E900251ED4 /* MapController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MapController.h; sourceTree = "<group>"; };
+		FD90F8161A2486E900251ED4 /* MapController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MapController.m; sourceTree = "<group>"; };
+		FD90F81C1A24919700251ED4 /* libCIMLua.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libCIMLua.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		FD90F81D1A24919700251ED4 /* libCIMLuaDebugServerIOS.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libCIMLuaDebugServerIOS.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		FD90F8201A25F1AC00251ED4 /* WatchApp1.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.xml; path = WatchApp1.entitlements; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		FD6CEAA71A1DF52800DE01B0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A794DDE5E1BD41C4BAC702DF /* MobileCoreServices.framework in Frameworks */,
+				881021C361444FA19C0CF81C /* libCIMLua.a in Frameworks */,
+				3EE7A00D4E0844C5A35E726B /* libCIMLuaDebugServerIOS.a in Frameworks */,
+				020604965D7940BC9F4D4684 /* libCIMLuaBindingMapKit.a in Frameworks */,
+				DB74D6D6A1A34CD1881228B9 /* CoreLocation.framework in Frameworks */,
+				65A5EF60F6EE4FC5A2E4B402 /* WatchKit.framework in Frameworks */,
+				2C235B606BEB43D88B5AE6A6 /* MapKit.framework in Frameworks */,
+				844337A6EAA74DECB3EF1917 /* libCIMLuaBindingWatchKit.a in Frameworks */,
+				8FD7509568154AAFB90645C1 /* Foundation.framework in Frameworks */,
+				FD426EC833D64BDD8EC2E911 /* libCIMLuaBindingFoundation.a in Frameworks */,
+				14CF7E6F91CE45CC94A79EE8 /* libCIMLuaBindingCoreLocation.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FD6CEACE1A1DF57500DE01B0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FD90F81E1A24919700251ED4 /* libCIMLua.a in Frameworks */,
+				FD90F81F1A24919700251ED4 /* libCIMLuaDebugServerIOS.a in Frameworks */,
+				FD6CEAD41A1DF57500DE01B0 /* WatchKit.framework in Frameworks */,
+				7A3CC52FEAC14F7AB1DA97DB /* MobileCoreServices.framework in Frameworks */,
+				F681F2258F70477094ED3CDD /* libCIMLuaBindingWatchKit.a in Frameworks */,
+				6ED9F9655DDE4B5E89616971 /* Foundation.framework in Frameworks */,
+				9AD946BB723C45539E0CD0CA /* libCIMLuaBindingFoundation.a in Frameworks */,
+				A87DD988FEE7463E8D1E86C9 /* MapKit.framework in Frameworks */,
+				717E819595E54420A521CB17 /* libCIMLuaBindingMapKit.a in Frameworks */,
+				5D7941D6291C4C84BC641069 /* CoreLocation.framework in Frameworks */,
+				7386C5681C914C549230E8F4 /* libCIMLuaBindingCoreLocation.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		FD1B81821A2379DC00BCB35D /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				FD1B81971A237AC900BCB35D /* GreenCheckedIcon@2x.png */,
+				FD1B81831A237A0900BCB35D /* bSpearman_Walk_Left1@2x.png */,
+				FD1B81841A237A0900BCB35D /* bSpearman_Walk_Left2@2x.png */,
+				FD1B81851A237A0900BCB35D /* bSpearman_Walk_Left3@2x.png */,
+				FD1B81861A237A0900BCB35D /* bSpearman_Walk_Left4@2x.png */,
+				FD1B81871A237A0900BCB35D /* bSpearman_Walk_Left5@2x.png */,
+				FD1B81881A237A0900BCB35D /* bSpearman_Walk_Left6@2x.png */,
+				FD1B81891A237A0900BCB35D /* bSpearman_Walk_Left7@2x.png */,
+				FD1B818A1A237A0900BCB35D /* bSpearman_Walk_Left8@2x.png */,
+				FD1B818B1A237A0900BCB35D /* bSpearman_Walk_Left9@2x.png */,
+				FD1B818C1A237A0900BCB35D /* bSpearman_Walk_Left10@2x.png */,
+				FD1B819C1A2388EB00BCB35D /* snail@2x.png */,
+				FD1B819D1A2388EB00BCB35D /* rabbit@2x.png */,
+			);
+			name = Images;
+			sourceTree = "<group>";
+		};
+		FD6CEAA11A1DF52800DE01B0 = {
+			isa = PBXGroup;
+			children = (
+				FD6CEAAC1A1DF52800DE01B0 /* WatchApp1 */,
+				FD6CEAD51A1DF57500DE01B0 /* WatchApp1 WatchKit Extension */,
+				FD6CEAEA1A1DF57500DE01B0 /* WatchApp1 Watch App */,
+				FD6CEAD21A1DF57500DE01B0 /* Frameworks */,
+				FD6CEAAB1A1DF52800DE01B0 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		FD6CEAAB1A1DF52800DE01B0 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FD6CEAAA1A1DF52800DE01B0 /* WatchApp1.app */,
+				FD6CEAD11A1DF57500DE01B0 /* WatchApp1 WatchKit Extension.appex */,
+				FD6CEAE61A1DF57500DE01B0 /* WatchApp1 Watch App.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		FD6CEAAC1A1DF52800DE01B0 /* WatchApp1 */ = {
+			isa = PBXGroup;
+			children = (
+				FD90F8201A25F1AC00251ED4 /* WatchApp1.entitlements */,
+				FD6CEAB11A1DF52800DE01B0 /* AppDelegate.h */,
+				FD6CEAB21A1DF52800DE01B0 /* AppDelegate.m */,
+				FD6CEAB41A1DF52800DE01B0 /* Images.xcassets */,
+				FD6CEAB61A1DF52800DE01B0 /* LaunchScreen.xib */,
+				FD6CEAAD1A1DF52800DE01B0 /* Supporting Files */,
+			);
+			path = WatchApp1;
+			sourceTree = "<group>";
+		};
+		FD6CEAAD1A1DF52800DE01B0 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				FD6CEAAE1A1DF52800DE01B0 /* Info.plist */,
+				FD6CEAAF1A1DF52800DE01B0 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		FD6CEAD21A1DF57500DE01B0 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				FD6CEAD31A1DF57500DE01B0 /* WatchKit.framework */,
+				6F1B7489D9C34277968248EB /* MobileCoreServices.framework */,
+				49B47A99972C4D01B6D7D947 /* libCIMLuaBindingWatchKit.a */,
+				2B2D73FBBB39473D9C1A79AB /* Foundation.framework */,
+				69CDB6A7225A4974AE16B5C9 /* libCIMLuaBindingFoundation.a */,
+				E5C0652815C24ECEAD662820 /* MapKit.framework */,
+				D5271842CA8649EC94E7F2C6 /* libCIMLuaBindingMapKit.a */,
+				771C1874EB104B29834D006B /* CoreLocation.framework */,
+				863A2930032349FD8C69BEE0 /* libCIMLuaBindingCoreLocation.a */,
+				674CFC238253476E8326FBE7 /* libCIMLua.a */,
+				468AF7E77CF4418885DBA30C /* libCIMLuaDebugServerIOS.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		FD6CEAD51A1DF57500DE01B0 /* WatchApp1 WatchKit Extension */ = {
+			isa = PBXGroup;
+			children = (
+				FD6CEAD91A1DF57500DE01B0 /* InterfaceController.h */,
+				FD6CEADA1A1DF57500DE01B0 /* InterfaceController.m */,
+				FD22727A1A416828000C77C3 /* DetailController.h */,
+				FD22727B1A416828000C77C3 /* DetailController.m */,
+				FD6CEADC1A1DF57500DE01B0 /* NotificationController.h */,
+				FD6CEADD1A1DF57500DE01B0 /* NotificationController.m */,
+				FD90F8151A2486E900251ED4 /* MapController.h */,
+				FD90F8161A2486E900251ED4 /* MapController.m */,
+				FD1B81991A237C7A00BCB35D /* SpearmanController.h */,
+				FD1B819A1A237C7A00BCB35D /* SpearmanController.m */,
+				FD7E8C131A1E37B500DE8818 /* LuaContext.m */,
+				FD6CEAE21A1DF57500DE01B0 /* Images.xcassets */,
+				FD6CEAD61A1DF57500DE01B0 /* Supporting Files */,
+			);
+			path = "WatchApp1 WatchKit Extension";
+			sourceTree = "<group>";
+		};
+		FD6CEAD61A1DF57500DE01B0 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				FD6CEAD71A1DF57500DE01B0 /* Info.plist */,
+				FD6CEAD81A1DF57500DE01B0 /* PushNotificationPayload.json */,
+				FD05F8101A20D94C00ABD79E /* PushNotificationPayload 2.json */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		FD6CEAEA1A1DF57500DE01B0 /* WatchApp1 Watch App */ = {
+			isa = PBXGroup;
+			children = (
+				FD6CEAED1A1DF57500DE01B0 /* Interface.storyboard */,
+				FD1B81821A2379DC00BCB35D /* Images */,
+				FD6CEAEF1A1DF57500DE01B0 /* Images.xcassets */,
+				FD6CEAEB1A1DF57500DE01B0 /* Supporting Files */,
+			);
+			path = "WatchApp1 Watch App";
+			sourceTree = "<group>";
+		};
+		FD6CEAEB1A1DF57500DE01B0 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				FD6CEAEC1A1DF57500DE01B0 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		FD6CEAA91A1DF52800DE01B0 /* WatchApp1 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FD6CEAC71A1DF52800DE01B0 /* Build configuration list for PBXNativeTarget "WatchApp1" */;
+			buildPhases = (
+				FD6CEAA61A1DF52800DE01B0 /* Sources */,
+				FD6CEAA71A1DF52800DE01B0 /* Frameworks */,
+				FD6CEAA81A1DF52800DE01B0 /* Resources */,
+				FD6CEAFA1A1DF57500DE01B0 /* Embed App Extensions */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FD6CEAF21A1DF57500DE01B0 /* PBXTargetDependency */,
+			);
+			name = WatchApp1;
+			productName = WatchApp1;
+			productReference = FD6CEAAA1A1DF52800DE01B0 /* WatchApp1.app */;
+			productType = "com.apple.product-type.application";
+		};
+		FD6CEAD01A1DF57500DE01B0 /* WatchApp1 WatchKit Extension */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FD6CEAF71A1DF57500DE01B0 /* Build configuration list for PBXNativeTarget "WatchApp1 WatchKit Extension" */;
+			buildPhases = (
+				FD6CEACD1A1DF57500DE01B0 /* Sources */,
+				FD6CEACE1A1DF57500DE01B0 /* Frameworks */,
+				FD6CEACF1A1DF57500DE01B0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FD6CEAE91A1DF57500DE01B0 /* PBXTargetDependency */,
+			);
+			name = "WatchApp1 WatchKit Extension";
+			productName = "WatchApp1 WatchKit Extension";
+			productReference = FD6CEAD11A1DF57500DE01B0 /* WatchApp1 WatchKit Extension.appex */;
+			productType = "com.apple.product-type.watchkit-extension";
+		};
+		FD6CEAE51A1DF57500DE01B0 /* WatchApp1 Watch App */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FD6CEAF41A1DF57500DE01B0 /* Build configuration list for PBXNativeTarget "WatchApp1 Watch App" */;
+			buildPhases = (
+				FD6CEAE41A1DF57500DE01B0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "WatchApp1 Watch App";
+			productName = "WatchApp1 Watch App";
+			productReference = FD6CEAE61A1DF57500DE01B0 /* WatchApp1 Watch App.app */;
+			productType = "com.apple.product-type.application.watchapp";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		FD6CEAA21A1DF52800DE01B0 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0620;
+				ORGANIZATIONNAME = Celedev;
+				TargetAttributes = {
+					FD6CEAA91A1DF52800DE01B0 = {
+						CreatedOnToolsVersion = 6.2;
+						DevelopmentTeam = 7V6VCE4Z4V;
+						SystemCapabilities = {
+							com.apple.ApplicationGroups.iOS = {
+								enabled = 1;
+							};
+						};
+					};
+					FD6CEAD01A1DF57500DE01B0 = {
+						CreatedOnToolsVersion = 6.2;
+						DevelopmentTeam = 7V6VCE4Z4V;
+					};
+					FD6CEAE51A1DF57500DE01B0 = {
+						CreatedOnToolsVersion = 6.2;
+					};
+				};
+			};
+			buildConfigurationList = FD6CEAA51A1DF52800DE01B0 /* Build configuration list for PBXProject "WatchApp1" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = FD6CEAA11A1DF52800DE01B0;
+			productRefGroup = FD6CEAAB1A1DF52800DE01B0 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				FD6CEAA91A1DF52800DE01B0 /* WatchApp1 */,
+				FD6CEAD01A1DF57500DE01B0 /* WatchApp1 WatchKit Extension */,
+				FD6CEAE51A1DF57500DE01B0 /* WatchApp1 Watch App */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		FD6CEAA81A1DF52800DE01B0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FD6CEAB81A1DF52800DE01B0 /* LaunchScreen.xib in Resources */,
+				FD6CEAB51A1DF52800DE01B0 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FD6CEACF1A1DF57500DE01B0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FD6CEAE31A1DF57500DE01B0 /* Images.xcassets in Resources */,
+				FD6CEAE71A1DF57500DE01B0 /* WatchApp1 Watch App.app in Resources */,
+				FD05F8111A20D94C00ABD79E /* PushNotificationPayload 2.json in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FD6CEAE41A1DF57500DE01B0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FD6CEAEE1A1DF57500DE01B0 /* Interface.storyboard in Resources */,
+				FD1B81931A237A0900BCB35D /* bSpearman_Walk_Left7@2x.png in Resources */,
+				FD1B81961A237A0900BCB35D /* bSpearman_Walk_Left10@2x.png in Resources */,
+				FD1B818D1A237A0900BCB35D /* bSpearman_Walk_Left1@2x.png in Resources */,
+				FD1B81921A237A0900BCB35D /* bSpearman_Walk_Left6@2x.png in Resources */,
+				FD1B819F1A2388EB00BCB35D /* rabbit@2x.png in Resources */,
+				FD1B81941A237A0900BCB35D /* bSpearman_Walk_Left8@2x.png in Resources */,
+				FD1B818E1A237A0900BCB35D /* bSpearman_Walk_Left2@2x.png in Resources */,
+				FD6CEAF01A1DF57500DE01B0 /* Images.xcassets in Resources */,
+				FD1B81901A237A0900BCB35D /* bSpearman_Walk_Left4@2x.png in Resources */,
+				FD1B81911A237A0900BCB35D /* bSpearman_Walk_Left5@2x.png in Resources */,
+				FD1B81951A237A0900BCB35D /* bSpearman_Walk_Left9@2x.png in Resources */,
+				FD1B819E1A2388EB00BCB35D /* snail@2x.png in Resources */,
+				FD1B81981A237AC900BCB35D /* GreenCheckedIcon@2x.png in Resources */,
+				FD1B818F1A237A0900BCB35D /* bSpearman_Walk_Left3@2x.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		FD6CEAA61A1DF52800DE01B0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FD6CEAB31A1DF52800DE01B0 /* AppDelegate.m in Sources */,
+				FD6CEAB01A1DF52800DE01B0 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FD6CEACD1A1DF57500DE01B0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FD1B819B1A237C7A00BCB35D /* SpearmanController.m in Sources */,
+				FD6CEADE1A1DF57500DE01B0 /* NotificationController.m in Sources */,
+				FD6CEADB1A1DF57500DE01B0 /* InterfaceController.m in Sources */,
+				FD22727C1A416828000C77C3 /* DetailController.m in Sources */,
+				FD0B2DC21A222FB900461532 /* LuaContext.m in Sources */,
+				FD90F8171A2486E900251ED4 /* MapController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		FD6CEAE91A1DF57500DE01B0 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FD6CEAE51A1DF57500DE01B0 /* WatchApp1 Watch App */;
+			targetProxy = FD6CEAE81A1DF57500DE01B0 /* PBXContainerItemProxy */;
+		};
+		FD6CEAF21A1DF57500DE01B0 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FD6CEAD01A1DF57500DE01B0 /* WatchApp1 WatchKit Extension */;
+			targetProxy = FD6CEAF11A1DF57500DE01B0 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		FD6CEAB61A1DF52800DE01B0 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FD6CEAB71A1DF52800DE01B0 /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		FD6CEAC51A1DF52800DE01B0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		FD6CEAC61A1DF52800DE01B0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		FD6CEAC81A1DF52800DE01B0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = WatchApp1/WatchApp1.entitlements;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				HEADER_SEARCH_PATHS = "\"$(USER_LIBRARY_DIR)/Application Support/com.celedev.CodeFlow/iphoneos/include\"";
+				INFOPLIST_FILE = WatchApp1/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"\"$(USER_LIBRARY_DIR)/Application Support/com.celedev.CodeFlow/iphoneos\"",
+					"\"$(USER_LIBRARY_DIR)/Application Support/com.celedev.CodeFlow/iphoneos/iOS-8.2-SDK.luabindings/BindingLibs\"",
+				);
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+			};
+			name = Debug;
+		};
+		FD6CEAC91A1DF52800DE01B0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = WatchApp1/WatchApp1.entitlements;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				HEADER_SEARCH_PATHS = "\"$(USER_LIBRARY_DIR)/Application Support/com.celedev.CodeFlow/iphoneos/include\"";
+				INFOPLIST_FILE = WatchApp1/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"\"$(USER_LIBRARY_DIR)/Application Support/com.celedev.CodeFlow/iphoneos\"",
+					"\"$(USER_LIBRARY_DIR)/Application Support/com.celedev.CodeFlow/iphoneos/iOS-8.2-SDK.luabindings/BindingLibs\"",
+				);
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+			};
+			name = Release;
+		};
+		FD6CEAF51A1DF57500DE01B0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				IBSC_MODULE = WatchApp1_WatchKit_Extension;
+				INFOPLIST_FILE = "WatchApp1 Watch App/Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = 4;
+				"TARGETED_DEVICE_FAMILY[sdk=iphonesimulator*]" = "1,4";
+			};
+			name = Debug;
+		};
+		FD6CEAF61A1DF57500DE01B0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				IBSC_MODULE = WatchApp1_WatchKit_Extension;
+				INFOPLIST_FILE = "WatchApp1 Watch App/Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = 4;
+				"TARGETED_DEVICE_FAMILY[sdk=iphonesimulator*]" = "1,4";
+			};
+			name = Release;
+		};
+		FD6CEAF81A1DF57500DE01B0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				HEADER_SEARCH_PATHS = "\"$(USER_LIBRARY_DIR)/Application Support/com.celedev.CodeFlow/iphoneos/include\"";
+				INFOPLIST_FILE = "WatchApp1 WatchKit Extension/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(USER_LIBRARY_DIR)/Application\\ Support/com.celedev.CodeFlow/iphoneos",
+					"$(USER_LIBRARY_DIR)/Application\\ Support/com.celedev.CodeFlow/iphoneos/iOS-8.2-SDK.luabindings/BindingLibs",
+					"$(USER_LIBRARY_DIR)/Developer/Xcode/DerivedData/LuaTest-fkilfqoreoqntwgjcpovsikrwyun/Build/Products/Debug-iphoneos",
+					"\"$(USER_LIBRARY_DIR)/Application Support/com.celedev.CodeFlow/iphoneos\"",
+					"\"$(USER_LIBRARY_DIR)/Application Support/com.celedev.CodeFlow/iphoneos/iOS-8.2-SDK.luabindings/BindingLibs\"",
+				);
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "${TARGET_NAME}";
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		FD6CEAF91A1DF57500DE01B0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				HEADER_SEARCH_PATHS = "\"$(USER_LIBRARY_DIR)/Application Support/com.celedev.CodeFlow/iphoneos/include\"";
+				INFOPLIST_FILE = "WatchApp1 WatchKit Extension/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(USER_LIBRARY_DIR)/Application\\ Support/com.celedev.CodeFlow/iphoneos",
+					"$(USER_LIBRARY_DIR)/Application\\ Support/com.celedev.CodeFlow/iphoneos/iOS-8.2-SDK.luabindings/BindingLibs",
+					"$(USER_LIBRARY_DIR)/Developer/Xcode/DerivedData/LuaTest-fkilfqoreoqntwgjcpovsikrwyun/Build/Products/Debug-iphoneos",
+					"\"$(USER_LIBRARY_DIR)/Application Support/com.celedev.CodeFlow/iphoneos\"",
+					"\"$(USER_LIBRARY_DIR)/Application Support/com.celedev.CodeFlow/iphoneos/iOS-8.2-SDK.luabindings/BindingLibs\"",
+				);
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "${TARGET_NAME}";
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		FD6CEAA51A1DF52800DE01B0 /* Build configuration list for PBXProject "WatchApp1" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FD6CEAC51A1DF52800DE01B0 /* Debug */,
+				FD6CEAC61A1DF52800DE01B0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FD6CEAC71A1DF52800DE01B0 /* Build configuration list for PBXNativeTarget "WatchApp1" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FD6CEAC81A1DF52800DE01B0 /* Debug */,
+				FD6CEAC91A1DF52800DE01B0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FD6CEAF41A1DF57500DE01B0 /* Build configuration list for PBXNativeTarget "WatchApp1 Watch App" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FD6CEAF51A1DF57500DE01B0 /* Debug */,
+				FD6CEAF61A1DF57500DE01B0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FD6CEAF71A1DF57500DE01B0 /* Build configuration list for PBXNativeTarget "WatchApp1 WatchKit Extension" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FD6CEAF81A1DF57500DE01B0 /* Debug */,
+				FD6CEAF91A1DF57500DE01B0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = FD6CEAA21A1DF52800DE01B0 /* Project object */;
+}

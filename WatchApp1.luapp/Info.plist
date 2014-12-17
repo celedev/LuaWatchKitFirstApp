@@ -5,45 +5,10 @@
 	<key>Program Bindings Libs</key>
 	<array>
 		<dict>
-			<key>LibBookmark</key>
-			<data>
-			Ym9va0AEAAAAAAQQMAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
-			AAAAAAAAAAAAPAMAAAUAAAABAQAAVXNlcnMAAAAIAAAAAQEAAGpl
-			YW4tbHVjBwAAAAEBAABMaWJyYXJ5ABMAAAABAQAAQXBwbGljYXRp
-			b24gU3VwcG9ydAAUAAAAAQEAAGNvbS5jZWxlZGV2LkNvZGVGbG93
-			CAAAAAEBAABpcGhvbmVvcxcAAAABAQAAaU9TLTguMi1TREsubHVh
-			YmluZGluZ3MAHAAAAAEGAAAEAAAAFAAAACQAAAA0AAAAUAAAAGwA
-			AAB8AAAACAAAAAQDAAB8ZAIAAAAAAAgAAAAEAwAAw3tOAAAAAAAI
-			AAAABAMAADh8TgAAAAAACAAAAAQDAAA+fE4AAAAAAAgAAAAEAwAA
-			WmJUAAAAAAAIAAAABAMAAFxiVAAAAAAACAAAAAQDAACBK8gAAAAA
-			ABwAAAABBgAAwAAAANAAAADgAAAA8AAAAAABAAAQAQAAIAEAAAgA
-			AAAABAAAQbbz2n0AAAAYAAAAAQIAAAIAAAAAAAAADwAAAAAAAAAA
-			AAAAAAAAAAgAAAAEAwAABQAAAAAAAAAEAAAAAwMAAPcBAAAMAAAA
-			AQEAAE1hY2ludG9zaCBIRAgAAAAEAwAAAAAGzgMBAAAIAAAAAAQA
-			AEG4Iv/AAAAAJAAAAAEBAAAxQkIzNEI4QS03RjU5LTNDMjktOUJB
-			OS0yMTNBRTg0OTM4NkUYAAAAAQIAAIEAAAABAAgA7xcAAAEACAAA
-			AAAAAAAAAAEAAAABAQAALwAAAAAAAAABBQAABAAAAAMDAAAAAwAA
-			8gAAAAECAAAyNmU0NzU3NWJlN2RhZDJkYmExM2ZjODM3MjRjMGZh
-			YjZmMWRlYmE4OzAwMDAwMDAwOzAwMDAwMDAwOzAwMDAwMDAwMDAw
-			MDAwMjA7Y29tLmFwcGxlLmFwcC1zYW5kYm94LnJlYWQtd3JpdGU7
-			MDAwMDAwMDE7MDEwMDAwMDg7MDAwMDAwMDAwMGM4MmI4MTsvdXNl
-			cnMvamVhbi1sdWMvbGlicmFyeS9hcHBsaWNhdGlvbiBzdXBwb3J0
-			L2NvbS5jZWxlZGV2LmNvZGVmbG93L2lwaG9uZW9zL2lvcy04LjIt
-			c2RrLmx1YWJpbmRpbmdzAAAAzAAAAP7///8BAAAAAAAAABAAAAAE
-			EAAAnAAAAAAAAAAFEAAAMAEAAAAAAAAQEAAAZAEAAAAAAABAEAAA
-			VAEAAAAAAAACIAAAIAIAAAAAAAAQIAAAoAEAAAAAAAARIAAA1AEA
-			AAAAAAASIAAAtAEAAAAAAAATIAAAxAEAAAAAAAAgIAAAAAIAAAAA
-			AAAwIAAALAIAAAAAAAABwAAAhAEAAAAAAAARwAAAFAAAAAAAAAAS
-			wAAAlAEAAAAAAAAQ0AAANAIAAAAAAACA8AAAQAIAAAAAAAA=
-			</data>
-			<key>LibDirPath</key>
-			<string>iphoneos</string>
 			<key>LibId</key>
 			<string>apple_sdk_iphoneos8.2</string>
 			<key>LibName</key>
 			<string>iOS</string>
-			<key>LibUrl</key>
-			<string>file:///Users/jean-luc/Library/Application%20Support/com.celedev.CodeFlow/iphoneos/iOS-8.2-SDK.luabindings/</string>
 		</dict>
 	</array>
 	<key>Program Display Info</key>
@@ -57,12 +22,12 @@
 			<key>project</key>
 			<string>WatchApp1.xcodeproj</string>
 			<key>target</key>
-			<string>WatchApp1 WatchKit Extension</string>
+			<string>WatchApp1</string>
 		</dict>
 		<key>LuaAppWindow edited source path</key>
-		<string>images/pear</string>
+		<string>ClassExtensions</string>
 		<key>LuaAppWindow frame</key>
-		<string>1325 507 1233 874 0 0 2560 1418 </string>
+		<string>1160 407 1345 874 0 0 2560 1417 </string>
 	</dict>
 	<key>Program Format Version</key>
 	<string>0.9</string>
@@ -70,20 +35,26 @@
 	<dict>
 		<key></key>
 		<array>
-			<string>InterfaceControllers</string>
+			<string>ClassExtensions</string>
 			<string>InterfaceController</string>
+			<string>DetailController</string>
+			<string>SpearmanController</string>
+			<string>MapController</string>
 			<string>NotificationController</string>
-			<string>GlanceController</string>
 			<string>images</string>
 		</array>
 		<key>images</key>
 		<array>
-			<string>apricot</string>
-			<string>banana</string>
-			<string>pear</string>
-			<string>cerise</string>
+			<string>elephant</string>
+			<string>hippo</string>
+			<string>pig</string>
+			<string>penguin</string>
+			<string>zebra</string>
+			<string>goat</string>
 		</array>
 	</dict>
+	<key>Program Platform Sdk Name</key>
+	<string>iphoneos8.2</string>
 	<key>Program Source Files Info</key>
 	<dict>
 		<key></key>
@@ -96,24 +67,46 @@
 				<true/>
 			</dict>
 		</dict>
-		<key>GlanceController</key>
+		<key>ClassExtensions</key>
 		<dict>
 			<key>Source File Auto Reload</key>
-			<false/>
+			<true/>
 			<key>Source File Is Start Item</key>
 			<false/>
 			<key>Source File Name</key>
-			<string>GlanceController</string>
+			<string>ClassExtensions</string>
 			<key>SourceItemChangeTime</key>
-			<real>438189281.73121101</real>
+			<real>440504684.77018303</real>
 			<key>SourceItemDisplayInfo</key>
 			<dict>
 				<key>SrcEditor Selected Length</key>
 				<integer>0</integer>
 				<key>SrcEditor Selected Location</key>
-				<integer>129</integer>
+				<integer>191</integer>
 				<key>SrcEditor Visible Length</key>
-				<integer>129</integer>
+				<integer>191</integer>
+				<key>SrcEditor Visible Location</key>
+				<integer>0</integer>
+			</dict>
+		</dict>
+		<key>DetailController</key>
+		<dict>
+			<key>Source File Auto Reload</key>
+			<true/>
+			<key>Source File Is Start Item</key>
+			<false/>
+			<key>Source File Name</key>
+			<string>DetailController</string>
+			<key>SourceItemChangeTime</key>
+			<real>440503212.59994501</real>
+			<key>SourceItemDisplayInfo</key>
+			<dict>
+				<key>SrcEditor Selected Length</key>
+				<integer>0</integer>
+				<key>SrcEditor Selected Location</key>
+				<integer>854</integer>
+				<key>SrcEditor Visible Length</key>
+				<integer>938</integer>
 				<key>SrcEditor Visible Location</key>
 				<integer>0</integer>
 			</dict>
@@ -127,37 +120,37 @@
 			<key>Source File Name</key>
 			<string>InterfaceController</string>
 			<key>SourceItemChangeTime</key>
-			<real>438202724.24434102</real>
+			<real>440503621.59457302</real>
 			<key>SourceItemDisplayInfo</key>
 			<dict>
 				<key>SrcEditor Selected Length</key>
 				<integer>0</integer>
 				<key>SrcEditor Selected Location</key>
-				<integer>411</integer>
+				<integer>6155</integer>
 				<key>SrcEditor Visible Length</key>
-				<integer>1847</integer>
+				<integer>1610</integer>
 				<key>SrcEditor Visible Location</key>
-				<integer>0</integer>
+				<integer>5295</integer>
 			</dict>
 		</dict>
-		<key>InterfaceControllers</key>
+		<key>MapController</key>
 		<dict>
 			<key>Source File Auto Reload</key>
 			<true/>
 			<key>Source File Is Start Item</key>
 			<false/>
 			<key>Source File Name</key>
-			<string>InterfaceControllers</string>
+			<string>MapController</string>
 			<key>SourceItemChangeTime</key>
-			<real>438189077.16707999</real>
+			<real>440410197.99931502</real>
 			<key>SourceItemDisplayInfo</key>
 			<dict>
 				<key>SrcEditor Selected Length</key>
 				<integer>0</integer>
 				<key>SrcEditor Selected Location</key>
-				<integer>0</integer>
+				<integer>1711</integer>
 				<key>SrcEditor Visible Length</key>
-				<integer>135</integer>
+				<integer>1540</integer>
 				<key>SrcEditor Visible Location</key>
 				<integer>0</integer>
 			</dict>
@@ -165,21 +158,43 @@
 		<key>NotificationController</key>
 		<dict>
 			<key>Source File Auto Reload</key>
-			<false/>
+			<true/>
 			<key>Source File Is Start Item</key>
 			<false/>
 			<key>Source File Name</key>
 			<string>NotificationController</string>
 			<key>SourceItemChangeTime</key>
-			<real>438189295.68343598</real>
+			<real>438473480.95825899</real>
+			<key>SourceItemDisplayInfo</key>
+			<dict>
+				<key>SrcEditor Selected Length</key>
+				<integer>6</integer>
+				<key>SrcEditor Selected Location</key>
+				<integer>842</integer>
+				<key>SrcEditor Visible Length</key>
+				<integer>888</integer>
+				<key>SrcEditor Visible Location</key>
+				<integer>0</integer>
+			</dict>
+		</dict>
+		<key>SpearmanController</key>
+		<dict>
+			<key>Source File Auto Reload</key>
+			<true/>
+			<key>Source File Is Start Item</key>
+			<false/>
+			<key>Source File Name</key>
+			<string>SpearmanController</string>
+			<key>SourceItemChangeTime</key>
+			<real>438903025.89945102</real>
 			<key>SourceItemDisplayInfo</key>
 			<dict>
 				<key>SrcEditor Selected Length</key>
 				<integer>0</integer>
 				<key>SrcEditor Selected Location</key>
-				<integer>163</integer>
+				<integer>685</integer>
 				<key>SrcEditor Visible Length</key>
-				<integer>163</integer>
+				<integer>1133</integer>
 				<key>SrcEditor Visible Location</key>
 				<integer>0</integer>
 			</dict>
@@ -192,76 +207,112 @@
 				<true/>
 			</dict>
 		</dict>
-		<key>images.apricot</key>
+		<key>images.elephant</key>
 		<dict>
 			<key>SourceItemChangeTime</key>
-			<real>438173551</real>
+			<real>438541284.21917301</real>
 			<key>SourceItemDisplayInfo</key>
 			<dict>
 				<key>ImageViewerMagnification</key>
 				<real>1</real>
 				<key>ImageViewerVisibleHeight</key>
-				<real>160</real>
+				<real>284</real>
 				<key>ImageViewerVisibleOriginX</key>
 				<real>0.0</real>
 				<key>ImageViewerVisibleOriginY</key>
 				<real>0.0</real>
 				<key>ImageViewerVisibleWidth</key>
-				<real>220</real>
+				<real>297</real>
 			</dict>
 		</dict>
-		<key>images.banana</key>
+		<key>images.goat</key>
 		<dict>
 			<key>SourceItemChangeTime</key>
-			<real>438199155.95289701</real>
+			<real>438560745.508569</real>
 			<key>SourceItemDisplayInfo</key>
 			<dict>
 				<key>ImageViewerMagnification</key>
 				<real>1</real>
 				<key>ImageViewerVisibleHeight</key>
-				<real>151</real>
-				<key>ImageViewerVisibleOriginX</key>
-				<real>0.0</real>
-				<key>ImageViewerVisibleOriginY</key>
-				<real>0.0</real>
-				<key>ImageViewerVisibleWidth</key>
-				<real>202</real>
-			</dict>
-		</dict>
-		<key>images.cerise</key>
-		<dict>
-			<key>SourceItemChangeTime</key>
-			<real>438203006.827676</real>
-			<key>SourceItemDisplayInfo</key>
-			<dict>
-				<key>ImageViewerMagnification</key>
-				<real>1</real>
-				<key>ImageViewerVisibleHeight</key>
-				<real>219</real>
-				<key>ImageViewerVisibleOriginX</key>
-				<real>0.0</real>
-				<key>ImageViewerVisibleOriginY</key>
-				<real>0.0</real>
-				<key>ImageViewerVisibleWidth</key>
 				<real>300</real>
-			</dict>
-		</dict>
-		<key>images.pear</key>
-		<dict>
-			<key>SourceItemChangeTime</key>
-			<real>438203042.11341798</real>
-			<key>SourceItemDisplayInfo</key>
-			<dict>
-				<key>ImageViewerMagnification</key>
-				<real>1</real>
-				<key>ImageViewerVisibleHeight</key>
-				<real>175</real>
 				<key>ImageViewerVisibleOriginX</key>
 				<real>0.0</real>
 				<key>ImageViewerVisibleOriginY</key>
 				<real>0.0</real>
 				<key>ImageViewerVisibleWidth</key>
-				<real>240</real>
+				<real>255</real>
+			</dict>
+		</dict>
+		<key>images.hippo</key>
+		<dict>
+			<key>SourceItemChangeTime</key>
+			<real>438541243.28414798</real>
+			<key>SourceItemDisplayInfo</key>
+			<dict>
+				<key>ImageViewerMagnification</key>
+				<real>1</real>
+				<key>ImageViewerVisibleHeight</key>
+				<real>262</real>
+				<key>ImageViewerVisibleOriginX</key>
+				<real>0.0</real>
+				<key>ImageViewerVisibleOriginY</key>
+				<real>0.0</real>
+				<key>ImageViewerVisibleWidth</key>
+				<real>212</real>
+			</dict>
+		</dict>
+		<key>images.penguin</key>
+		<dict>
+			<key>SourceItemChangeTime</key>
+			<real>438541516.26134002</real>
+			<key>SourceItemDisplayInfo</key>
+			<dict>
+				<key>ImageViewerMagnification</key>
+				<real>1</real>
+				<key>ImageViewerVisibleHeight</key>
+				<real>297</real>
+				<key>ImageViewerVisibleOriginX</key>
+				<real>0.0</real>
+				<key>ImageViewerVisibleOriginY</key>
+				<real>0.0</real>
+				<key>ImageViewerVisibleWidth</key>
+				<real>296</real>
+			</dict>
+		</dict>
+		<key>images.pig</key>
+		<dict>
+			<key>SourceItemChangeTime</key>
+			<real>440503802.11681402</real>
+			<key>SourceItemDisplayInfo</key>
+			<dict>
+				<key>ImageViewerMagnification</key>
+				<real>1</real>
+				<key>ImageViewerVisibleHeight</key>
+				<real>320</real>
+				<key>ImageViewerVisibleOriginX</key>
+				<real>0.0</real>
+				<key>ImageViewerVisibleOriginY</key>
+				<real>0.0</real>
+				<key>ImageViewerVisibleWidth</key>
+				<real>280</real>
+			</dict>
+		</dict>
+		<key>images.zebra</key>
+		<dict>
+			<key>SourceItemChangeTime</key>
+			<real>438543397.07965302</real>
+			<key>SourceItemDisplayInfo</key>
+			<dict>
+				<key>ImageViewerMagnification</key>
+				<real>1</real>
+				<key>ImageViewerVisibleHeight</key>
+				<real>380</real>
+				<key>ImageViewerVisibleOriginX</key>
+				<real>0.0</real>
+				<key>ImageViewerVisibleOriginY</key>
+				<real>0.0</real>
+				<key>ImageViewerVisibleWidth</key>
+				<real>340</real>
 			</dict>
 		</dict>
 	</dict>

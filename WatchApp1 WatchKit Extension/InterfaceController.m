@@ -44,6 +44,25 @@
     
 }
 
+- (IBAction)deleteCharacter {
+}
+
+- (IBAction)pushDetailController {
+}
+
+- (IBAction)showModalControllers {
+}
+
+- (void) handleActionWithIdentifier:(NSString *)identifier forLocalNotification:(UILocalNotification *)localNotification
+{
+    NSLog(@"handleActionWithIdentifier:forLocalNotification: %@", identifier);
+}
+
+- (void) handleActionWithIdentifier:(NSString *)identifier forRemoteNotification:(NSDictionary *)remoteNotification
+{
+    NSLog(@"handleActionWithIdentifier:forLocalNotification: %@", identifier);
+}
+
 @end
 
 

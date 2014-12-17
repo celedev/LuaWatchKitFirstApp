@@ -1,13 +1,13 @@
 {
     "aps": {
-        "alert": "Attention, nouveau portrait : Gaétan",
+        "alert": "Test message content",
         "title": "Optional title",
-        "category": "Whale"
+        "category": "myCategory"
     },
     
     "WatchKit Simulator Actions": [
         {
-            "title": "Voir",
+            "title": "First Button",
             "identifier": "firstButtonAction"
         }
     ],
