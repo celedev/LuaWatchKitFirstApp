@@ -7,13 +7,16 @@ local MapController = class.extendClass(objc.MapController --[[@inherits WKInter
 local superclass = objc.WKInterfaceController
 local codeChangeMessage = "MapCtrl updated"
 
-function MapController:initWithContext(context)
-    self[superclass]:initWithContext(context)
+function MapController:init()
+    self[superclass]:init()
     if self then
         self:addMessageHandler(codeChangeMessage, "configure")
-        self:configure()
     end
     return self
+end
+
+function MapController:awakeWithContext(context)
+    self:configure()
 end
 
 local MKCoordinateSpan = struct.MKCoordinateSpan

@@ -3,14 +3,17 @@ local DetailController = class.extendClass (objc.DetailController --[[@inherits 
 local superclass = DetailController.superclass
 local codeChangeMessage = "DetailController Controller updated"
 
-function DetailController:initWithContext(context)
-    self = self[superclass]:initWithContext(context)
+function DetailController:init()
+    self = self[superclass]:init()
     if self then
         self:addMessageHandler(codeChangeMessage, "configure")
-        self.character = context
-        self:configure()
     end
     return self
+end
+
+function DetailController:awakeWithContext(context)
+    self.character = context
+    self:configure()
 end
 
 function DetailController:configure()

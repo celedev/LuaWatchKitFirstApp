@@ -4,15 +4,16 @@ local SpearmanController = class.extendClass(objc.SpearmanController --[[@inheri
 
 local codeChangeMessage = "SpearmanCtrl updated"
 
-function SpearmanController:initWithContext(context)
-    self = self[objc.WKInterfaceController]:initWithContext(context)
-    
+function SpearmanController:init()
+    self = self[objc.WKInterfaceController]:init()
     if self then
         self:addMessageHandler(codeChangeMessage, "configure")
-        
-        self:configure()
     end
     return self
+end
+
+function SpearmanController:awakeWithContext(context)
+    self:configure()
 end
 
 function SpearmanController:configure()

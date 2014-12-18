@@ -16,15 +16,6 @@
 
 @implementation MapController
 
-- (instancetype) initWithContext:(id)context
-{
-    self= [super initWithContext:context];
-    if (self != nil) {
-        
-    }
-    return self;
-}
-
 - (IBAction)showApple {
 }
 

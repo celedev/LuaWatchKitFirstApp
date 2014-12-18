@@ -3,15 +3,18 @@ local InterfaceController = class.extendClass (objc.InterfaceController --[[@inh
 local superclass = InterfaceController.superclass
 local codeChangeMessage = "Main Interface Controller updated"
 
-function InterfaceController:initWithContext(context)
-    self = self[superclass]:initWithContext(context)
+function InterfaceController:init()
+    self = self[superclass]:init()
     if self then
         self:addMessageHandler(codeChangeMessage, "configure")
-        
-        self.displayIndex = 1
-        self:configure()
     end
     return self
+end
+
+function InterfaceController:awakeWithContext(context)
+    self.displayIndex = 1
+        
+    self:configure()
 end
 
 function InterfaceController:startTimer(interval, handler)

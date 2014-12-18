@@ -25,9 +25,9 @@
 			<string>WatchApp1</string>
 		</dict>
 		<key>LuaAppWindow edited source path</key>
-		<string>ClassExtensions</string>
+		<string>InterfaceController</string>
 		<key>LuaAppWindow frame</key>
-		<string>1160 407 1345 874 0 0 2560 1417 </string>
+		<string>955 486 1345 874 0 0 2560 1417 </string>
 	</dict>
 	<key>Program Format Version</key>
 	<string>0.9</string>
@@ -82,7 +82,7 @@
 				<key>SrcEditor Selected Length</key>
 				<integer>0</integer>
 				<key>SrcEditor Selected Location</key>
-				<integer>191</integer>
+				<integer>0</integer>
 				<key>SrcEditor Visible Length</key>
 				<integer>191</integer>
 				<key>SrcEditor Visible Location</key>
@@ -98,15 +98,15 @@
 			<key>Source File Name</key>
 			<string>DetailController</string>
 			<key>SourceItemChangeTime</key>
-			<real>440503212.59994501</real>
+			<real>440630290.323304</real>
 			<key>SourceItemDisplayInfo</key>
 			<dict>
 				<key>SrcEditor Selected Length</key>
 				<integer>0</integer>
 				<key>SrcEditor Selected Location</key>
-				<integer>854</integer>
+				<integer>482</integer>
 				<key>SrcEditor Visible Length</key>
-				<integer>938</integer>
+				<integer>951</integer>
 				<key>SrcEditor Visible Location</key>
 				<integer>0</integer>
 			</dict>
@@ -120,17 +120,17 @@
 			<key>Source File Name</key>
 			<string>InterfaceController</string>
 			<key>SourceItemChangeTime</key>
-			<real>440503621.59457302</real>
+			<real>440630226.13247299</real>
 			<key>SourceItemDisplayInfo</key>
 			<dict>
 				<key>SrcEditor Selected Length</key>
 				<integer>0</integer>
 				<key>SrcEditor Selected Location</key>
-				<integer>6155</integer>
+				<integer>404</integer>
 				<key>SrcEditor Visible Length</key>
-				<integer>1610</integer>
+				<integer>1068</integer>
 				<key>SrcEditor Visible Location</key>
-				<integer>5295</integer>
+				<integer>0</integer>
 			</dict>
 		</dict>
 		<key>MapController</key>
@@ -142,15 +142,15 @@
 			<key>Source File Name</key>
 			<string>MapController</string>
 			<key>SourceItemChangeTime</key>
-			<real>440410197.99931502</real>
+			<real>440630431.30194902</real>
 			<key>SourceItemDisplayInfo</key>
 			<dict>
 				<key>SrcEditor Selected Length</key>
 				<integer>0</integer>
 				<key>SrcEditor Selected Location</key>
-				<integer>1711</integer>
+				<integer>430</integer>
 				<key>SrcEditor Visible Length</key>
-				<integer>1540</integer>
+				<integer>936</integer>
 				<key>SrcEditor Visible Location</key>
 				<integer>0</integer>
 			</dict>
@@ -186,15 +186,15 @@
 			<key>Source File Name</key>
 			<string>SpearmanController</string>
 			<key>SourceItemChangeTime</key>
-			<real>438903025.89945102</real>
+			<real>440630377.88102001</real>
 			<key>SourceItemDisplayInfo</key>
 			<dict>
 				<key>SrcEditor Selected Length</key>
 				<integer>0</integer>
 				<key>SrcEditor Selected Location</key>
-				<integer>685</integer>
+				<integer>371</integer>
 				<key>SrcEditor Visible Length</key>
-				<integer>1133</integer>
+				<integer>958</integer>
 				<key>SrcEditor Visible Location</key>
 				<integer>0</integer>
 			</dict>
