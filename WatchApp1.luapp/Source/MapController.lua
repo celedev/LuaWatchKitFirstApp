@@ -9,10 +9,8 @@ local codeChangeMessage = "MapCtrl updated"
 
 function MapController:init()
     self[superclass]:init()
-    if self then
-        self:addMessageHandler(codeChangeMessage, "configure")
-    end
-    return self
+
+    self:addMessageHandler(codeChangeMessage, "configure")
 end
 
 function MapController:awakeWithContext(context)

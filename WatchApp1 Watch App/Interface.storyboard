@@ -173,16 +173,16 @@
                             </items>
                         </group>
                     </items>
-                    <menu key="menu" id="des-Cq-51x">
+                    <menu key="menu" id="b8J-6Q-f1f">
                         <items>
-                            <menuItem title="Faster" image="rabbit.png" id="3Ha-7O-QPf">
+                            <menuItem title="Faster" image="rabbit.png" id="G5U-ee-OPD">
                                 <connections>
-                                    <action selector="increaseSpeed" destination="YGq-mt-Onp" id="GYI-St-Qel"/>
+                                    <action selector="increaseSpeed" destination="YGq-mt-Onp" id="7Xj-0m-oOx"/>
                                 </connections>
                             </menuItem>
-                            <menuItem title="Slower" image="snail.png" id="UoY-fQ-zzR">
+                            <menuItem title="Slower" image="snail.png" id="jCu-9y-xYB">
                                 <connections>
-                                    <action selector="decreaseSpeed" destination="YGq-mt-Onp" id="xsl-R2-ECG"/>
+                                    <action selector="decreaseSpeed" destination="YGq-mt-Onp" id="VqV-2e-LzI"/>
                                 </connections>
                             </menuItem>
                         </items>

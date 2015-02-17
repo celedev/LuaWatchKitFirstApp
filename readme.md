@@ -6,7 +6,7 @@ LuaWatchKitFirstApp shows, on the Objective-C side, how to use a Lua Context for
 
 ## Configuration required
 
-A Mac with Celedev CodeFlow version 0.9.9 or later.
+A Mac with Celedev CodeFlow version 0.9.11 or later.
 
 Works on the iOS simulator running iOS 8.2 beta 3 or later (included in Xcode 6.2 beta 3).
 
@@ -27,6 +27,12 @@ Works on the iOS simulator running iOS 8.2 beta 3 or later (included in Xcode 6.
 
 ## Troubleshooting
 
+- **The application crashes when creating the Lua Context (SIGKILL)**
+  
+  **What happens**: In Xcode 6.2 beta 5, the simulator apparently kills the app WatchKit extension if it takes too much time to start. And because the  Lua Context stops on an initial breakpoint when it connects to CodeFlow, the WatchKit extension timeout is exceeded and the extension is killed.
+  
+  **⇒ Fix**: Before starting the WatchKit extension in Xcode, disable breakpoints in the CodeFlow project. Once the Watch app is started, you can safely re-enable breakpoints and debug your app.
+  
 - **Some libraries / header files in the sample app Xcode project are missing**
 
   **⇒ Fix**: open the corresponding CodeFlow project, and CodeFlow will update the associated Xcode project, so that paths and libraries are correctly set.
@@ -35,13 +41,13 @@ Works on the iOS simulator running iOS 8.2 beta 3 or later (included in Xcode 6.
 
   **Most probable cause**: if you are using an Xcode version older than 6.2, these errors occur because the sample app is configured for the iOS 8.2 SDK.
 
-  **⇒ Fix**: Open the Xcode project with Xcode 6.2.
+  **⇒ Fix**: Open the associated Xcode project form CodeFlow and it will automatically be opened with Xcode 6.2.
 
 ## License
 
 This application is provided under the MIT License (MIT)
 
-Copyright (c) 2014 Celedev.
+Copyright (c) 2014-2015 Celedev.
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the "Software"), to deal

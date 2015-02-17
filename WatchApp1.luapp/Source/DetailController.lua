@@ -4,11 +4,9 @@ local superclass = DetailController.superclass
 local codeChangeMessage = "DetailController Controller updated"
 
 function DetailController:init()
-    self = self[superclass]:init()
-    if self then
-        self:addMessageHandler(codeChangeMessage, "configure")
-    end
-    return self
+    self[superclass]:init()
+
+    self:addMessageHandler(codeChangeMessage, "configure")
 end
 
 function DetailController:awakeWithContext(context)

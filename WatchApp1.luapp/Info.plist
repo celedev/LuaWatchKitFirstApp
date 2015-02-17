@@ -14,7 +14,9 @@
 	<key>Program Display Info</key>
 	<dict>
 		<key>LuaAppDocument remote Lua service</key>
-		<string>WatchApp1 WatchKit Extension - Watch Extension (iPhone Simulato</string>
+		<array>
+			<string>WatchApp1 WatchKit Extension - Watch Extension (iPhone Simulato</string>
+		</array>
 		<key>LuaAppDocument-associatedXodeProject</key>
 		<dict>
 			<key>platform</key>
@@ -27,7 +29,7 @@
 		<key>LuaAppWindow edited source path</key>
 		<string>InterfaceController</string>
 		<key>LuaAppWindow frame</key>
-		<string>955 486 1345 874 0 0 2560 1417 </string>
+		<string>580 352 1345 874 0 0 2560 1417 </string>
 	</dict>
 	<key>Program Format Version</key>
 	<string>0.9</string>
@@ -93,20 +95,24 @@
 		<dict>
 			<key>Source File Auto Reload</key>
 			<true/>
+			<key>Source File Breakpoints</key>
+			<array>
+				<integer>13</integer>
+			</array>
 			<key>Source File Is Start Item</key>
 			<false/>
 			<key>Source File Name</key>
 			<string>DetailController</string>
 			<key>SourceItemChangeTime</key>
-			<real>440630290.323304</real>
+			<real>445856602.31820601</real>
 			<key>SourceItemDisplayInfo</key>
 			<dict>
 				<key>SrcEditor Selected Length</key>
 				<integer>0</integer>
 				<key>SrcEditor Selected Location</key>
-				<integer>482</integer>
+				<integer>339</integer>
 				<key>SrcEditor Visible Length</key>
-				<integer>951</integer>
+				<integer>900</integer>
 				<key>SrcEditor Visible Location</key>
 				<integer>0</integer>
 			</dict>
@@ -128,7 +134,7 @@
 				<key>SrcEditor Selected Location</key>
 				<integer>404</integer>
 				<key>SrcEditor Visible Length</key>
-				<integer>1068</integer>
+				<integer>1954</integer>
 				<key>SrcEditor Visible Location</key>
 				<integer>0</integer>
 			</dict>
@@ -142,15 +148,15 @@
 			<key>Source File Name</key>
 			<string>MapController</string>
 			<key>SourceItemChangeTime</key>
-			<real>440630431.30194902</real>
+			<real>445856641.90135199</real>
 			<key>SourceItemDisplayInfo</key>
 			<dict>
 				<key>SrcEditor Selected Length</key>
 				<integer>0</integer>
 				<key>SrcEditor Selected Location</key>
-				<integer>430</integer>
+				<integer>410</integer>
 				<key>SrcEditor Visible Length</key>
-				<integer>936</integer>
+				<integer>1460</integer>
 				<key>SrcEditor Visible Location</key>
 				<integer>0</integer>
 			</dict>
@@ -181,26 +187,32 @@
 		<dict>
 			<key>Source File Auto Reload</key>
 			<true/>
+			<key>Source File Breakpoints</key>
+			<array>
+				<integer>33</integer>
+			</array>
 			<key>Source File Is Start Item</key>
 			<false/>
 			<key>Source File Name</key>
 			<string>SpearmanController</string>
 			<key>SourceItemChangeTime</key>
-			<real>440630377.88102001</real>
+			<real>445856618.174191</real>
 			<key>SourceItemDisplayInfo</key>
 			<dict>
 				<key>SrcEditor Selected Length</key>
 				<integer>0</integer>
 				<key>SrcEditor Selected Location</key>
-				<integer>371</integer>
+				<integer>344</integer>
 				<key>SrcEditor Visible Length</key>
-				<integer>958</integer>
+				<integer>1087</integer>
 				<key>SrcEditor Visible Location</key>
 				<integer>0</integer>
 			</dict>
 		</dict>
 		<key>images</key>
 		<dict>
+			<key>SourceItemChangeTime</key>
+			<real>440504945</real>
 			<key>SourceItemDisplayInfo</key>
 			<dict>
 				<key>ListController Group IsExpanded</key>
