@@ -24,12 +24,12 @@
 			<key>project</key>
 			<string>WatchApp1.xcodeproj</string>
 			<key>target</key>
-			<string>WatchApp1</string>
+			<string>WatchApp1 WatchKit Extension</string>
 		</dict>
 		<key>LuaAppWindow edited source path</key>
 		<string>InterfaceController</string>
 		<key>LuaAppWindow frame</key>
-		<string>580 352 1345 874 0 0 2560 1417 </string>
+		<string>1067 241 1345 874 0 0 2560 1417 </string>
 	</dict>
 	<key>Program Format Version</key>
 	<string>0.9</string>
@@ -132,7 +132,7 @@
 				<key>SrcEditor Selected Length</key>
 				<integer>0</integer>
 				<key>SrcEditor Selected Location</key>
-				<integer>404</integer>
+				<integer>519</integer>
 				<key>SrcEditor Visible Length</key>
 				<integer>1954</integer>
 				<key>SrcEditor Visible Location</key>
