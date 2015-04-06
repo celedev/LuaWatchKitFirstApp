@@ -33,7 +33,7 @@ Works on the iOS simulator running iOS 8.2 beta 3 or later (included in Xcode 6.
   
   **What happens**: In Xcode 6.2 beta 5, the simulator apparently kills the app WatchKit extension if it takes too much time to start. And because the  Lua Context stops on an initial breakpoint when it connects to CodeFlow, the WatchKit extension timeout is exceeded and the extension is killed.
   
-  **⇒ Fix**: Before starting the WatchKit extension in Xcode, disable breakpoints in the CodeFlow project. Once the Watch app is started, you can safely re-enable breakpoints and debug your app.
+  **⇒ Fix**: Recent versions of Xcode 6.2 or Xcode 6.3 do not seem to have this problem. But if you encounter it in your environment, a workaround is to disable breakpoints in the CodeFlow project before starting the WatchKit app in Xcode.  Once the Watch app is started, you can safely re-enable breakpoints and debug your app.
   
 - **Some libraries / header files in the sample app Xcode project are missing**
 
@@ -43,7 +43,7 @@ Works on the iOS simulator running iOS 8.2 beta 3 or later (included in Xcode 6.
 
   **Most probable cause**: if you are using an Xcode version older than 6.2, these errors occur because the sample app is configured for the iOS 8.2 SDK.
 
-  **⇒ Fix**: Open the associated Xcode project form CodeFlow and it will automatically be opened with Xcode 6.2.
+  **⇒ Fix**: Open the associated Xcode project form CodeFlow (*Program* menu or shortcut ⌘⇧O) and it will automatically be opened with the right Xcode version.
 
 ## License
 
