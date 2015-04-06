@@ -2,7 +2,7 @@
 
 LuaWatchKitFirstApp is a very simple Watch app, using WatchKit and live-coded in Lua with CodeFlow. It presents a gallery of characters in which you can navigate with two buttons, *Next* and *Previous*. Tapping on the character's picture navigates to a detail screen, and a contextual menu on the main screen gives access to page-navigation-organized modal controllers that illustrate the use of maps and image animation.
 
-<video style='max-width:100%;' controls autoplay loop><source src="WatchApp1-overview.mp4" type="video/mp4"><source src="WatchApp1-overview.webm" type="video/webm"></video>
+![WatchApp1 preview](WatchApp1-preview.gif)
 
 LuaWatchKitFirstApp shows, on the Objective-C side, how to use a Lua Context for live-coding an iOS or OS X app extension. On the Lua side, all code and image resources can be dynamically changed and the changes are immediately visible on the Watch screen.
 
