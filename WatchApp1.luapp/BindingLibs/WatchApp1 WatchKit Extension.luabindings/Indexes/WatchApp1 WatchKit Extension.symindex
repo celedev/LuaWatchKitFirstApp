@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>classes</key>
+	<dict>
+		<key>DetailController</key>
+		<dict>
+			<key>defined</key>
+			<string>DetailController</string>
+			<key>name</key>
+			<string>DetailController</string>
+			<key>superclass</key>
+			<string>WKInterfaceController</string>
+		</dict>
+		<key>InterfaceController</key>
+		<dict>
+			<key>defined</key>
+			<string>InterfaceController</string>
+			<key>name</key>
+			<string>InterfaceController</string>
+			<key>superclass</key>
+			<string>WKInterfaceController</string>
+		</dict>
+		<key>MapController</key>
+		<dict>
+			<key>defined</key>
+			<string>MapController</string>
+			<key>name</key>
+			<string>MapController</string>
+			<key>superclass</key>
+			<string>WKInterfaceController</string>
+		</dict>
+		<key>NotificationController</key>
+		<dict>
+			<key>defined</key>
+			<string>NotificationController</string>
+			<key>name</key>
+			<string>NotificationController</string>
+			<key>superclass</key>
+			<string>WKUserNotificationInterfaceController</string>
+		</dict>
+		<key>SpearmanController</key>
+		<dict>
+			<key>defined</key>
+			<string>SpearmanController</string>
+			<key>name</key>
+			<string>SpearmanController</string>
+			<key>superclass</key>
+			<string>WKInterfaceController</string>
+		</dict>
+	</dict>
+	<key>id</key>
+	<string>WatchApp1 WatchKit Extension</string>
+	<key>indexFormat</key>
+	<string>0.2</string>
+	<key>protocols</key>
+	<dict/>
+	<key>structs</key>
+	<dict/>
+	<key>version</key>
+	<string>28</string>
+</dict>
+</plist>

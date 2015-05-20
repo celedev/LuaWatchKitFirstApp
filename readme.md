@@ -8,9 +8,9 @@ LuaWatchKitFirstApp shows, on the Objective-C side, how to use a Lua Context for
 
 ## Configuration required
 
-A Mac with Celedev CodeFlow version 0.9.11 or later.
+A Mac with Celedev CodeFlow version 0.9.15 or later.
 
-Works on the iOS simulator running iOS 8.2 beta 3 or later (included in Xcode 6.2 beta 3).
+Works on the iOS simulator running iOS 8.2 or later.
 
 ## How to use this code sample
 

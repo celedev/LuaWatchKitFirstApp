@@ -1,7 +1,7 @@
 local WkInterfaceController = require "WatchKit.WKInterfaceController"
 local WKUserNotificationInterfaceType = WkInterfaceController.WKUserNotificationInterfaceType
 
-local NotificationController = class.extendClass (objc.NotificationController --[[@inherits WKUserNotificationInterfaceController]])
+local NotificationController = class.extendClass (objc.NotificationController)
 
 function NotificationController:didReceiveLocalNotification_withCompletion(notification, completionHandler)
     print ("NotificationController received local notification: id=" .. notification.aps.category)

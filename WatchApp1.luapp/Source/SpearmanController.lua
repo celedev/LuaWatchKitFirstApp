@@ -1,6 +1,6 @@
 local NsRange = require 'Foundation.NSRange'
 
-local SpearmanController = class.extendClass(objc.SpearmanController --[[@inherits WKInterfaceController]])
+local SpearmanController = class.extendClass(objc.SpearmanController)
 
 local codeChangeMessage = "SpearmanCtrl updated"
 

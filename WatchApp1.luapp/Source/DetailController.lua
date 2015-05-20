@@ -1,4 +1,4 @@
-local DetailController = class.extendClass (objc.DetailController --[[@inherits WKInterfaceController]])
+local DetailController = class.extendClass (objc.DetailController)
 
 local superclass = DetailController.superclass
 local codeChangeMessage = "DetailController Controller updated"

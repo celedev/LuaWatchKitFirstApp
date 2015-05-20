@@ -1,4 +1,4 @@
-local InterfaceController = class.extendClass (objc.InterfaceController --[[@inherits WKInterfaceController]])
+local InterfaceController = class.extendClass (objc.InterfaceController)
 
 local superclass = InterfaceController.superclass
 local codeChangeMessage = "Main Interface Controller updated"

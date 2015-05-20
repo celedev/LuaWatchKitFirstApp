@@ -2,7 +2,7 @@
 local CLLocation = require "CoreLocation.CLLocation"
 local MKGeometry = require "MapKit.MKGeometry"
 
-local MapController = class.extendClass(objc.MapController --[[@inherits WKInterfaceController]])
+local MapController = class.extendClass(objc.MapController)
 
 local superclass = objc.WKInterfaceController
 local codeChangeMessage = "MapCtrl updated"
