@@ -7,17 +7,24 @@
 	<key>CFBundleName</key>
 	<string>WatchApp1 WatchKit Extension</string>
 	<key>CFBundleVersion</key>
-	<string>28</string>
+	<string>2</string>
 	<key>CIMLuaBindingsDeploymentTarget</key>
 	<string>8.2</string>
 	<key>CIMLuaBindingsFormatVersion</key>
 	<string>1.0</string>
 	<key>CIMLuaBindingsGenerationDate</key>
-	<date>2015-05-20T17:20:15Z</date>
+	<date>2015-09-16T12:39:26Z</date>
 	<key>CIMLuaBindingsGenerationOptions</key>
-	<dict/>
+	<dict>
+		<key>CIMLibrariesCompilationFlags</key>
+		<array>
+			<string>-fembed-bitcode</string>
+		</array>
+	</dict>
 	<key>CIMLuaBindingsGeneratorSDK</key>
-	<string>iphoneos8.3</string>
+	<string>iphoneos9.0</string>
+	<key>CIMLuaBindingsGeneratorSDKBuildVersion</key>
+	<string>13A340</string>
 	<key>CIMLuaBindingsGeneratorVersion</key>
 	<string>Celedev Lua2CBindingsGenerator 1.0</string>
 	<key>CIMLuaBindingsHasGlobalVariable</key>
@@ -25,7 +32,7 @@
 	<key>CIMLuaBindingsHeadersIncludePath</key>
 	<array>
 		<string>$(USER_LIBRARY_DIR)/Application\ Support/com.celedev.CodeFlow/headers</string>
-		<string>/Users/jean-luc/Desktop/LuaWatchKitFirstApp/WatchApp1\ WatchKit\ Extension</string>
+		<string>/Volumes/Brume/Celedev\ CodeFlow/CodeFlow\ Sample\ Applications/WatchApp1/WatchApp1\ WatchKit\ Extension</string>
 	</array>
 	<key>CIMLuaBindingsIdentifier</key>
 	<string>WatchApp1 WatchKit Extension</string>
@@ -38,6 +45,7 @@
 	<key>CIMLuaBindingsParsingOptions</key>
 	<array>
 		<string>-fobjc-arc</string>
+		<string>-fmodules</string>
 	</array>
 	<key>CIMLuaBindingsPlatformName</key>
 	<string>iphoneos</string>

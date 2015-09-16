@@ -53,12 +53,12 @@
 	<key>id</key>
 	<string>WatchApp1 WatchKit Extension</string>
 	<key>indexFormat</key>
-	<string>0.2</string>
+	<string>0.3</string>
 	<key>protocols</key>
 	<dict/>
 	<key>structs</key>
 	<dict/>
 	<key>version</key>
-	<string>28</string>
+	<string>2</string>
 </dict>
 </plist>

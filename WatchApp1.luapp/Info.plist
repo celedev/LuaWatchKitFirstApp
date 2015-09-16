@@ -6,7 +6,7 @@
 	<array>
 		<dict>
 			<key>LibId</key>
-			<string>apple_sdk_iphoneos8.3</string>
+			<string>apple_sdk_iphoneos9.0</string>
 			<key>LibName</key>
 			<string>iOS</string>
 		</dict>
@@ -14,17 +14,24 @@
 			<key>BindingsLibSourceGroupType</key>
 			<string>SelfGeneratedBindingsLib</string>
 			<key>CustomBindingsLibBindingsSourcePath</key>
-			<string>/Users/jean-luc/Desktop/LuaWatchKitFirstApp/WatchApp1.xcodeproj</string>
+			<string>WatchApp1.xcodeproj</string>
+			<key>CustomBindingsLibCompilationOptions</key>
+			<array>
+				<string>-fembed-bitcode</string>
+			</array>
 			<key>CustomBindingsLibHeadersParsingOptions</key>
 			<array>
 				<string>-fobjc-arc</string>
+				<string>-fmodules</string>
 			</array>
 			<key>CustomBindingsLibHeadersSearchPaths</key>
 			<array>
 				<string>$(USER_LIBRARY_DIR)/Application\ Support/com.celedev.CodeFlow/headers</string>
 			</array>
 			<key>CustomBindingsLibLastGenerationDate</key>
-			<date>2015-05-20T17:20:15Z</date>
+			<date>2015-09-16T12:39:26Z</date>
+			<key>CustomBindingsLibPlatformSdkName</key>
+			<string>iphoneos9.0</string>
 			<key>CustomBindingsLibSourceFilesTree</key>
 			<data>
 			YnBsaXN0MDDUAQIDBAUG6utYJHZlcnNpb25YJG9iamVjdHNZJGFy
@@ -34,62 +41,67 @@
 			dXRlc1YkY2xhc3OAA4ACgD+AE1DSEwwUF1pOUy5vYmplY3RzohUW
 			gASAFIAR1AkKCwwZGhsQgAaABYASgBNZV2F0Y2hBcHAx0hMMHxeh
 			IIAHgBHUCQoLDCMkJSaACYAIgAyAEF1BcHBEZWxlZ2F0ZS5o0ykM
-			KissLVdOUy5iYXNlW05TLnJlbGF0aXZlgACAC4AKXxBKZmlsZTov
-			Ly9Vc2Vycy9qZWFuLWx1Yy9EZXNrdG9wL0x1YVdhdGNoS2l0Rmly
-			c3RBcHAvV2F0Y2hBcHAxL0FwcERlbGVnYXRlLmjSMDEyM1okY2xh
-			c3NuYW1lWCRjbGFzc2VzVU5TVVJMojI0WE5TT2JqZWN00zYTDDc5
-			O1dOUy5rZXlzoTiADaE6gA6AD1hzZWxlY3RlZAjSMDE/QF8QE05T
-			TXV0YWJsZURpY3Rpb25hcnmjP0E0XE5TRGljdGlvbmFyedIwMUNE
-			XENERkxOYW1lZFVybKNFRjRcQ0RGTE5hbWVkVXJsXUNERkxOYW1l
-			ZEl0ZW3SMDFISVdOU0FycmF5okg00zYTDEtMO6CggA/SMDFPUF5D
-			REZMTmFtZWRHcm91cKNRUjReQ0RGTE5hbWVkR3JvdXBdQ0RGTE5h
-			bWVkSXRlbdQJCgsMVFVWEIAWgBWAPoATXxAcV2F0Y2hBcHAxIFdh
-			dGNoS2l0IEV4dGVuc2lvbtITDFoXpVtcXV5fgBeAIoApgDCAN4AR
-			1AkKCwxiY2QmgBmAGIAbgBBfEBVJbnRlcmZhY2VDb250cm9sbGVy
-			LmjTKQwqKyxqgACAC4AaXxBpZmlsZTovLy9Vc2Vycy9qZWFuLWx1
-			Yy9EZXNrdG9wL0x1YVdhdGNoS2l0Rmlyc3RBcHAvV2F0Y2hBcHAx
-			JTIwV2F0Y2hLaXQlMjBFeHRlbnNpb24vSW50ZXJmYWNlQ29udHJv
-			bGxlci5o0zYTDG1yO6RubzhxgByAHYANgB6kc3R0doAfgCCAIIAh
-			gA9fEBJnZW5lcmF0aW9uRmlsZURhdGVfEBRnZW5lcmF0aW9uRGlk
-			U3VjY2VlZF8QF2dlbmVyYXRpb25MdWFNb2R1a2VQYXRoI0G6u3hs
-			AAAACV8QE0ludGVyZmFjZUNvbnRyb2xsZXLUCQoLDH+AgSaAJIAj
-			gCaAEF8QEkRldGFpbENvbnRyb2xsZXIuaNMpDCorLIeAAIALgCVf
-			EGZmaWxlOi8vL1VzZXJzL2plYW4tbHVjL0Rlc2t0b3AvTHVhV2F0
-			Y2hLaXRGaXJzdEFwcC9XYXRjaEFwcDElMjBXYXRjaEtpdCUyMEV4
-			dGVuc2lvbi9EZXRhaWxDb250cm9sbGVyLmjTNhMMio87pG5vOHGA
-			HIAdgA2AHqSQdHSTgCeAIIAggCiADyNBuwDGxgAAAF8QEERldGFp
-			bENvbnRyb2xsZXLUCQoLDJiZmiaAK4AqgC2AEF8QGE5vdGlmaWNh
-			dGlvbkNvbnRyb2xsZXIuaNMpDCorLKCAAIALgCxfEGxmaWxlOi8v
-			L1VzZXJzL2plYW4tbHVjL0Rlc2t0b3AvTHVhV2F0Y2hLaXRGaXJz
-			dEFwcC9XYXRjaEFwcDElMjBXYXRjaEtpdCUyMEV4dGVuc2lvbi9O
-			b3RpZmljYXRpb25Db250cm9sbGVyLmjTNhMMo6g7pG5vOHGAHIAd
-			gA2AHqSpdHSsgC6AIIAggC+ADyNBurt4bAAAAF8QFk5vdGlmaWNh
-			dGlvbkNvbnRyb2xsZXLUCQoLDLGysyaAMoAxgDSAEF8QD01hcENv
-			bnRyb2xsZXIuaNMpDCorLLmAAIALgDNfEGNmaWxlOi8vL1VzZXJz
-			L2plYW4tbHVjL0Rlc2t0b3AvTHVhV2F0Y2hLaXRGaXJzdEFwcC9X
-			YXRjaEFwcDElMjBXYXRjaEtpdCUyMEV4dGVuc2lvbi9NYXBDb250
-			cm9sbGVyLmjTNhMMvME7pG5vOHGAHIAdgA2AHqTCdHTFgDWAIIAg
-			gDaADyNBurt4bAAAAF1NYXBDb250cm9sbGVy1AkKCwzKy8wmgDmA
-			OIA7gBBfEBRTcGVhcm1hbkNvbnRyb2xsZXIuaNMpDCorLNKAAIAL
-			gDpfEGhmaWxlOi8vL1VzZXJzL2plYW4tbHVjL0Rlc2t0b3AvTHVh
-			V2F0Y2hLaXRGaXJzdEFwcC9XYXRjaEFwcDElMjBXYXRjaEtpdCUy
-			MEV4dGVuc2lvbi9TcGVhcm1hbkNvbnRyb2xsZXIuaNM2EwzV2juk
-			bm84cYAcgB2ADYAepNt0dN6APIAggCCAPYAPI0G6u3hsAAAAXxAS
-			U3BlYXJtYW5Db250cm9sbGVy0zYTDOPkO6CggA/TNhMM5+g7oKCA
-			D18QD05TS2V5ZWRBcmNoaXZlctHs7VRyb290gAEACAARABoAIwAt
-			ADIANwB6AIAAiQCQAJUAoACnAKkAqwCtAK8AsAC1AMAAwwDFAMcA
-			yQDSANQA1gDYANoA5ADpAOsA7QDvAPgA+gD8AP4BAAEOARUBHQEp
-			ASsBLQEvAXwBgQGMAZUBmwGeAacBrgG2AbgBugG8Ab4BwAHJAcoB
-			zwHlAekB9gH7AggCDAIZAicCLAI0AjcCPgI/AkACQgJHAlYCWgJp
-			AncCgAKCAoQChgKIAqcCrAKyArQCtgK4AroCvAK+AscCyQLLAs0C
-			zwLnAu4C8ALyAvQDYANnA2wDbgNwA3IDdAN5A3sDfQN/A4EDgwOY
-			A68DyQPSA9MD6QPyA/QD9gP4A/oEDwQWBBgEGgQcBIUEjASRBJME
-			lQSXBJkEngSgBKIEpASmBKgEsQTEBM0EzwTRBNME1QTwBPcE+QT7
-			BP0FbAVzBXgFegV8BX4FgAWFBYcFiQWLBY0FjwWYBbEFugW8Bb4F
-			wAXCBdQF2wXdBd8F4QZHBk4GUwZVBlcGWQZbBmAGYgZkBmYGaAZq
-			BnMGgQaKBowGjgaQBpIGqQawBrIGtAa2ByEHKActBy8HMQczBzUH
-			Ogc8Bz4HQAdCB0QHTQdiB2kHagdrB20HdAd1B3YHeAeKB40HkgAA
-			AAAAAAIBAAAAAAAAAO4AAAAAAAAAAAAAAAAAAAeU
+			KissLVdOUy5iYXNlW05TLnJlbGF0aXZlgACAC4AKXxBrZmlsZTov
+			Ly9Wb2x1bWVzL0JydW1lL0NlbGVkZXYlMjBDb2RlRmxvdy9Db2Rl
+			RmxvdyUyMFNhbXBsZSUyMEFwcGxpY2F0aW9ucy9XYXRjaEFwcDEv
+			V2F0Y2hBcHAxL0FwcERlbGVnYXRlLmjSMDEyM1okY2xhc3NuYW1l
+			WCRjbGFzc2VzVU5TVVJMojI0WE5TT2JqZWN00zYTDDc5O1dOUy5r
+			ZXlzoTiADaE6gA6AD1hzZWxlY3RlZAjSMDE/QF8QE05TTXV0YWJs
+			ZURpY3Rpb25hcnmjP0E0XE5TRGljdGlvbmFyedIwMUNEXENERkxO
+			YW1lZFVybKNFRjRcQ0RGTE5hbWVkVXJsXUNERkxOYW1lZEl0ZW3S
+			MDFISVdOU0FycmF5okg00zYTDEtMO6CggA/SMDFPUF5DREZMTmFt
+			ZWRHcm91cKNRUjReQ0RGTE5hbWVkR3JvdXBdQ0RGTE5hbWVkSXRl
+			bdQJCgsMVFVWEIAWgBWAPoATXxAcV2F0Y2hBcHAxIFdhdGNoS2l0
+			IEV4dGVuc2lvbtITDFoXpVtcXV5fgBeAIoApgDCAN4AR1AkKCwxi
+			Y2QmgBmAGIAbgBBfEBVJbnRlcmZhY2VDb250cm9sbGVyLmjTKQwq
+			KyxqgACAC4AaXxCKZmlsZTovLy9Wb2x1bWVzL0JydW1lL0NlbGVk
+			ZXYlMjBDb2RlRmxvdy9Db2RlRmxvdyUyMFNhbXBsZSUyMEFwcGxp
+			Y2F0aW9ucy9XYXRjaEFwcDEvV2F0Y2hBcHAxJTIwV2F0Y2hLaXQl
+			MjBFeHRlbnNpb24vSW50ZXJmYWNlQ29udHJvbGxlci5o0zYTDG1y
+			O6RubzhxgByAHYANgB6kc3R0doAfgCCAIIAhgA9fEBJnZW5lcmF0
+			aW9uRmlsZURhdGVfEBRnZW5lcmF0aW9uRGlkU3VjY2VlZF8QF2dl
+			bmVyYXRpb25MdWFNb2R1a2VQYXRoI0G6u3hsAAAACV8QE0ludGVy
+			ZmFjZUNvbnRyb2xsZXLUCQoLDH+AgSaAJIAjgCaAEF8QEkRldGFp
+			bENvbnRyb2xsZXIuaNMpDCorLIeAAIALgCVfEIdmaWxlOi8vL1Zv
+			bHVtZXMvQnJ1bWUvQ2VsZWRldiUyMENvZGVGbG93L0NvZGVGbG93
+			JTIwU2FtcGxlJTIwQXBwbGljYXRpb25zL1dhdGNoQXBwMS9XYXRj
+			aEFwcDElMjBXYXRjaEtpdCUyMEV4dGVuc2lvbi9EZXRhaWxDb250
+			cm9sbGVyLmjTNhMMio87pG5vOHGAHIAdgA2AHqSQdHSTgCeAIIAg
+			gCiADyNBuwDGxgAAAF8QEERldGFpbENvbnRyb2xsZXLUCQoLDJiZ
+			miaAK4AqgC2AEF8QGE5vdGlmaWNhdGlvbkNvbnRyb2xsZXIuaNMp
+			DCorLKCAAIALgCxfEI1maWxlOi8vL1ZvbHVtZXMvQnJ1bWUvQ2Vs
+			ZWRldiUyMENvZGVGbG93L0NvZGVGbG93JTIwU2FtcGxlJTIwQXBw
+			bGljYXRpb25zL1dhdGNoQXBwMS9XYXRjaEFwcDElMjBXYXRjaEtp
+			dCUyMEV4dGVuc2lvbi9Ob3RpZmljYXRpb25Db250cm9sbGVyLmjT
+			NhMMo6g7pG5vOHGAHIAdgA2AHqSpdHSsgC6AIIAggC+ADyNBurt4
+			bAAAAF8QFk5vdGlmaWNhdGlvbkNvbnRyb2xsZXLUCQoLDLGysyaA
+			MoAxgDSAEF8QD01hcENvbnRyb2xsZXIuaNMpDCorLLmAAIALgDNf
+			EIRmaWxlOi8vL1ZvbHVtZXMvQnJ1bWUvQ2VsZWRldiUyMENvZGVG
+			bG93L0NvZGVGbG93JTIwU2FtcGxlJTIwQXBwbGljYXRpb25zL1dh
+			dGNoQXBwMS9XYXRjaEFwcDElMjBXYXRjaEtpdCUyMEV4dGVuc2lv
+			bi9NYXBDb250cm9sbGVyLmjTNhMMvME7pG5vOHGAHIAdgA2AHqTC
+			dHTFgDWAIIAggDaADyNBurt4bAAAAF1NYXBDb250cm9sbGVy1AkK
+			CwzKy8wmgDmAOIA7gBBfEBRTcGVhcm1hbkNvbnRyb2xsZXIuaNMp
+			DCorLNKAAIALgDpfEIlmaWxlOi8vL1ZvbHVtZXMvQnJ1bWUvQ2Vs
+			ZWRldiUyMENvZGVGbG93L0NvZGVGbG93JTIwU2FtcGxlJTIwQXBw
+			bGljYXRpb25zL1dhdGNoQXBwMS9XYXRjaEFwcDElMjBXYXRjaEtp
+			dCUyMEV4dGVuc2lvbi9TcGVhcm1hbkNvbnRyb2xsZXIuaNM2EwzV
+			2jukbm84cYAcgB2ADYAepNt0dN6APIAggCCAPYAPI0G6u3hsAAAA
+			XxASU3BlYXJtYW5Db250cm9sbGVy0zYTDOPkO6CggA/TNhMM5+g7
+			oKCAD18QD05TS2V5ZWRBcmNoaXZlctHs7VRyb290gAEACAARABoA
+			IwAtADIANwB6AIAAiQCQAJUAoACnAKkAqwCtAK8AsAC1AMAAwwDF
+			AMcAyQDSANQA1gDYANoA5ADpAOsA7QDvAPgA+gD8AP4BAAEOARUB
+			HQEpASsBLQEvAZ0BogGtAbYBvAG/AcgBzwHXAdkB2wHdAd8B4QHq
+			AesB8AIGAgoCFwIcAikCLQI6AkgCTQJVAlgCXwJgAmECYwJoAncC
+			ewKKApgCoQKjAqUCpwKpAsgCzQLTAtUC1wLZAtsC3QLfAugC6gLs
+			Au4C8AMIAw8DEQMTAxUDogOpA64DsAOyA7QDtgO7A70DvwPBA8MD
+			xQPaA/EECwQUBBUEKwQ0BDYEOAQ6BDwEUQRYBFoEXAReBOgE7wT0
+			BPYE+AT6BPwFAQUDBQUFBwUJBQsFFAUnBTAFMgU0BTYFOAVTBVoF
+			XAVeBWAF8AX3BfwF/gYABgIGBAYJBgsGDQYPBhEGEwYcBjUGPgZA
+			BkIGRAZGBlgGXwZhBmMGZQbsBvMG+Ab6BvwG/gcABwUHBwcJBwsH
+			DQcPBxgHJgcvBzEHMwc1BzcHTgdVB1cHWQdbB+cH7gfzB/UH9wf5
+			B/sIAAgCCAQIBggICAoIEwgoCC8IMAgxCDMIOgg7CDwIPghQCFMI
+			WAAAAAAAAAIBAAAAAAAAAO4AAAAAAAAAAAAAAAAAAAha
 			</data>
 			<key>CustomBindingsLibTargetOSVersion</key>
 			<string>8.2</string>
@@ -102,54 +114,10 @@
 				<key>targetType</key>
 				<string>com.apple.product-type.watchkit-extension</string>
 			</dict>
-			<key>LibBookmark</key>
-			<data>
-			Ym9vawQFAAAAAAQQMAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
-			AAAAAAAAAAAA9AMAAAQAAAADAwAAAAIAAAUAAAABAQAAVXNlcnMA
-			AAAIAAAAAQEAAGplYW4tbHVjBwAAAAEBAABMaWJyYXJ5AAYAAAAB
-			AQAAQ2FjaGVzAAAUAAAAAQEAAGNvbS5jZWxlZGV2LkNvZGVGbG93
-			CAAAAAEBAABQcm9ncmFtcyQAAAABAQAARThEMzE5MUItQ0RFQy00
-			MDBBLThGNTUtN0NBMEYyRDNGOTlDDAAAAAEBAABFeHRlcm5hbExp
-			YnMoAAAAAQEAAFdhdGNoQXBwMSBXYXRjaEtpdCBFeHRlbnNpb24u
-			bHVhYmluZGluZ3MkAAAAAQYAABAAAAAgAAAAMAAAAEAAAABQAAAA
-			bAAAAHwAAACoAAAAvAAAAAgAAAAEAwAAfGQCAAAAAAAIAAAABAMA
-			AMN7TgAAAAAACAAAAAQDAAA4fE4AAAAAAAgAAAAEAwAAbnxOAAAA
-			AAAIAAAABAMAAPFPkAEAAAAACAAAAAQDAAD3d5ABAAAAAAgAAAAE
-			AwAAkKOQAQAAAAAIAAAABAMAAJGjkAEAAAAACAAAAAQDAACSo5AB
-			AAAAACQAAAABBgAAGAEAACgBAAA4AQAASAEAAFgBAABoAQAAeAEA
-			AIgBAACYAQAACAAAAAAEAABBuwDGeAAAABgAAAABAgAAAgAAAAAA
-			AAAPAAAAAAAAAAAAAAAAAAAACAAAAAQDAAAHAAAAAAAAAAQAAAAD
-			AwAA9wEAAAgAAAABCQAAZmlsZTovLy8MAAAAAQEAAE1hY2ludG9z
-			aCBIRAgAAAAEAwAAAABGpwMBAAAIAAAAAAQAAEG4Iv/AAAAAJAAA
-			AAEBAAAxQkIzNEI4QS03RjU5LTNDMjktOUJBOS0yMTNBRTg0OTM4
-			NkUYAAAAAQIAAIEAAAABAAgA7xcAAAEACAAAAAAAAAAAAAEAAAAB
-			AQAALwAAAAAAAAABBQAAKAEAAAECAABjZGU0MWQyMjAzYWMyMDQ5
-			ZDVjNGI5ZGNiMWVkMDE3ODQyYjRiN2I4OzAwMDAwMDAwOzAwMDAw
-			MDAwOzAwMDAwMDAwMDAwMDAwMjA7Y29tLmFwcGxlLmFwcC1zYW5k
-			Ym94LnJlYWQtd3JpdGU7MDAwMDAwMDE7MDEwMDAwMDg7MDAwMDAw
-			MDAwMTkwYTM5MjsvdXNlcnMvamVhbi1sdWMvbGlicmFyeS9jYWNo
-			ZXMvY29tLmNlbGVkZXYuY29kZWZsb3cvcHJvZ3JhbXMvZThkMzE5
-			MWItY2RlYy00MDBhLThmNTUtN2NhMGYyZDNmOTljL2V4dGVybmFs
-			bGlicy93YXRjaGFwcDEgd2F0Y2hraXQgZXh0ZW5zaW9uLmx1YWJp
-			bmRpbmdzANgAAAD+////AQAAAAAAAAARAAAABBAAAOwAAAAAAAAA
-			BRAAAKgBAAAAAAAAEBAAAOQBAAAAAAAAQBAAANQBAAAAAAAAAiAA
-			ALACAAAAAAAABSAAACACAAAAAAAAECAAADACAAAAAAAAESAAAGQC
-			AAAAAAAAEiAAAEQCAAAAAAAAEyAAAFQCAAAAAAAAICAAAJACAAAA
-			AAAAMCAAALwCAAAAAAAAAcAAAAQCAAAAAAAAEcAAACAAAAAAAAAA
-			EsAAABQCAAAAAAAAENAAAAQAAAAAAAAAgPAAAMQCAAAAAAAA
-			</data>
-			<key>LibName</key>
-			<string>WatchApp1 WatchKit Extension</string>
-			<key>LibUrl</key>
-			<string>file:///Users/jean-luc/Library/Caches/com.celedev.CodeFlow/Programs/E8D3191B-CDEC-400A-8F55-7CA0F2D3F99C/ExternalLibs/WatchApp1%20WatchKit%20Extension.luabindings</string>
 		</dict>
 	</array>
 	<key>Program Display Info</key>
 	<dict>
-		<key>LuaAppDocument remote Lua service</key>
-		<array>
-			<string>WatchApp1 WatchKit Extension - Watch Extension (iPhone Simulato</string>
-		</array>
 		<key>LuaAppDocument-associatedXodeProject</key>
 		<dict>
 			<key>project</key>
@@ -162,9 +130,9 @@
 			<string>com.apple.product-type.watchkit-extension</string>
 		</dict>
 		<key>LuaAppWindow edited source path</key>
-		<string>InterfaceController</string>
+		<string>MapController</string>
 		<key>LuaAppWindow frame</key>
-		<string>601 460 1400 743 0 0 2560 1417 </string>
+		<string>211 574 1400 743 0 0 2560 1417 </string>
 	</dict>
 	<key>Program Format Version</key>
 	<string>0.9</string>
@@ -208,32 +176,13 @@
 		<dict>
 			<key>Source File Auto Reload</key>
 			<true/>
-			<key>Source File Is Start Item</key>
-			<false/>
-			<key>Source File Name</key>
-			<string>ClassExtensions</string>
 			<key>SourceItemChangeTime</key>
 			<real>440504684.77018303</real>
-			<key>SourceItemDisplayInfo</key>
-			<dict>
-				<key>SrcEditor Selected Length</key>
-				<integer>0</integer>
-				<key>SrcEditor Selected Location</key>
-				<integer>0</integer>
-				<key>SrcEditor Visible Length</key>
-				<integer>191</integer>
-				<key>SrcEditor Visible Location</key>
-				<integer>0</integer>
-			</dict>
 		</dict>
 		<key>DetailController</key>
 		<dict>
 			<key>Source File Auto Reload</key>
 			<true/>
-			<key>Source File Is Start Item</key>
-			<false/>
-			<key>Source File Name</key>
-			<string>DetailController</string>
 			<key>SourceItemChangeTime</key>
 			<real>453834387.67676997</real>
 			<key>SourceItemDisplayInfo</key>
@@ -252,10 +201,6 @@
 		<dict>
 			<key>Source File Auto Reload</key>
 			<true/>
-			<key>Source File Is Start Item</key>
-			<false/>
-			<key>Source File Name</key>
-			<string>InterfaceController</string>
 			<key>SourceItemChangeTime</key>
 			<real>453834381.17719603</real>
 			<key>SourceItemDisplayInfo</key>
@@ -274,10 +219,6 @@
 		<dict>
 			<key>Source File Auto Reload</key>
 			<true/>
-			<key>Source File Is Start Item</key>
-			<false/>
-			<key>Source File Name</key>
-			<string>MapController</string>
 			<key>SourceItemChangeTime</key>
 			<real>453834403.355923</real>
 			<key>SourceItemDisplayInfo</key>
@@ -287,19 +228,15 @@
 				<key>SrcEditor Selected Location</key>
 				<integer>160</integer>
 				<key>SrcEditor Visible Length</key>
-				<integer>1110</integer>
+				<integer>1289</integer>
 				<key>SrcEditor Visible Location</key>
-				<integer>0</integer>
+				<integer>426</integer>
 			</dict>
 		</dict>
 		<key>NotificationController</key>
 		<dict>
 			<key>Source File Auto Reload</key>
 			<true/>
-			<key>Source File Is Start Item</key>
-			<false/>
-			<key>Source File Name</key>
-			<string>NotificationController</string>
 			<key>SourceItemChangeTime</key>
 			<real>453834412.36742699</real>
 			<key>SourceItemDisplayInfo</key>
@@ -318,10 +255,6 @@
 		<dict>
 			<key>Source File Auto Reload</key>
 			<true/>
-			<key>Source File Is Start Item</key>
-			<false/>
-			<key>Source File Name</key>
-			<string>SpearmanController</string>
 			<key>SourceItemChangeTime</key>
 			<real>453834861.65141398</real>
 			<key>SourceItemDisplayInfo</key>

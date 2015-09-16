@@ -7,138 +7,138 @@
 	objects = {
 
 /* Begin PBXAggregateTarget section */
-		2DB48E1A50C0B7B42A0A541B /* AllLibs */ = {
+		37F40BAFB20F511B48464526 /* CIMLuaBindingWatchApp1 WatchKit Extension */ = {
 			isa = PBXAggregateTarget;
-			buildConfigurationList = FD391E2E1B0CF9CC00D0A793 /* Build configuration list */;
+			buildConfigurationList = FD8A6F691BA99A7A002C20AA /* Build configuration list */;
 			buildPhases = (
-			);
-			dependencies = (
-				ADFFF291BE33E10C301FF6C6 /* PBXTargetDependency */,
-			);
-			name = AllLibs;
-			productName = AllLibs;
-		};
-		8D6137069A061097D65CCD5A /* CIMLuaBindingWatchApp1 WatchKit Extension */ = {
-			isa = PBXAggregateTarget;
-			buildConfigurationList = FD391E2D1B0CF9CC00D0A793 /* Build configuration list */;
-			buildPhases = (
-				76CCFE1E5E9118FD2C656DCC /* ShellScript */,
+				347C71DE46B6D77967C1A00A /* ShellScript */,
 			);
 			dependencies = (
 			);
 			name = "CIMLuaBindingWatchApp1 WatchKit Extension";
 			productName = "CIMLuaBindingWatchApp1 WatchKit Extension";
 		};
+		A5FDBD80D137FB7C134EBFF8 /* AllLibs */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = FD8A6F6A1BA99A7A002C20AA /* Build configuration list */;
+			buildPhases = (
+			);
+			dependencies = (
+				6A763D3E683A21272DB00216 /* PBXTargetDependency */,
+			);
+			name = AllLibs;
+			productName = AllLibs;
+		};
 /* End PBXAggregateTarget section */
 
 /* Begin PBXBuildFile section */
-		20C613A2670EE6C3F9BFC5A3 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 849795E55004973F10E7AF8F /* Foundation.framework */; };
-		6434515AA64E82A7576C6125 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 849795E55004973F10E7AF8F /* Foundation.framework */; };
-		71942261E2915555CD9B5B85 /* InterfaceController_LuaBindings_arm64.m in Sources */ = {isa = PBXBuildFile; fileRef = 4FE6D535F29147430B746F48 /* InterfaceController_LuaBindings_arm64.m */; };
-		743F55A9BDDCF28D809F4B2A /* DetailController_LuaBindings_armv7.m in Sources */ = {isa = PBXBuildFile; fileRef = 4A3962D588966B7F21E10E94 /* DetailController_LuaBindings_armv7.m */; };
-		E0B4B0942FC600B10A7A20D5 /* DetailController_LuaBindings_arm64.m in Sources */ = {isa = PBXBuildFile; fileRef = 419B1731C262D6BD7D58DEB0 /* DetailController_LuaBindings_arm64.m */; };
-		E4E61D568D70CD116A610EC5 /* InterfaceController_LuaBindings_armv7.m in Sources */ = {isa = PBXBuildFile; fileRef = FD1A790D6D2C096E1FCEC3A0 /* InterfaceController_LuaBindings_armv7.m */; };
+		00B26A04C395E91BEADD25B8 /* DetailController_LuaBindings_armv7.m in Sources */ = {isa = PBXBuildFile; fileRef = 11752A5A0444A9A030CD5A91 /* DetailController_LuaBindings_armv7.m */; };
+		0C3C531EB2CE413D5BFAF8E4 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ECB35A7B1579091062107B06 /* Foundation.framework */; };
+		26465FAAD2C4C19ECF254847 /* DetailController_LuaBindings_arm64.m in Sources */ = {isa = PBXBuildFile; fileRef = A77280D3796C8C50CFB79995 /* DetailController_LuaBindings_arm64.m */; };
+		4022EBFE23CB25A80C6136EF /* InterfaceController_LuaBindings_armv7.m in Sources */ = {isa = PBXBuildFile; fileRef = 7D054A503B503F3BFEABEE5E /* InterfaceController_LuaBindings_armv7.m */; };
+		865E716BF70D552F74FB7493 /* InterfaceController_LuaBindings_arm64.m in Sources */ = {isa = PBXBuildFile; fileRef = 60F475396D915C1E67E967D5 /* InterfaceController_LuaBindings_arm64.m */; };
+		9CF14E9F8320BC1D05C2A63D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ECB35A7B1579091062107B06 /* Foundation.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		743AC9816765F91FC5A152C8 /* PBXContainerItemProxy */ = {
+		11BB0EC2A9CB2699CD3FC0F1 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = 8993021686B1C29B391E211D /* Project object */;
+			containerPortal = 25DC920EAFEB9F2578D5276F /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = 8D6137069A061097D65CCD5A;
+			remoteGlobalIDString = 37F40BAFB20F511B48464526;
 			remoteInfo = "CIMLuaBindingWatchApp1 WatchKit Extension";
 		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		419B1731C262D6BD7D58DEB0 /* DetailController_LuaBindings_arm64.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = DetailController_LuaBindings_arm64.m; path = ObjcBindings/DetailController_LuaBindings_arm64.m; sourceTree = "<group>"; };
-		4A3962D588966B7F21E10E94 /* DetailController_LuaBindings_armv7.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = DetailController_LuaBindings_armv7.m; path = ObjcBindings/DetailController_LuaBindings_armv7.m; sourceTree = "<group>"; };
-		4FE6D535F29147430B746F48 /* InterfaceController_LuaBindings_arm64.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = InterfaceController_LuaBindings_arm64.m; path = ObjcBindings/InterfaceController_LuaBindings_arm64.m; sourceTree = "<group>"; };
-		849795E55004973F10E7AF8F /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
-		FD1A790D6D2C096E1FCEC3A0 /* InterfaceController_LuaBindings_armv7.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = InterfaceController_LuaBindings_armv7.m; path = ObjcBindings/InterfaceController_LuaBindings_armv7.m; sourceTree = "<group>"; };
+		11752A5A0444A9A030CD5A91 /* DetailController_LuaBindings_armv7.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = DetailController_LuaBindings_armv7.m; path = ObjcBindings/DetailController_LuaBindings_armv7.m; sourceTree = "<group>"; };
+		60F475396D915C1E67E967D5 /* InterfaceController_LuaBindings_arm64.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = InterfaceController_LuaBindings_arm64.m; path = ObjcBindings/InterfaceController_LuaBindings_arm64.m; sourceTree = "<group>"; };
+		7D054A503B503F3BFEABEE5E /* InterfaceController_LuaBindings_armv7.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = InterfaceController_LuaBindings_armv7.m; path = ObjcBindings/InterfaceController_LuaBindings_armv7.m; sourceTree = "<group>"; };
+		A77280D3796C8C50CFB79995 /* DetailController_LuaBindings_arm64.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = DetailController_LuaBindings_arm64.m; path = ObjcBindings/DetailController_LuaBindings_arm64.m; sourceTree = "<group>"; };
+		ECB35A7B1579091062107B06 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS8.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		2ED70A3751C8D079501B0B14 /* Frameworks */ = {
+		9F1301B79ADD9C2B04F45E38 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				6434515AA64E82A7576C6125 /* Foundation.framework in Frameworks */,
+				0C3C531EB2CE413D5BFAF8E4 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		A7C359DF997A4ACEF8C36A91 /* Frameworks */ = {
+		F98F2612D1143F59BCA828C6 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				20C613A2670EE6C3F9BFC5A3 /* Foundation.framework in Frameworks */,
+				9CF14E9F8320BC1D05C2A63D /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		0D41032C4C6F933BCF4F142B /* Frameworks */ = {
+		18E2E6607B1A35FD6E9578CA /* iOS */ = {
 			isa = PBXGroup;
 			children = (
-				D9929F056787F1964D708143 /* iOS */,
+				ECB35A7B1579091062107B06 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		1ED2F8325A17C56D324FC949 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				18E2E6607B1A35FD6E9578CA /* iOS */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		0E60CAE7A69AF004ADC00086 /* WatchApp1 WatchKit Extension */ = {
-			isa = PBXGroup;
-			children = (
-				419B1731C262D6BD7D58DEB0 /* DetailController_LuaBindings_arm64.m */,
-				4A3962D588966B7F21E10E94 /* DetailController_LuaBindings_armv7.m */,
-				4FE6D535F29147430B746F48 /* InterfaceController_LuaBindings_arm64.m */,
-				FD1A790D6D2C096E1FCEC3A0 /* InterfaceController_LuaBindings_armv7.m */,
-			);
-			name = "WatchApp1 WatchKit Extension";
-			sourceTree = "<group>";
-		};
-		67B13B05F485DC9D2E75F09C = {
-			isa = PBXGroup;
-			children = (
-				AE4669660D082F54B686050B /* Source Files */,
-				D5271BE47CFAB8BC21692C27 /* Products */,
-				0D41032C4C6F933BCF4F142B /* Frameworks */,
-			);
-			sourceTree = "<group>";
-		};
-		AE4669660D082F54B686050B /* Source Files */ = {
-			isa = PBXGroup;
-			children = (
-				0E60CAE7A69AF004ADC00086 /* WatchApp1 WatchKit Extension */,
-			);
-			name = "Source Files";
-			path = "/Users/jean-luc/Library/Caches/com.celedev.CodeFlow/Programs/82896EC1-7475-4C52-B58B-BC867751A4FD/ExternalLibs/WatchApp1 WatchKit Extension.luabindings";
-			sourceTree = "<group>";
-		};
-		D5271BE47CFAB8BC21692C27 /* Products */ = {
+		4E765C4EDB145F6290EC67FA /* Products */ = {
 			isa = PBXGroup;
 			children = (
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		D9929F056787F1964D708143 /* iOS */ = {
+		5ABDF7300A6AB23E793666FE = {
 			isa = PBXGroup;
 			children = (
-				849795E55004973F10E7AF8F /* Foundation.framework */,
+				9B2D574676F0FBBEF0FED6F8 /* Source Files */,
+				4E765C4EDB145F6290EC67FA /* Products */,
+				1ED2F8325A17C56D324FC949 /* Frameworks */,
 			);
-			name = iOS;
+			sourceTree = "<group>";
+		};
+		7DFED6E35C2AD13BF4225A4D /* WatchApp1 WatchKit Extension */ = {
+			isa = PBXGroup;
+			children = (
+				A77280D3796C8C50CFB79995 /* DetailController_LuaBindings_arm64.m */,
+				11752A5A0444A9A030CD5A91 /* DetailController_LuaBindings_armv7.m */,
+				60F475396D915C1E67E967D5 /* InterfaceController_LuaBindings_arm64.m */,
+				7D054A503B503F3BFEABEE5E /* InterfaceController_LuaBindings_armv7.m */,
+			);
+			name = "WatchApp1 WatchKit Extension";
+			sourceTree = "<group>";
+		};
+		9B2D574676F0FBBEF0FED6F8 /* Source Files */ = {
+			isa = PBXGroup;
+			children = (
+				7DFED6E35C2AD13BF4225A4D /* WatchApp1 WatchKit Extension */,
+			);
+			name = "Source Files";
+			path = "/Users/jean-luc/Library/Caches/com.celedev.CodeFlow/Programs/0C6645EE-70CE-44FD-B117-9DCD17AD97B5/ExternalLibs/WatchApp1 WatchKit Extension.luabindings";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		15AB0A61B845538AA1AD16D0 /* CIMLuaBindingWatchApp1 WatchKit Extension_64 */ = {
+		6AD9D04179FED669F8549C8A /* CIMLuaBindingWatchApp1 WatchKit Extension_64 */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 0CF227D69B55F10B5C2511BF /* Build configuration list for PBXNativeTarget "CIMLuaBindingWatchApp1 WatchKit Extension_64" */;
+			buildConfigurationList = 95B1B2E09E783AF51C67D09C /* Build configuration list for PBXNativeTarget "CIMLuaBindingWatchApp1 WatchKit Extension_64" */;
 			buildPhases = (
-				CEA6C4172CA4B7C3B315ECC4 /* Sources */,
-				2ED70A3751C8D079501B0B14 /* Frameworks */,
+				276B0A9927A70960E4B081C2 /* Sources */,
+				9F1301B79ADD9C2B04F45E38 /* Frameworks */,
 			);
 			buildRules = (
 			);
@@ -148,12 +148,12 @@
 			productName = "CIMLuaBindingWatchApp1 WatchKit Extension_64";
 			productType = "com.apple.product-type.library.static";
 		};
-		CB7331C27C8FBB0FE9A81D6C /* CIMLuaBindingWatchApp1 WatchKit Extension_32 */ = {
+		71E823CF773C2C9BAA671999 /* CIMLuaBindingWatchApp1 WatchKit Extension_32 */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 686F084DBC0DD4A2601F7117 /* Build configuration list for PBXNativeTarget "CIMLuaBindingWatchApp1 WatchKit Extension_32" */;
+			buildConfigurationList = F194D397417C04540B00B2C4 /* Build configuration list for PBXNativeTarget "CIMLuaBindingWatchApp1 WatchKit Extension_32" */;
 			buildPhases = (
-				8503E945B52C1944BB98AE41 /* Sources */,
-				A7C359DF997A4ACEF8C36A91 /* Frameworks */,
+				F3C76EDAC24D157DFB8D8C8E /* Sources */,
+				F98F2612D1143F59BCA828C6 /* Frameworks */,
 			);
 			buildRules = (
 			);
@@ -166,33 +166,34 @@
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		8993021686B1C29B391E211D /* Project object */ = {
+		25DC920EAFEB9F2578D5276F /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastUpgradeCheck = 0510;
+				LastSwiftUpdateCheck = 0700;
+				LastUpgradeCheck = 0700;
 			};
-			buildConfigurationList = E0B9BDFFEC793FDED3DAF35F /* Build configuration list for PBXProject "BindingLibs" */;
+			buildConfigurationList = A145735C10728C2EC10B20DB /* Build configuration list for PBXProject "BindingLibs" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
 				en,
 			);
-			mainGroup = 67B13B05F485DC9D2E75F09C;
-			productRefGroup = D5271BE47CFAB8BC21692C27 /* Products */;
+			mainGroup = 5ABDF7300A6AB23E793666FE;
+			productRefGroup = 4E765C4EDB145F6290EC67FA /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				2DB48E1A50C0B7B42A0A541B /* AllLibs */,
-				8D6137069A061097D65CCD5A /* CIMLuaBindingWatchApp1 WatchKit Extension */,
-				CB7331C27C8FBB0FE9A81D6C /* CIMLuaBindingWatchApp1 WatchKit Extension_32 */,
-				15AB0A61B845538AA1AD16D0 /* CIMLuaBindingWatchApp1 WatchKit Extension_64 */,
+				A5FDBD80D137FB7C134EBFF8 /* AllLibs */,
+				37F40BAFB20F511B48464526 /* CIMLuaBindingWatchApp1 WatchKit Extension */,
+				71E823CF773C2C9BAA671999 /* CIMLuaBindingWatchApp1 WatchKit Extension_32 */,
+				6AD9D04179FED669F8549C8A /* CIMLuaBindingWatchApp1 WatchKit Extension_64 */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXShellScriptBuildPhase section */
-		76CCFE1E5E9118FD2C656DCC /* ShellScript */ = {
+		347C71DE46B6D77967C1A00A /* ShellScript */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -200,7 +201,7 @@
 			inputPaths = (
 			);
 			outputPaths = (
-				"/Users/jean-luc/Library/Caches/com.celedev.CodeFlow/Programs/82896EC1-7475-4C52-B58B-BC867751A4FD/ExternalLibs/WatchApp1 WatchKit Extension.luabindings/BindingLibs/lib$(TARGET_NAME).a",
+				"/Users/jean-luc/Library/Caches/com.celedev.CodeFlow/Programs/0C6645EE-70CE-44FD-B117-9DCD17AD97B5/ExternalLibs/WatchApp1 WatchKit Extension.luabindings/BindingLibs/lib$(TARGET_NAME).a",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
@@ -209,37 +210,37 @@
 /* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		8503E945B52C1944BB98AE41 /* Sources */ = {
+		276B0A9927A70960E4B081C2 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				743F55A9BDDCF28D809F4B2A /* DetailController_LuaBindings_armv7.m in Sources */,
-				E4E61D568D70CD116A610EC5 /* InterfaceController_LuaBindings_armv7.m in Sources */,
+				26465FAAD2C4C19ECF254847 /* DetailController_LuaBindings_arm64.m in Sources */,
+				865E716BF70D552F74FB7493 /* InterfaceController_LuaBindings_arm64.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		CEA6C4172CA4B7C3B315ECC4 /* Sources */ = {
+		F3C76EDAC24D157DFB8D8C8E /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E0B4B0942FC600B10A7A20D5 /* DetailController_LuaBindings_arm64.m in Sources */,
-				71942261E2915555CD9B5B85 /* InterfaceController_LuaBindings_arm64.m in Sources */,
+				00B26A04C395E91BEADD25B8 /* DetailController_LuaBindings_armv7.m in Sources */,
+				4022EBFE23CB25A80C6136EF /* InterfaceController_LuaBindings_armv7.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		ADFFF291BE33E10C301FF6C6 /* PBXTargetDependency */ = {
+		6A763D3E683A21272DB00216 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = "CIMLuaBindingWatchApp1 WatchKit Extension";
-			target = 8D6137069A061097D65CCD5A /* CIMLuaBindingWatchApp1 WatchKit Extension */;
-			targetProxy = 743AC9816765F91FC5A152C8 /* PBXContainerItemProxy */;
+			target = 37F40BAFB20F511B48464526 /* CIMLuaBindingWatchApp1 WatchKit Extension */;
+			targetProxy = 11BB0EC2A9CB2699CD3FC0F1 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
-		31087B322D2F74F0B6F178CE /* Release */ = {
+		0EA453BF3582521DF7CEA911 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ARCHS = arm64;
@@ -247,6 +248,7 @@
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
 				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_CFLAGS = "-fembed-bitcode";
 				OTHER_LDFLAGS = "-ObjC";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = iphoneos;
@@ -254,7 +256,7 @@
 			};
 			name = Release;
 		};
-		65714FD756237DD47D3A2326 /* Debug */ = {
+		23CA3A8BC93CD967E05AFD83 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ARCHS = arm64;
@@ -262,6 +264,7 @@
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
 				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_CFLAGS = "-fembed-bitcode";
 				OTHER_LDFLAGS = "-ObjC";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = iphoneos;
@@ -269,25 +272,7 @@
 			};
 			name = Debug;
 		};
-		6F513274387F20D0C269D218 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ARCHS = (
-					armv7,
-					armv7s,
-				);
-				CONFIGURATION_BUILD_DIR = "$(OBJROOT)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)";
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
-				MTL_ENABLE_DEBUG_INFO = YES;
-				OTHER_LDFLAGS = "-ObjC";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-			};
-			name = Debug;
-		};
-		7E0208F8FD31338D4D448571 /* Debug */ = {
+		78D6AFD26889C3108A3D0BDA /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -305,11 +290,12 @@
 				CLANG_WARN_UNREACHABLE_CODE = NO;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				COPY_PHASE_STRIP = NO;
+				ENABLE_BITCODE = NO;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
 				GCC_DYNAMIC_NO_PIC = NO;
 				GCC_OPTIMIZATION_LEVEL = 0;
-				GCC_PREFIX_HEADER = "/Users/jean-luc/Library/Caches/com.celedev.CodeFlow/Programs/82896EC1-7475-4C52-B58B-BC867751A4FD/ExternalLibs/WatchApp1 WatchKit Extension.luabindings/Standard-prefix.pch";
+				GCC_PREFIX_HEADER = "/Users/jean-luc/Library/Caches/com.celedev.CodeFlow/Programs/0C6645EE-70CE-44FD-B117-9DCD17AD97B5/ExternalLibs/WatchApp1 WatchKit Extension.luabindings/Standard-prefix.pch";
 				GCC_PREPROCESSOR_DEFINITIONS = (
 					"DEBUG=1",
 					"$(inherited)",
@@ -323,32 +309,14 @@
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
 				ONLY_ACTIVE_ARCH = NO;
-				SDKROOT = iphoneos8.3;
+				SDKROOT = iphoneos9.0;
 				SUPPORTED_PLATFORMS = "iphonesimulator iphoneos";
-				USER_HEADER_SEARCH_PATHS = "$(USER_LIBRARY_DIR)/Application\\ Support/com.celedev.CodeFlow/headers /Users/jean-luc/Desktop/LuaWatchKitFirstApp/WatchApp1\\ WatchKit\\ Extension /Users/jean-luc/Library/Application\\ Support/com.celedev.CodeFlow/headers";
+				USER_HEADER_SEARCH_PATHS = "$(USER_LIBRARY_DIR)/Application\\ Support/com.celedev.CodeFlow/headers /Volumes/Brume/Celedev\\ CodeFlow/CodeFlow\\ Sample\\ Applications/WatchApp1/WatchApp1\\ WatchKit\\ Extension /Users/jean-luc/Library/Application\\ Support/com.celedev.CodeFlow/headers";
 				WARNING_CFLAGS = "-Wno-tautological-pointer-compare";
 			};
 			name = Debug;
 		};
-		8D1E1D6EBABE3A5A3D9281CD /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ARCHS = (
-					armv7,
-					armv7s,
-				);
-				CONFIGURATION_BUILD_DIR = "$(OBJROOT)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)";
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
-				MTL_ENABLE_DEBUG_INFO = NO;
-				OTHER_LDFLAGS = "-ObjC";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-			};
-			name = Release;
-		};
-		E42DDCFADC48EA357D3B922F /* Release */ = {
+		B8F70D4BF331B54073DBF68E /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -366,10 +334,11 @@
 				CLANG_WARN_UNREACHABLE_CODE = NO;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				COPY_PHASE_STRIP = YES;
+				ENABLE_BITCODE = NO;
 				ENABLE_NS_ASSERTIONS = NO;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
-				GCC_PREFIX_HEADER = "/Users/jean-luc/Library/Caches/com.celedev.CodeFlow/Programs/82896EC1-7475-4C52-B58B-BC867751A4FD/ExternalLibs/WatchApp1 WatchKit Extension.luabindings/Standard-prefix.pch";
+				GCC_PREFIX_HEADER = "/Users/jean-luc/Library/Caches/com.celedev.CodeFlow/Programs/0C6645EE-70CE-44FD-B117-9DCD17AD97B5/ExternalLibs/WatchApp1 WatchKit Extension.luabindings/Standard-prefix.pch";
 				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
 				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
 				GCC_WARN_UNDECLARED_SELECTOR = YES;
@@ -378,15 +347,53 @@
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
 				ONLY_ACTIVE_ARCH = NO;
-				SDKROOT = iphoneos8.3;
+				SDKROOT = iphoneos9.0;
 				SUPPORTED_PLATFORMS = "iphonesimulator iphoneos";
-				USER_HEADER_SEARCH_PATHS = "$(USER_LIBRARY_DIR)/Application\\ Support/com.celedev.CodeFlow/headers /Users/jean-luc/Desktop/LuaWatchKitFirstApp/WatchApp1\\ WatchKit\\ Extension /Users/jean-luc/Library/Application\\ Support/com.celedev.CodeFlow/headers";
+				USER_HEADER_SEARCH_PATHS = "$(USER_LIBRARY_DIR)/Application\\ Support/com.celedev.CodeFlow/headers /Volumes/Brume/Celedev\\ CodeFlow/CodeFlow\\ Sample\\ Applications/WatchApp1/WatchApp1\\ WatchKit\\ Extension /Users/jean-luc/Library/Application\\ Support/com.celedev.CodeFlow/headers";
 				VALIDATE_PRODUCT = YES;
 				WARNING_CFLAGS = "-Wno-tautological-pointer-compare";
 			};
 			name = Release;
 		};
-		FD391E291B0CF9CC00D0A793 /* Debug */ = {
+		CD4B419316785CAF8CBC8217 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = (
+					armv7,
+					armv7s,
+				);
+				CONFIGURATION_BUILD_DIR = "$(OBJROOT)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_CFLAGS = "-fembed-bitcode";
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		D190B0887573F5E318FB7B83 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = (
+					armv7,
+					armv7s,
+				);
+				CONFIGURATION_BUILD_DIR = "$(OBJROOT)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_CFLAGS = "-fembed-bitcode";
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		FD8A6F651BA99A7A002C20AA /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				COPY_PHASE_STRIP = NO;
@@ -396,7 +403,7 @@
 			};
 			name = Debug;
 		};
-		FD391E2A1B0CF9CC00D0A793 /* Release */ = {
+		FD8A6F661BA99A7A002C20AA /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				COPY_PHASE_STRIP = YES;
@@ -405,7 +412,7 @@
 			};
 			name = Release;
 		};
-		FD391E2B1B0CF9CC00D0A793 /* Debug */ = {
+		FD8A6F671BA99A7A002C20AA /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				COPY_PHASE_STRIP = NO;
@@ -415,7 +422,7 @@
 			};
 			name = Debug;
 		};
-		FD391E2C1B0CF9CC00D0A793 /* Release */ = {
+		FD8A6F681BA99A7A002C20AA /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				COPY_PHASE_STRIP = YES;
@@ -427,52 +434,52 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		0CF227D69B55F10B5C2511BF /* Build configuration list for PBXNativeTarget "CIMLuaBindingWatchApp1 WatchKit Extension_64" */ = {
+		95B1B2E09E783AF51C67D09C /* Build configuration list for PBXNativeTarget "CIMLuaBindingWatchApp1 WatchKit Extension_64" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				31087B322D2F74F0B6F178CE /* Release */,
-				65714FD756237DD47D3A2326 /* Debug */,
+				0EA453BF3582521DF7CEA911 /* Release */,
+				23CA3A8BC93CD967E05AFD83 /* Debug */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		686F084DBC0DD4A2601F7117 /* Build configuration list for PBXNativeTarget "CIMLuaBindingWatchApp1 WatchKit Extension_32" */ = {
+		A145735C10728C2EC10B20DB /* Build configuration list for PBXProject "BindingLibs" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				8D1E1D6EBABE3A5A3D9281CD /* Release */,
-				6F513274387F20D0C269D218 /* Debug */,
+				78D6AFD26889C3108A3D0BDA /* Debug */,
+				B8F70D4BF331B54073DBF68E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		E0B9BDFFEC793FDED3DAF35F /* Build configuration list for PBXProject "BindingLibs" */ = {
+		F194D397417C04540B00B2C4 /* Build configuration list for PBXNativeTarget "CIMLuaBindingWatchApp1 WatchKit Extension_32" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				7E0208F8FD31338D4D448571 /* Debug */,
-				E42DDCFADC48EA357D3B922F /* Release */,
+				CD4B419316785CAF8CBC8217 /* Release */,
+				D190B0887573F5E318FB7B83 /* Debug */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		FD391E2D1B0CF9CC00D0A793 /* Build configuration list */ = {
+		FD8A6F691BA99A7A002C20AA /* Build configuration list */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				FD391E2B1B0CF9CC00D0A793 /* Debug */,
-				FD391E2C1B0CF9CC00D0A793 /* Release */,
+				FD8A6F671BA99A7A002C20AA /* Debug */,
+				FD8A6F681BA99A7A002C20AA /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		FD391E2E1B0CF9CC00D0A793 /* Build configuration list */ = {
+		FD8A6F6A1BA99A7A002C20AA /* Build configuration list */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				FD391E291B0CF9CC00D0A793 /* Debug */,
-				FD391E2A1B0CF9CC00D0A793 /* Release */,
+				FD8A6F651BA99A7A002C20AA /* Debug */,
+				FD8A6F661BA99A7A002C20AA /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = 8993021686B1C29B391E211D /* Project object */;
+	rootObject = 25DC920EAFEB9F2578D5276F /* Project object */;
 }
